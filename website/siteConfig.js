@@ -41,7 +41,7 @@ const siteConfig = {
     {doc: 'doc1', label: 'Docs'},
     {doc: 'doc4', label: 'Dev'},
     {page: 'help', label: 'Help'},
-    {blog: true, label: 'News'},
+    {blog: false, label: 'News'},
   ],
 
   // If you have users set above, you add it here:
