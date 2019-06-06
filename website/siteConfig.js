@@ -39,9 +39,9 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {blog: false, label: 'News'},
-    {page: 'get', label: 'Download'},
-    {doc: 'doc1', label: 'Documentation'},
-    {doc: 'doc4', label: 'Development'}
+    {page: 'get', label: 'Downloads'},
+    {doc: 'docs', label: 'Documentation'},
+    {doc: 'dev', label: 'Development'}
   ],
 
   // If you have users set above, you add it here:
@@ -85,7 +85,7 @@ const siteConfig = {
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
-  // No .html extensions for paths.
+  // No .html extensions for s.
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
