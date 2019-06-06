@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'BattlePlugins Docs', // Title for your website.
+  title: ' - BP Docs', // Title for your website.
   tagline: 'Official Documentation for all BattlePlugin Plugins.',
   url: 'https://docs.battleplugins.org', // Your website URL
   baseUrl: '/', // Base URL for your project */
