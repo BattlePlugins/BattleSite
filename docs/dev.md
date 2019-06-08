@@ -1,5 +1,5 @@
 ---
-id: doc2
+id: dev
 title: document number 2
 ---
 
