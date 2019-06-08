@@ -107,7 +107,8 @@ const siteConfig = {
   
   scrollToTop: true,
   scrollToTopOptions: {
-  zIndex: 100,
+  	zIndex: 100,
+  },
 
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
