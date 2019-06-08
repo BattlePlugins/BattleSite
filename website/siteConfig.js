@@ -52,7 +52,7 @@ const siteConfig = {
   users,
 
   // Edit URL
-  editUrl: 'https://github.com/BattlePlugins/BattleDocs/tree/master/docs',
+  editUrl: 'https://github.com/BattlePlugins/BattleDocs/tree/master/docs/',
 
   /* path to images for header/footer */
   headerIcon: 'img/header.png',
