@@ -49,10 +49,10 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Organization:</h5>
-            <a href="https://discord.gg/tMVPVJf">Discord Support</a>
-            <a href="https://github.org/BattlePlugins">Github Org</a>
-            <a href="https://battleplugins.org/">Website</a>
-            <a href="https://wiki.battleplugins.org/">Legacy Wiki</a>
+            <i class="fab fa-discord"/><a href="https://discord.gg/tMVPVJf">Discord Support</a>
+            <i class="fab fa-github-square"/><a href="https://github.org/BattlePlugins">Github Org</a>
+            <i class="fas fa-desktop"/><a href="https://battleplugins.org/">Website</a>
+            <i class="fas fa-scroll"/><a href="https://wiki.battleplugins.org/">Legacy Wiki</a>
           </div>
           <div>
             <h5>About the Docs:</h5>
