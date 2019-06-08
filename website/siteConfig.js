@@ -95,7 +95,7 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js', 'https://kit.fontawesome.com/24df4ee1a3',],
+  scripts: ['https://buttons.github.io/buttons.js', 'https://kit.fontawesome.com/24df4ee1a3.js',],
 
 
   // CNAME Entry

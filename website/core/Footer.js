@@ -64,14 +64,12 @@ class Footer extends React.Component {
             <img alt="GitHub followers" src="https://img.shields.io/github/followers/battleplugins.svg?label=Follow&style=social"/> | <img alt="GitHub stars" src="https://img.shields.io/github/stars/battleplugins/battledocs.svg?style=social"/> | <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/battleplugins/battledocs.svg?label=Watch&style=social"/>
           </div>
         </section>
-		<center><h4>Hosted By:</h4></center>
-        <a
-          href="https://cl6web.com"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="fbOpenSource">
-          <img src={`${this.props.config.baseUrl}img/cl6.png`} alt="CL6 Hosting" height="70"/>
-        </a>
+		<div>
+			<center>
+			<h5>Hosted By:</h5>
+        	<a href="https://cl6web.com" className="cl6ad"><img src={`${this.props.config.baseUrl}img/cl6.png`} alt="CL6 Hosting" height="70"/>
+        	</center>
+        </div>
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );
