@@ -31,7 +31,7 @@ class Footer extends React.Component {
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
                 alt={this.props.config.title}
                 width="66"
-                height="58"
+                height="66"
               />
             )}
           </a>
@@ -56,11 +56,11 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>About the Docs:</h5>
-            <a href="https://github.com/">Contribute Today</a>
-            <h6>Build Status: </h6><img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"></img>
-            <h6>Doc Size: </h6><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/battleplugins/battledocs.svg?style=flat-square"></img>
-            <h6>Pending Updates: </h6><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/battleplugins/battledocs.svg?style=flat-square"></img>
-            <h6> </h6>
+            <a href="https://github.com/BattlePlugins/BattleDocs">Contribute Today</a>
+            <a href="http://ci.battleplugins.org/jobs/BattleDocs">Build Status: <img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"></img></a>
+            <a href="https://github.com/BattlePlugins/BattleDocs">Doc Size: <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/battleplugins/battledocs.svg?style=flat-square"></img></a>
+            <a href="https://github.com/BattlePlugins/BattleDocs/pulls">Pending Updates: <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/battleplugins/battledocs.svg?style=flat-square"></img></a>
+            <br>
             <img alt="GitHub followers" src="https://img.shields.io/github/followers/battleplugins.svg?label=Follow&style=social"></img> | <img alt="GitHub stars" src="https://img.shields.io/github/stars/battleplugins/battledocs.svg?style=social"></img> | <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/battleplugins/battledocs.svg?label=Watch&style=social"></img>
           </div>
         </section>
@@ -69,7 +69,7 @@ class Footer extends React.Component {
           href="https://cl6web.com"
           target="_blank"
           rel="noreferrer noopener"
-          className="cl6ad">
+          className="fbOpenSource">
           <img
             src={`${this.props.config.baseUrl}img/cl6.png`}
             alt="CL6 Hosting"
