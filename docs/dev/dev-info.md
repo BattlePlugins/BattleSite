@@ -1,5 +1,5 @@
 ---
-id: Dev
+id: dev-info
 title: Development Page
 sidebar_label: Dev Page
 ---
