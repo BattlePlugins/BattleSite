@@ -98,7 +98,7 @@ const siteConfig = {
   scripts: ['https://buttons.github.io/buttons.js'],
 
   // CNAME Entry
-  cname: 'docs.battleplugins.org'
+  cname: 'docs.battleplugins.org',
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
