@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'BattlePlugins Docs', // Title for your website.
+  title: 'Documentation', // Title for your website.
   tagline: 'Documentation for the BattlePlugins Plugin Suite.',
   url: 'https://docs.battleplugins.org', // Your website URL
   baseUrl: '/', // Base URL for your project */
@@ -39,10 +39,10 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {page: 'get', label: 'Get'},
+    {page: 'index', label: 'Get'},
     {doc: 'docs', label: 'Docs'},
-    {doc: 'dev', label: 'API'},
-    {blog: false, label: 'Blog'},
+    {doc: 'dev', label: 'Dev'},
+  //  {blog: false, label: 'Blog'},
     {href: "https://github.com/battleplugins", label: "GitHub"},
     {search: true}
 
