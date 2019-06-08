@@ -1,13 +1,13 @@
 {
   "docs": {
-    "BattleArena": ["ba", "doc1"],
-    "BattleTracker": ["bt", "doc2"],
-    "Mutual Pages": ["codes", "doc3"]
+    "BattleArena": ["doc1", "doc1"],
+    "BattleTracker": ["doc2", "doc2"],
+    "Mutual Pages": ["doc3", "doc3"]
   },
   "dev": {
-    "API Information": ["setup", "doc4"],
-    "Development Info": ["setup", "exampledoc4"],
-    "Plugin Hooks": ["setup", "exampledoc5"],
-    "Other Stuff": ["setup", "exampledoc3"]
+    "API Information": ["doc4", "doc4"],
+    "Development Info": ["exampledoc4", "exampledoc4"],
+    "Plugin Hooks": ["exampledoc5", "exampledoc5"],
+    "Other Stuff": ["exampledoc3", "exampledoc3"]
   }
 }
