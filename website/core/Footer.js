@@ -67,7 +67,7 @@ class Footer extends React.Component {
 		<div>
 			<center>
 			<h5>Hosted By:</h5>
-        	<a href="https://cl6web.com" className="cl6ad"><img src={`${this.props.config.baseUrl}img/cl6.png`} alt="CL6 Hosting" height="70"/>
+        	<a href="https://cl6web.com" className="cl6ad"><img src={`${this.props.config.baseUrl}img/cl6.png`} alt="CL6 Hosting" height="70"/></a>
         	</center>
         </div>
         <section className="copyright">{this.props.config.copyright}</section>
