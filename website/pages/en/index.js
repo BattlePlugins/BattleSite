@@ -21,6 +21,8 @@ class HomeSplash extends React.Component {
     const langPart = `${language ? `${language}/` : ''}`;
     const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`;
 
+  };
+  
     const SplashContainer = props => (
       <div className="homeContainer">
         <div className="homeSplashFade">
