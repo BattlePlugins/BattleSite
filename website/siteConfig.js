@@ -25,6 +25,7 @@ const siteConfig = {
   tagline: 'Documentation for the BattlePlugins Plugin Suite.',
   url: 'https://docs.battleplugins.org', // Your website URL
   baseUrl: '/', // Base URL for your project */
+  noIndex: false;
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -42,13 +43,16 @@ const siteConfig = {
     {doc: 'docs', label: 'Docs'},
     {doc: 'dev', label: 'API'},
     {blog: false, label: 'Blog'},
-    { href: "https://github.com/", label: "GitHub" },
-    { search: true }
+    {href: "https://github.com/battleplugins", label: "GitHub"},
+    {search: true}
 
   ],
 
   // If you have users set above, you add it here:
   users,
+
+  // Edit URL
+  editUrl: 'https://github.com/BattlePlugins/BattleDocs/tree/master/docs',
 
   /* path to images for header/footer */
   headerIcon: 'img/header.png',
@@ -74,6 +78,13 @@ const siteConfig = {
     ]
   },
   */
+  
+  // Search Options and Settings
+  algolia: {
+    apiKey: 'b62c31628eaff3105e45e9be758b9d65',
+    indexName: 'battleplugins',
+    appId: '16AVNKSJVT'
+  },
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} BattlePlugins.`,
@@ -86,20 +97,27 @@ const siteConfig = {
   // Add custom scripts here that would be placed in <script> tags.
   scripts: ['https://buttons.github.io/buttons.js'],
 
+  // CNAME Entry
+  cname: 'docs.battleplugins.org'
+
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
   // No .html extensions for paths.
   cleanUrl: true,
+  
+  scrollToTop: true,
+  scrollToTopOptions: {
+  zIndex: 100,
 
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
   twitterImage: 'img/undraw_tweetstorm.svg',
 
   // Show documentation's last contributor's name.
-  // enableUpdateBy: true,
+  enableUpdateBy: true,
 
   // Show documentation's last update time.
-  // enableUpdateTime: true,
+  enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
