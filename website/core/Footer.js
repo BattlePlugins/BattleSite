@@ -30,8 +30,8 @@ class Footer extends React.Component {
               <img
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
                 alt={this.props.config.title}
-                width="66"
-                height="66"
+                width="55"
+                height="55"
               />
             )}
           </a>
@@ -49,10 +49,10 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Organization:</h5>
-            <i class="fab fa-discord"/><a href="https://discord.gg/tMVPVJf">Discord Support</a>
-            <i class="fab fa-github-square"/><a href="https://github.org/BattlePlugins">Github Org</a>
-            <i class="fas fa-desktop"/><a href="https://battleplugins.org/">Website</a>
-            <i class="fas fa-scroll"/><a href="https://wiki.battleplugins.org/">Legacy Wiki</a>
+            <a style="color: rgba(255, 255, 255, 0.6);" href="https://discord.gg/tMVPVJf"><i class="fab fa-discord"/> Discord Support</a>
+            <a style="color: rgba(255, 255, 255, 0.6);" href="https://github.org/BattlePlugins"><i class="fab fa-github-square"/> Github Org</a>
+            <a style="color: rgba(255, 255, 255, 0.6);" href="https://battleplugins.org/"><i class="fas fa-desktop"/> Website</a>
+            <a style="color: rgba(255, 255, 255, 0.6);" href="https://wiki.battleplugins.org/"><i class="fas fa-scroll"/> Legacy Wiki</a>
           </div>
           <div>
             <h5>About the Docs:</h5>
@@ -66,8 +66,8 @@ class Footer extends React.Component {
         </section>
 		<div>
 			<center>
-			<h5>Hosted By:</h5>
-        	<a href="https://cl6web.com" className="cl6ad"><img src={`${this.props.config.baseUrl}img/cl6.png`} alt="CL6 Hosting" height="70"/></a>
+			<h5 className="sitemap">Hosted By:</h5>
+        	<a href="https://cl6web.com" className="cl6ad"><img src={`${this.props.config.baseUrl}img/cl6.png`} alt="CL6 Hosting" height="60"/></a>
         	</center>
         </div>
         <section className="copyright">{this.props.config.copyright}</section>
