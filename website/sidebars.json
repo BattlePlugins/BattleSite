@@ -1,10 +1,11 @@
 {
   "docs": {
-    "BattleArena": ["doc1"],
-    "BattleTracker": ["doc2"],
-    "Other": ["doc3"]
+    "BattleArena": ["doc1", "docs"],
+    "BattleTracker": ["doc2", "docs"],
+    "Other": ["doc3", "docs"]
   },
   "dev": {
-    "First Category": ["doc4", "doc5"]
+    "First Category": ["doc4", "doc5", "dev"],
+    "Second Category": ["doc5", "doc6", "dev"]
   }
 }
