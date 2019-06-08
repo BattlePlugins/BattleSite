@@ -109,22 +109,12 @@ class Index extends React.Component {
             image: `${baseUrl}img/battlearena.png`,
             imageAlign: 'top',
             title: 'BattleArena',
-            <div>
-            	<Button href="https://spigotmc.org">Spigot</Button>
-            	<Button href="https://bukkitdev.org"}>Bukkit</Button>
-            	<Button href="https://ci.battleplugins.org">Bleeding Edge</Button>
-          	</div>,
           },
           {
             content: 'Latest BattleTracker Builds from Spigot and Bukkit.',
             image: `${baseUrl}img/battletracker.png`,
             imageAlign: 'top',
             title: 'BattleTracker',
-            <div>
-            	<Button href="https://spigotmc.org">Spigot</Button>
-            	<Button href="https://bukkitdev.org"}>Bukkit</Button>
-            	<Button href="https://ci.battleplugins.org">Bleeding Edge</Button>
-            </div>,
           },
         ]}
       </Block>
