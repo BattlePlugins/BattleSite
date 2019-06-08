@@ -7,7 +7,7 @@
     "Other": ["doc3", "doc4", "doc5"]
   },
   "dev": {
-    "First Category": ["dev/dev-info", "dev/doc1"],
-    "Second Category": ["dev/dev-info", "dev/doc2"]
+    "First Category": ["dev/index", "dev/doc1"],
+    "Second Category": ["dev/index", "dev/doc2"]
   }
 }
