@@ -21,9 +21,9 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  title: 'BattlePlugins Docs', // Title for your website.
+  tagline: 'Documentation for the BattlePlugins Plugin Suite.',
+  url: 'https://docs.battleplugins.org', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -38,9 +38,9 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
+    {page: 'get', label: 'Get'},
+    {doc: 'docs', label: 'Docs'},
+    {doc: 'dev', label: 'API'},
     {blog: false, label: 'Blog'},
     { href: "https://github.com/", label: "GitHub" },
     { search: true }
@@ -51,8 +51,8 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
+  headerIcon: 'img/header.png',
+  footerIcon: 'img/footer.png',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
@@ -76,7 +76,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} BattlePlugins.`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
