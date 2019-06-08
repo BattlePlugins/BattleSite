@@ -1,11 +1,13 @@
 {
   "docs": {
-    "Documentation": ["docs"],
-    "Development": ["dev"]
+    "BattleArena": ["ba", "docs"],
+    "BattleTracker": ["bt", "docs"],
+    "Mutual Pages": ["codes", "dev"]
   },
-  "docs-other": {
-    "BattleArena": ["setup", "doc5"],
-    "BattleTracker": ["setup", "doc5"],
-    "Other": ["doc1", "doc2"]
+  "dev-docs": {
+    "API Information": ["setup", "doc5"],
+    "Development Info": ["setup", "doc5"],
+    "Plugin Hooks": ["setup", "doc5"],
+    "Other Stuff": ["doc1", "doc2"]
   }
 }
