@@ -92,15 +92,6 @@ class Index extends React.Component {
       </Container>
     );
 
-    const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
-      </div>
-    );
-
     const Features = () => (
       <Block layout="fourColumn">
         {[
@@ -108,13 +99,15 @@ class Index extends React.Component {
             content: 'Latest BattleArena Builds from Spigot and Bukkit.',
             image: `${baseUrl}img/battlearena.png`,
             imageAlign: 'top',
-            title: 'BattleArena'
+            imageHeight: '80',
+            title: 'BattleArena',
           },
           {
             content: 'Latest BattleTracker Builds from Spigot and Bukkit.',
             image: `${baseUrl}img/battletracker.png`,
             imageAlign: 'top',
-            title: 'BattleTracker'
+            imageHeight: '80',
+            title: 'BattleTracker',
           },
         ]}
       </Block>
@@ -124,7 +117,6 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <FeatureCallout />
           <Features />
         </div>
       </div>
