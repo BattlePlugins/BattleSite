@@ -12,11 +12,11 @@
 <url> <loc>https://docs.battleplugins.org/docs/bt/</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/bt/" /> </url>
 <url> <loc>https://docs.battleplugins.org/docs/bt/faq</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/bt/faq" /> </url>
 <url> <loc>https://docs.battleplugins.org/docs/bt/history</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/bt/history" /> </url>
-<url> <loc>https://docs.battleplugins.org/docs/dev/dev-info</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/dev/dev-info" /> </url>
+<url> <loc>https://docs.battleplugins.org/docs/dev/</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/dev/" /> </url>
 <url> <loc>https://docs.battleplugins.org/docs/doc3</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/doc3" /> </url>
 <url> <loc>https://docs.battleplugins.org/docs/doc4</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/doc4" /> </url>
-<url> <loc>https://docs.battleplugins.org/docs/docs</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/docs" /> </url>
 <url> <loc>https://docs.battleplugins.org/docs/exampledoc3</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/exampledoc3" /> </url>
 <url> <loc>https://docs.battleplugins.org/docs/exampledoc4</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/exampledoc4" /> </url>
 <url> <loc>https://docs.battleplugins.org/docs/exampledoc5</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/exampledoc5" /> </url>
+<url> <loc>https://docs.battleplugins.org/docs/</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/" /> </url>
 </urlset>
