@@ -36,15 +36,18 @@ class Footer extends React.Component {
             )}
           </a>
           <div>
-            <h5>Docs:</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
-              Getting Started (or other categories)
+            <h5>Docs Quick Start:</h5>
+            <a href={this.docUrl('ba.html', this.props.language)}>
+              BattleArena Docs
             </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
+            <a href={this.docUrl('bt.html', this.props.language)}>
+              BattleTracker Docs
             </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
+            <a href={this.docUrl('dev.html', this.props.language)}>
+              API and Development Docs
+            </a>
+            <a href={this.docUrl('other.html', this.props.language)}>
+              Other Plugins & Docs
             </a>
           </div>
           <div>
