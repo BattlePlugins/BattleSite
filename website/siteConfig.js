@@ -25,7 +25,7 @@ const siteConfig = {
   tagline: 'Documentation for the BattlePlugins Plugin Suite.',
   url: 'https://docs.battleplugins.org', // Your website URL
   baseUrl: '/', // Base URL for your project */
-  noIndex: false;
+  noIndex: false,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
