@@ -65,7 +65,7 @@ class HomeSplash extends React.Component {
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
             <Button href="https://spigotmc.org">Spigot</Button>
-            <Button href="https://bukkitdev.org"}>Bukkit</Button>
+            <Button href="https://bukkitdev.org">Bukkit</Button>
             <Button href="https://ci.battleplugins.org">Bleeding Edge</Button>
           </PromoSection>
         </div>
