@@ -41,7 +41,7 @@ const siteConfig = {
   headerLinks: [
     {page: 'index', label: 'Get'},
     {doc: 'docs', label: 'Docs'},
-    {doc: 'dev', label: 'Dev'},
+    {doc: 'dev-docs', label: 'Dev'},
   //  {blog: false, label: 'Blog'},
     {href: "https://github.com/battleplugins", label: "GitHub"},
     {search: true}
