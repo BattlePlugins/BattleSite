@@ -4,7 +4,7 @@
     "BattleTracker": ["bt", "docs"],
     "Mutual Pages": ["codes", "dev"]
   },
-  "dev-docs": {
+  "dev": {
     "API Information": ["setup", "doc5"],
     "Development Info": ["setup", "doc5"],
     "Plugin Hooks": ["setup", "doc5"],
