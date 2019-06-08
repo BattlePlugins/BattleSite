@@ -30,8 +30,8 @@ class Footer extends React.Component {
               <img
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
                 alt={this.props.config.title}
-                width="55"
-                height="55"
+                width="44"
+                height="44"
               />
             )}
           </a>
@@ -66,8 +66,8 @@ class Footer extends React.Component {
         </section>
 		<div>
 			<center>
-			<h5 className="sitemap">Hosted By:</h5>
-        	<a href="https://cl6web.com" className="cl6ad"><img src={`${this.props.config.baseUrl}img/cl6.png`} alt="CL6 Hosting" height="60"/></a>
+			<h5 className="footer-slogan">Hosted By:</h5>
+        	<a href="https://cl6web.com" className="footer-slogan"><img src={`${this.props.config.baseUrl}img/cl6.png`} alt="CL6 Hosting" height="60"/></a>
         	</center>
         </div>
         <section className="copyright">{this.props.config.copyright}</section>
