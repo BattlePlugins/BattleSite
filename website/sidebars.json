@@ -1,12 +1,11 @@
 {
   "docs": {
-  	"ROOT": ["doc3", "exampledoc5"],
-    "BattleArena": ["docs/docs", "docs/battlearena/exampledoc4"],
-    "BattleTracker": ["docs/docs", "docs/battletracker/exampledoc3"],
-    "Other": ["docs/docs", "docs/doc4"]
+  	"BattlePlugins": ["bp/index", "bp/history", "bp/members", "bp/timeline", "bp/faq"],
+    "BattleArena": ["ba/index", "ba/faq", "ba/history"],
+    "BattleTracker": ["bt/index", "bt/faq", "bt/history"],
+    "Other": ["doc3", "doc4", "doc5"]
   },
   "dev": {
-  	"ROOT": ["doc3", "exampledoc5"],
     "First Category": ["dev/dev", "dev/doc1"],
     "Second Category": ["dev/dev", "dev/doc2"]
   }
