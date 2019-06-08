@@ -51,7 +51,7 @@ class Footer extends React.Component {
             </a>
           </div>
           <div>
-            <h5>Organization:</h5>
+            <h5>Organization Info:</h5>
             <a href="https://discord.gg/tMVPVJf"><i class="fab icon-white fa-discord"/> Discord Support</a>
             <a href="https://github.org/BattlePlugins"><i class="fab icon-white fa-github-square"/> Github Org</a>
             <a href="https://battleplugins.org/"><i class="fas icon-white fa-desktop"/> Website</a>
@@ -59,7 +59,7 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>About the Docs:</h5>
-            <a href="https://github.com/BattlePlugins/BattleDocs">Contribute Today</a>
+            <a href="https://github.com/BattlePlugins/BattleDocs">Contribute to the Docs Today</a>
             <a href="http://ci.battleplugins.org/jobs/BattleDocs">Build Status: <img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></a>
             <a href="https://github.com/BattlePlugins/BattleDocs">Doc Size: <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/battleplugins/battledocs.svg?style=flat-square"/></a>
             <a href="https://github.com/BattlePlugins/BattleDocs/pulls">Pending Updates: <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/battleplugins/battledocs.svg?style=flat-square"/></a>
