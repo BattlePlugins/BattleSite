@@ -1,2 +1,0 @@
-# BattleDocs
-WIP Battle Docs
