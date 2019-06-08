@@ -1,11 +1,13 @@
 {
   "docs": {
-    "BattleArena": ["doc1", "docs"],
-    "BattleTracker": ["doc2", "docs"],
-    "Other": ["doc3", "docs"]
+  	"ROOT": ["doc3", "exampledoc5"],
+    "BattleArena": ["docs/docs", "docs/battlearena/exampledoc4"],
+    "BattleTracker": ["docs/docs", "docs/battletracker/exampledoc3"],
+    "Other": ["docs/docs", "docs/doc4"]
   },
   "dev": {
-    "First Category": ["doc4", "doc5", "dev"],
-    "Second Category": ["doc5", "doc6", "dev"]
+  	"ROOT": ["doc3", "exampledoc5"],
+    "First Category": ["dev/dev", "dev/doc1"],
+    "Second Category": ["dev/dev", "dev/doc2"]
   }
 }
