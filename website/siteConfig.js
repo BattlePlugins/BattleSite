@@ -21,46 +21,46 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'BP Docs', // Title for your website.
-  tagline: 'Official Documentation for all BattlePlugin Plugins.',
-  url: 'https://docs.battleplugins.org', // Your website URL
+  title: 'Test Site', // Title for your website.
+  tagline: 'A website for testing',
+  url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'BattleDocs',
-  organizationName: 'BattlePlugins',
+  projectName: 'test-site',
+  organizationName: 'facebook',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-  //  {blog: false, label: 'News'},
-    {page: 'get', label: 'Downloads'},
-    {doc: 'docs', label: 'Documentation'},
-    {doc: 'dev', label: 'Development'}
+    {doc: 'doc1', label: 'Docs'},
+    {doc: 'doc4', label: 'API'},
+    {page: 'help', label: 'Help'},
+    {blog: true, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/logo.png',
+  headerIcon: 'img/favicon.ico',
   footerIcon: 'img/favicon.ico',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#21a6f0',
-    secondaryColor: '#ffffff',
+    primaryColor: '#961464',
+    secondaryColor: '#690e46',
   },
 
   /* Custom fonts for website */
   /*
-  fonts: {
+    fonts: {
     myFont: [
       "Times New Roman",
       "Serif"
@@ -73,7 +73,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} BattlePlugins`,
+  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -85,7 +85,7 @@ const siteConfig = {
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
-  // No .html extensions for s.
+  // No .html extensions for paths.
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
@@ -93,14 +93,14 @@ const siteConfig = {
   twitterImage: 'img/undraw_tweetstorm.svg',
 
   // Show documentation's last contributor's name.
-  enableUpdateBy: true,
+  // enableUpdateBy: true,
 
   // Show documentation's last update time.
-  enableUpdateTime: true,
+  // enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'https://github.com/BattlePlugins/BattleDocs',
+  //   repoUrl: 'https://github.com/facebook/test-site',
 };
 
 module.exports = siteConfig;
