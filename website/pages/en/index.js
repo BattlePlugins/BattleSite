@@ -108,57 +108,24 @@ class Index extends React.Component {
             content: 'Latest BattleArena Builds from Spigot and Bukkit.',
             image: `${baseUrl}img/battlearena.png`,
             imageAlign: 'top',
-            title: 'BattleArena',
+            title: 'BattleArena'
           },
           {
             content: 'Latest BattleTracker Builds from Spigot and Bukkit.',
             image: `${baseUrl}img/battletracker.png`,
             imageAlign: 'top',
-            title: 'BattleTracker',
+            title: 'BattleTracker'
           },
         ]}
       </Block>
     );
 
-    const Showcase = () => {
-      if ((siteConfig.users || []).length === 0) {
-        return null;
-      }
-
-      const showcase = siteConfig.users
-        .filter(user => user.pinned)
-        .map(user => (
-          <a href={user.infoLink} key={user.infoLink}>
-            <img src={user.image} alt={user.caption} title={user.caption} />
-          </a>
-        ));
-
-      const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
-
-      return (
-        <div className="productShowcaseSection paddingBottom">
-          <h2>Who is Using This?</h2>
-          <p>This project is used by all these people</p>
-          <div className="logos">{showcase}</div>
-          <div className="more-users">
-            <a className="button" href={pageUrl('users.html')}>
-              More {siteConfig.title} Users
-            </a>
-          </div>
-        </div>
-      );
-    };
-
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Features />
           <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase />
+          <Features />
         </div>
       </div>
     );
