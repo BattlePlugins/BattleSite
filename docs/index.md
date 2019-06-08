@@ -1,7 +1,7 @@
 ---
-id: docs
-title: Latin-ish
-sidebar_label: Example Page
+id: index
+title: Wiki Root Page
+sidebar_label: BattleDocs
 ---
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.

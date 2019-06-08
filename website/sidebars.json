@@ -1,5 +1,6 @@
 {
   "docs": {
+  	"BattleDocs": ["index"],
   	"BattlePlugins": ["bp/index", "bp/history", "bp/members", "bp/timeline", "bp/faq"],
     "BattleArena": ["ba/index", "ba/faq", "ba/history"],
     "BattleTracker": ["bt/index", "bt/faq", "bt/history"],
