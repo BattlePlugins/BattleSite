@@ -71,8 +71,9 @@ To create different types of arena's, refer to above guide on **Creating a Basic
 2. Stand at the location where you want the `myBGArena` **first spawn location** to be and:
 3. Type: `/arena create myBGArena` (creates arena called `myBGArena` and sets 1st spawn).
 
-```I. Stand at the location where you want the `myBGArena` **next spawn location** to be and:
-II. Type: `/arena alter myBGArena 2`  (creates the `2` spawn for arena `myBGArena`).```
+> I. Stand at the location where you want the `myBGArena` **next spawn location** to be and:
+
+> II. Type: `/arena alter myBGArena 2`  (creates the `2` spawn for arena `myBGArena`).
 
 4. Repeat `I` & `II` replacing #`2` until you've set all `4` needed spawn points.
 5. Make sure players have the correct permission to join. Permission needed is: `arena.bh.join`
@@ -87,8 +88,9 @@ After this all players will be transported in where the person with the most kil
 2. Stand at the location where you want the `myFFA` **first spawn location** to be and:
 3. Type: `/ffa create myFFA` (creates arena called `myFFA` and sets 1st spawn).
 
-```I. Stand at the location where you want the `myFFA` **next spawn location** to be and:
-II. Type: `/ffa alter myFFA 2`  (creates the `2` spawn for arena `myFFA`).```
+> I. Stand at the location where you want the `myFFA` **next spawn location** to be and:
+
+>  II. Type: `/ffa alter myFFA 2`  (creates the `2` spawn for arena `myFFA`).
 
 4. Repeat `I` & `II` replacing #`2` until you've set all `4` needed spawn points.
 5. Make sure players have the correct permission to join. Permission needed is: `arena.ffa.join`
