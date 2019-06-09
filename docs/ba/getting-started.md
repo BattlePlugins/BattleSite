@@ -1,21 +1,25 @@
 ---
-id: history
-title: BattleArena History
-sidebar_label: History
+id: getting-started
+title: Getting Started
+sidebar_label: Getting Started
 ---
 
-Link to Dev [dev/dev-info.md](dev) for how to use Docusaurus.
-This is a link to an [external page.](http://www.example.com)
-
-## Uno
+## Getting File(s)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-## Dos
+## Installing
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+To install the BattleArena plugin on your server, follow these easy steps:
+ - [ ] Download the plugin from the Bukkit Forum
+ - [ ] Drag and drop the plugin into the plugins folder of the server
+ - [ ] Start your server
+ - [ ] Wait for the server to fully start
+ - [ ] Make sure there are no errors
+ - [ ] Stop the server
+ - [ ] Configure the plugin
 
-## Tres
+## Configuring
 
 Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
 

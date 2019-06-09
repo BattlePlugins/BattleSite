@@ -3,26 +3,42 @@ id: faq
 title: BattleArena FAQ
 sidebar_label: FAQ
 ---
-
-Link to Dev [dev/dev-info.md](dev) for how to use Docusaurus.
-This is a link to an [external page.](http://www.example.com)
-
-## Uno
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-## Dos
-
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
-
-## Tres
-
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
-
-## Quatro
-
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
-
-## Cinq
-
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+## What's the difference between Matches and Events?
+The primary difference is how they are started by default, and how you join.
+* Matches have a waiting queue, and the competition will start when enough people join
+* Events are usually started by an admin, where there is an announcement and a phase where people can join.
+What makes it tricky is there are a lot of options to start both in different ways. Matches can be started with '''defaultOptions.matchEnableForceStart: true''' which will make the game start after a set time as long as the minimum number of teams have joined. Events can be started with '''defaultOptions.allowPlayerCreation''' which allows them to auto start their own events. Events can also skip the join phase by enabling a ready block '''defaultOptions.enablePlayerReadyBlock: true'''
+# Statistic Questions
+## How do I make leaderboards?
+You need the BattleTracker plugin, BA's sister plugin that handles PVP and PVE deaths and interactions. This also allows for leaderboard signs.
+## Where it says Player1[0] ,how do I make it so they start of with 1200 rating?
+For ELO calculations and statistics, you need the above mentioned BattleTracker plugin.
+## How do I enable player ranking, and /arena top?
+See both above points about BattleTracker.
+# Debug Questions
+## My server crashed and players lost their items. What can I do to fix it?
+There is a system in place that stores the players inventories and you can give those items back. See [[BattleArena/Commands#Debug_Commands | Admin Debug Commands - Listing a players saved inventories]]
+# Message Questions
+## How do I change who gets messages?
+There is a section in the config.yml that shows how to set up messages to the server and players. [[BattleArena/Config#Message_Options | Message Options]]
+# Config Questions
+## I don't want people to drop items. What can I do?
+[[BattleArena/Config#Clearing_Inventory_on_Death | Clearing players inventory on death]]
+## I want to change how many people can play. What can I do?
+You change these by changing the options nTeams (number of teams), and teamSize (how many players per team, 1 for solo). Here are some [[BattleArena/Config#Changing_the_number_of_players_on_each_team | examples]]
+## Where is the list of item enchants!!!!??
+View the following page [[BattleArena/ItemEnchants | Item Enchants]]
+## How do you change the number of players in a match?
+Check out the Config setup help - [[BattleArena/Config#Changing_the_number_of_players_on_each_team | Changing the number of players on each team]]
+## How do you make a arena were people bring their own equipment?
+You take out the option '''clearInventory''' from both these stages, '''preReqs''' and '''onComplete'''. Complete example with players bringing their own equipment:
+                        ### Skirmish 
+                        skirmish:
+                            enabled: true
+                            prefix: "&b[Skirmish]&e"
+                            preReqs:
+                                options: []
+                            onStart:
+                                options: [teleportIn, pvpOn]
+                            onComplete:
+                                options: [teleportOut]
