@@ -11,6 +11,8 @@ You can get the latest `jars` for BattleArena from:
  - Stable - [BukkitDev](https://dev.bukkit.org)
  - Bleeding - [Jenkins Server](https://ci.battleplugins.org)
 
+>> Add section about Spigot / Paper builds...
+
 ## Installing
 
 To install the BattleArena plugin on your server, follow these easy steps:
@@ -22,10 +24,20 @@ To install the BattleArena plugin on your server, follow these easy steps:
  5. Make sure there are no errors
  6. Stop the server
  7. Configure the plugin
+ 
+ >> Clear out directory for install
 
 ## Configuring
 
 This should be the layout of your BattleArena files (+ BattleTracker):
+
+>> (need to get real, this is just what it should be")
+```
+/server.jars
+/plugins/
+/plugins/BattleArena.jar
+/plugins/BattleArena/config.yaml
+```
 
 Latest Config File: <link here>
 
@@ -36,10 +48,14 @@ See these pages for more on configuring:
  3. more ?
  4. def at least 4?
 
-## Quatro
+## Getting Stats
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+You should get BattleTracker, its really cool and does all this stuff: (nisert list)
 
-## Cinq
+It'll hook into BattleArema to provide this: (insert list)
 
+Get it from here
+Docs are here
+
+## Setting Up your first Arena
 Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.

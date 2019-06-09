@@ -1,5 +1,5 @@
 ---
-id: exampledoc5
+id: item-syntax
 title: Fifth Document
 ---
 
