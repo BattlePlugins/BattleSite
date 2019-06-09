@@ -1,10 +1,8 @@
-
 ---
 id: getting-started
 title: Getting Started
 sidebar_label: Getting Started
 ---
-
 ## Getting File(s)
 
 You can get the latest `jars` for BattleArena from:
