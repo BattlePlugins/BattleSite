@@ -4,14 +4,14 @@ title: Duels and Battles
 sidebar_label: Dueling
 ---
 ## Challenging a player or players
-Choose a match type, like **skirmish,arena,bg,spleef**
+Choose a match type, like **skirmish, arena, bg, spleef**
 -   **`/<matchtype> duel <player 1>...<player x>`**
 Examples:
 -   **`/arena duel clovisd`** : Challenge clovisd to an arena duel
 -   **`/spleef duel clovisd cunningdevil666`** : Challenge both clovisd and cunningdevil666 to a spleef duel.
 
 ### **Permissions**
-- **`arena.\<match type>.duel`**
+- **`arena.<match type>.duel`**
 
 Examples:
 -   **`/arena.skirmish.duel`**
