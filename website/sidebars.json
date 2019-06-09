@@ -6,6 +6,13 @@
     "BattleTracker": ["bt/index", "bt/faq", "bt/history"],
     "Other": ["doc3", "doc4", "doc5"]
   },
+  "BA": {
+  	"⬅ Back to Index": ["bp/index"],
+  	"Beginner Topics": ["bp/index", "bp/history", "bp/members", "bp/timeline", "bp/faq"],
+    "Power User Topics": ["bp/index", "bp/history", "bp/members", "bp/timeline", "bp/faq"],
+    "Advanced User Topics": ["bp/index", "bp/history", "bp/members", "bp/timeline", "bp/faq"],
+    "Other": ["doc3", "doc4", "doc5"]
+  },
   "dev": {
     "First Category": ["dev/index", "dev/doc1"],
     "Second Category": ["dev/index", "dev/doc2"]
