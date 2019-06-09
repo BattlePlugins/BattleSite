@@ -1,3 +1,4 @@
+
 ---
 id: getting-started
 title: Getting Started
@@ -6,22 +7,36 @@ sidebar_label: Getting Started
 
 ## Getting File(s)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+You can get the latest `jars` for BattleArena from:
+
+ - Stable - [Spigot](https://spigotmc.org)
+ - Stable - [BukkitDev](https://dev.bukkit.org)
+ - Bleeding - [Jenkins Server](https://ci.battleplugins.org)
 
 ## Installing
 
 To install the BattleArena plugin on your server, follow these easy steps:
- - [ ] Download the plugin from the Bukkit Forum
- - [ ] Drag and drop the plugin into the plugins folder of the server
- - [ ] Start your server
- - [ ] Wait for the server to fully start
- - [ ] Make sure there are no errors
- - [ ] Stop the server
- - [ ] Configure the plugin
+
+ 1. Download the plugin from the Bukkit Forum 
+ 2. Drag and drop the plugin into the plugins folder of the server 
+ 3. Start your server
+ 4. Wait for the server to fully start
+ 5. Make sure there are no errors
+ 6. Stop the server
+ 7. Configure the plugin
 
 ## Configuring
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+This should be the layout of your BattleArena files (+ BattleTracker):
+
+Latest Config File: <link here>
+
+See these pages for more on configuring:
+
+ 1. Config File
+ 2. more more more
+ 3. more ?
+ 4. def at least 4?
 
 ## Quatro
 

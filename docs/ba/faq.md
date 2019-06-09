@@ -36,14 +36,15 @@ View the following page [[BattleArena/ItemEnchants | Item Enchants]]
 Check out the Config setup help - [[BattleArena/Config#Changing_the_number_of_players_on_each_team | Changing the number of players on each team]]
 ### How do you make a arena were people bring their own equipment?
 You take out the option `clearInventory` from both these stages, `preReqs` and `onComplete`. Complete example with players bringing their own equipment:
-
-                    ### Skirmish 
-                    skirmish:
-                        enabled: true
-                        prefix: "&b[Skirmish]&e"
-                        preReqs:
-                            options: []
-                        onStart:
-                            options: [teleportIn, pvpOn]
-                        onComplete:
-                            options: [teleportOut]
+```json
+### Skirmish 
+skirmish:
+    enabled: true
+    prefix: "&b[Skirmish]&e"
+    preReqs:
+        options: []
+    onStart:
+        options: [teleportIn, pvpOn]
+    onComplete:
+        options: [teleportOut]
+```
