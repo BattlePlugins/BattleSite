@@ -1,7 +1,7 @@
 ---
 id: settings
-title: Game Settings
-sidebar_label: Settings
+title: Customizing Arena & Game Settings
+sidebar_label: Customizing Arenas
 ---
 
 this is another document

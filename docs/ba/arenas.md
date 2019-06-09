@@ -1,7 +1,7 @@
 ---
 id: arenas
 title: Creating & Deleting Arenas
-sidebar_label: Creating / Deleting Arenas
+sidebar_label: Managing Arenas
 ---
 ## Arena Types:
 
