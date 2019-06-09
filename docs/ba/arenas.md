@@ -1,7 +1,7 @@
 ---
 id: arenas
-title: Everything Arenas
-sidebar_label: Arenas
+title: Creating Arenas
+sidebar_label: Creating Arenas
 ---
 ## Arena Types
 
