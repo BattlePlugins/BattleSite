@@ -1,6 +1,7 @@
 ---
 id: commands
-title: Other Document
+title: Battle Arena Commands
+sidebar_label: Commands
 ---
 
 this is another document

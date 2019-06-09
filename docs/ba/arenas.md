@@ -1,6 +1,7 @@
 ---
 id: arenas
-title: Other Document
+title: Everything Arenas
+sidebar_label: Arenas
 ---
 
 this is another document
