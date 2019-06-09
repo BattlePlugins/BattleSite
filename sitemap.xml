@@ -3,7 +3,7 @@
 <url> <loc>https://docs.battleplugins.org/index</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/en/index" /> </url>
 <url> <loc>https://docs.battleplugins.org/docs/ba/</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/ba/" /> </url>
 <url> <loc>https://docs.battleplugins.org/docs/ba/faq</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/ba/faq" /> </url>
-<url> <loc>https://docs.battleplugins.org/docs/ba/history</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/ba/history" /> </url>
+<url> <loc>https://docs.battleplugins.org/docs/ba/getting-started</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/ba/getting-started" /> </url>
 <url> <loc>https://docs.battleplugins.org/docs/bp/</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/bp/" /> </url>
 <url> <loc>https://docs.battleplugins.org/docs/bp/faq</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/bp/faq" /> </url>
 <url> <loc>https://docs.battleplugins.org/docs/bp/history</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://docs.battleplugins.org/docs/bp/history" /> </url>
