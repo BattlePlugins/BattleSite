@@ -7,9 +7,16 @@
     "Other": ["doc3", "doc4", "doc5"]
   },
   "BA": {
-  	"⬅ Back to Index": ["bp/index"],
-  	"Beginner Topics": ["bp/index", "bp/history", "bp/members", "bp/timeline", "bp/faq"],
-    "Power User Topics": ["bp/index", "bp/history", "bp/members", "bp/timeline", "bp/faq"],
+  	"⬅ Back to Index": ["index"],
+  	"Beginner Topics": ["ba/index", "ba/history", "ba/members", "ba/timeline", "ba/faq"],
+    "Power User Topics": ["ba/index", "bp/history", "bp/members", "bp/timeline", "ba/faq"],
+    "Advanced User Topics": ["bp/index", "bp/history", "bp/members", "bp/timeline", "bp/faq"],
+    "Other": ["doc3", "doc4", "doc5"]
+  },
+  "BT": {
+  	"⬅ Back to Index": ["index"],
+  	"Beginner Topics": ["bt/index", "bt/history", "bt/members", "bt/timeline", "bt/faq"],
+    "Power User Topics": ["bt/index", "bt/history", "bt/members", "bt/timeline", "bt/faq"],
     "Advanced User Topics": ["bp/index", "bp/history", "bp/members", "bp/timeline", "bp/faq"],
     "Other": ["doc3", "doc4", "doc5"]
   },
