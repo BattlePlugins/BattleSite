@@ -4,7 +4,7 @@ title: BattleArena
 sidebar_label: Plugin Info
 ---
 
->> Insect BattleARena Image
+![BattleArena](https://wiki.battleplugins.org/images/6/62/BATTLEARENA.png "BattleArena")
 
 ## Latest Plugin Info
 
@@ -18,25 +18,35 @@ Link to FAQ [[faq]]
 
 ## Features & Fame
 
-Hey! BattleArena does all of this cool stuff (insert list)
-1
-2
-3
-4
-5
+BattleArena features a complete Event system for Minecraft.
+* Comes default with several Match and Event Types.
+* Huge amounts of customization through the configs and in game commands.
+* Framework and API for easily creating custom matches/events.
+* Support for custom arena types such as [[Spleef]] and [[CTF]].
+* ... and a whole lot more!
 
-We've been feature in the following youtube video's and reviews:
+We've been featured in the following YouTube videos and reviews:
 
+**Tutorial by LtJim007:**
+
+[![ltjim007](https://img.youtube.com/vi/dR0tmySt5ac/0.jpg)](https://www.youtube.com/watch?v=dR0tmySt5ac)
+
+**Tutorial by OGCraftVids:**
+
+[![ogcraftvids](https://img.youtube.com/vi/m6E-q_w7tOM/0.jpg)](https://www.youtube.com/watch?v=m6E-q_w7tOM)
 
 ## Getting Started
 
 You can get the latest `jars` for BattleArena from:
 
- - Stable - [Spigot](https://spigotmc.org)
- - Stable - [BukkitDev](https://dev.bukkit.org)
+ - Stable - [Spigot](https://www.spigotmc.org/resources/battle-arena.2164/)
+ - Stable - [BukkitDev](https://dev.bukkit.org/projects/battlearena2)
  - Bleeding - [Jenkins Server](https://ci.battleplugins.org)
 
 >> Add section about Spigot / Paper builds...
+
+## Statistics 
+[![BattleArena Statistics](https://bstats.org/signatures/bukkit/BattleArena.svg)](https://bstats.org/plugin/bukkit/BattleArena)
 
 ## Read the Docs
 
@@ -45,10 +55,26 @@ Here are most popular doc pages to read right now:
 2.
 3.
 
-## Add-On Plugins
+## Add-On Plugins/Extensions
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+BattleArena comes with support for developers to create their own BattleArena addons. These extensions allow you to go beyond what is currently able to be done in the plugin and allows for even more awesome games! Here is a list of a few extensions:
+
+**Official Extensions:**
+- [[ArenaSpleef]]
+- [[ArenaCTF]]
+- [[ArenaFutbol]]
+- [[ArenaParkour]]
+- [[ArenaPaintball]]
+- [[BombArena]]
+- [[HostageArena]]
+
+**Unofficial Extensions:**
+- [[ArenaTOW]]
+- [[ArenaBattleRoyale]]
+- [[ArenaTowerRush]]
+
+If you have an extension that you would like listed here, please [[contact us]].
 
 ## Developer Info
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+If you're interested in contributing to BattleArena, please take a look at our [GitHub Page](https://github.com/BattlePlugins/BattleArena) for BattleArena. If you are interested in creating your own arena extensions, please take a look at the [[Deveeloper API]] page. 
