@@ -1,12 +1,11 @@
 {
   "docs": {
   	"BattleDocs": ["index"],
-    "BattleArena": ["ba/index", "ba/getting-started", "ba/arenas", "ba/config", "ba/commands", "ba/permissions", "ba/settings", "ba/dueling", "ba/debug", "ba/teams", "ba/faq"],
+    "BattleArena": ["ba/index", "ba/getting-started", "ba/arenas", "ba/config", "ba/config-advanced", "ba/custom-modes", "ba/scheduling", "ba/commands", "ba/permissions", "ba/settings", "ba/dueling", "ba/debug", "ba/teams", "ba/faq", "ba/signs", "ba/tournaments"],
     "BattleTracker": ["bt/index", "bt/faq", "bt/history"],
     "Common Docs": ["potions", "enchants", "item-syntax"]
   },
   "dev": {
-    "First Category": ["dev/index", "dev/doc1"],
-    "Second Category": ["dev/index", "dev/doc2"]
+    "Dev": ["dev/index", "dev/command_executor", "dev/modules", "dev/tutorial"],
   }
 }
