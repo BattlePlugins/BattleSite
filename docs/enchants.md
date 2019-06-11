@@ -2,12 +2,289 @@
 id: enchants
 title: This is document number 3
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+== Item Enchants ==
+Valid formats are 
+* &lt;name>
+* &lt;name>:&lt;power>
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+=== Example ===
+* '''- diamond_sword sharp:3 fire:2 1''' ( give 1 diamond sword with sharpness 3 and fire 2)
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+== Enchant Table ==
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+{| class="wikitable"
+|-
+! scope="col"| EID
+! scope="col"| Plugin Abbr.
+! scope="col"| Minecraft Name
+! scope="col"| Bukkit API Class
+! scope="col"| Max Level
+! scope="col"| Description
+|-
+|0
+|prot
+|Protection
+|PROTECTION_ENVIRONMENTAL
+|4
+|Reduces damage
+|-
+|1
+|protfire
+|Fire Protection
+|PROTECTION_FIRE
+|4
+|Reduces damage from fire
+|-
+|2
+|protfall
+|Feather Falling
+|PROTECTION_FALL
+|4
+|Reduces damage from falling
+|-
+|3
+|protblast
+|Blast Protection
+|PROTECTION_EXPLOSIONS
+|4
+|Reduces damage from explosions
+|-
+|4
+|protproj or protarrow
+|Projectile Protection
+|PROTECTION_PROJECTILE
+|4
+|Gives protection against projectiles
+|-
+|5
+|respiration, oxygen
+|Respiration
+|OXYGEN
+|3
+|Decreases rate of air use when underwater
+|-
+|6
+|aqua
+|Aqua Affinity
+|WATER_WORKER
+|1
+|Increase underwater mining speed
+|-
+|7
+|thorns
+|Thorns
+|THORNS
+|3
+|Chance of attacker receiving damage
+|-
+|8
+|strider
+|Depth Strider
+|DEPTH_STRIDER
+|3
+|Increases underwater movement speed
+|-
+|9
+|frost_walker
+|Frost Walker
+|FROST_WALKER
+|2
+|Creates a frosted ice pathway when walking over water
+|-
+|10
+|binding_curse
+|Curse of Binding
+|BINDING_CURSE
+|1
+|Makes the item unable to be unequipped if in an armor slot
+|-
+|16
+|sharp
+|Sharpness
+|DAMAGE_ALL
+|5
+|Gives extra damage to all targets
+|-
+|17
+|smite
+|Smite
+|DAMAGE_UNDEAD
+|5
+|Extra damage to undead targets
+|-
+|18
+|arth
+|Bane of Arthropods
+|DAMAGE_ARTHROPODS
+|5
+|Extra damage to spiders and silverfish
+|-
+|19
+|knockback
+|Knockback
+|KNOCKBACK
+|2
+|Knocks back targets when hit
+|-
+|20
+|fire
+|Fire Aspect
+|FIRE_ASPECT
+|2
+|Chance of setting fire to target
+|-
+|21
+|loot
+|Looting
+|LOOT_BONUS_MOBS
+|3
+|Gives a chance for extra loot from mobs
+|-
+|22
+|sweep
+|Sweeping Edge
+|SWEEPING_EDGE
+|3
+|Increases sweep attack damage
+|-
+|32
+|eff
+|Efficiency
+|DIG_SPEED
+|5
+|Increase the speed at which you mine or dig
+|-
+|33
+|silk
+|Silk Touch
+|SILK_TOUCH
+|1
+|Allows blocks to drop instead of fragments (ie: stone instead of cobblestone)
+|-
+|34
+|unbreaking
+|Unbreaking
+|DURABILITY
+|3
+|Increases item durability
+|-
+|35
+|fortune
+|Fortune
+|LOOT_BONUS_BLOCKS
+|3
+|Increases chance of extra drops from blocks
+|-
+|48
+|power
+|Power
+|ARROW_DAMAGE
+|5
+|Increases damage from arrows fired from bow
+|-
+|49
+|punch
+|Punch
+|ARROW_KNOCKBACK
+|2
+|Arrows knock back target
+|-
+|50
+|flame
+|Flame
+|ARROW_FIRE
+|1
+|Shoot flaming arrows
+|-
+|51
+|inf
+|Infinity
+|ARROW_INFINITE
+|1
+|Gives infinite arrows when using a bow
+|-
+|61
+|luck
+|Luck of the Sea
+|LUCK
+|3
+|Increases luck when fishing
+|-
+|62
+|lure
+|Lure
+|LURE
+|3
+|Increases the chance of catching fish
+|-
+|70
+|mending
+|Mending
+|MENDING
+|1
+|Repairs items when xp is gathered
+|-
+|71
+|vanishing_curse
+|Curse of Vanishing
+|VANISHING_CURSE
+|1
+|Removes the enchanted item on death
+|}
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+
+=== 1.13+ Enchants ===
+These enchantments currently have no ID as they were added in 1.13+ which removed the usage of IDs. Due to how the enchantment system is built in BattleArena, there is still support for using enchantment IDs for the enchants that have them.
+{| class="wikitable"
+|-
+! scope="col"| Plugin Abbr.
+! scope="col"| Minecraft Name
+! scope="col"| Bukkit API Class
+! scope="col"| Max Level
+! scope="col"| Description
+|-
+|channeling
+|Channeling
+|CHANNELING
+|1
+|Trident enchant that strikes lightning on impact
+|-
+|impaling
+|Impaling
+|IMPALING
+|5
+|Adds damage to trident (equivalent of Sharpness for tridents)
+|-
+|loyalty
+|Loyalty
+|LOYALTY
+|3
+|Returns trident to player when thrown
+|-
+|riptide
+|Riptide
+|RIPTIDE
+|3
+|Turns the trident into a fast transportation device when in water or raining
+|-
+|multishot
+|Multishot
+|MULTISHOT
+|1
+|Shoots 3 arrows on each shot from crossbows whilst only consuming 1 from the inventory
+|-
+|piercing
+|Piercing
+|PIERCING
+|4
+|Allows arrows from crossbows to pierce through ''level +1'' entities when shot
+|-
+|quick_charge
+|Quick Charge
+|QUICK_CHARGE
+|3
+|Reduces reload time for crossbow
+|}
+
+== Return to Index ==
+[[Main Page]]

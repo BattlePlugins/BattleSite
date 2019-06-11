@@ -3,26 +3,51 @@ id: index
 title: Development Page
 sidebar_label: Dev Page
 ---
+[[File:DEV.png|center|link=http://wiki.battleplugins.org/Category:Dev]]
+[[Category: Dev]]
+==API==
+===Tutorial===
+Read this [[APITutorial|tutorial]] for creating a simple first extension game.
 
-Link to Dev [dev/dev-info.md](dev) for how to use Docusaurus.
-This is a link to an [external page.](http://www.example.com)
+===Event Handlers===
+BattleArena uses a custom annotation, '''@ArenaEventHandler''', that allows you to only listen for events that occur inside an Arena. This is used like the normal '''@EventHandler''' annotation but greatly simplifies code as all the checking to make sure a player is in a game, and finding the correct game, is already taken care of.
+@ArenaEventHandler:
+          @ArenaEventHandler
+              public void onBlockPlace(BlockPlaceEvent event){
+                  /// This event will only be called for players inside the arena placing blocks
+              }
 
-## Uno
+===CustomCommandExecutor's===
+BattleArena allows you to simplify commands with a custom way of creating methods.
+[[Custom Command Executor | Custom Command Executor]]
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+==JavaDocs==
+[[http://rainbowcraft.sytes.net:8080/job/BattleArena/javadoc/ | JavaDoc]]
 
-## Dos
+==Battle Arena Modules==
+See this page for more details on  Battle Arena: [[BattleDev/Modules|Modules]]
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+==Maven Repository==
 
-## Tres
+Maven repository coming soon!
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+==Examples==
+===Handling Arena Events Examples ===
+* [[API_Examples |Examples]]
 
-## Quatro
+===Full Plugin Examples===
+* [[https://github.com/alkarinv/ArenaPaintball | Paintball]]: This is the simplest example, only has event handling
+* [[https://github.com/alkarinv/ArenaOneInTheChamber | One in the chamber]]: Event handling (mainly damage related)
+* [[https://github.com/AugmentedWolf/Parkour | Parkour]]: Shows event handling, custom executor
+* [[https://github.com/alkarinv/ArenaSpleef | Spleef]]: Event handling, custom executor
+* [[https://github.com/alkarinv/ArenaCTF | Capture The Flag]]: This has event handling, custom executors, and scoreboards
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+==Useful Options ==
+[[APITutorial | API Tutorial]]
 
-## Cinq
+[[Custom Command Executor | Custom Command Executor]]
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+[[API_Examples | Handling Arena Bukkit Events Examples]]
+
+== Return to Index ==
+[[Main Page]]
