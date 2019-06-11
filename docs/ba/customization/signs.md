@@ -1,6 +1,6 @@
 ---
 id: signs
-title: Teams Info & Setup
+title: Sign Support
 sidebar_label: Signs
 ---
 [[File:AdvancedBA.png|center|link=http://wiki.battleplugins.org/Category:BattleArena:Advanced]]
