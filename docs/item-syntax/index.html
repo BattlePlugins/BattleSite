@@ -1,5 +1,5 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Fifth Document · Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;Another one&lt;/p&gt;
-"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Fifth Document · Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://docs.battleplugins.org/"/><meta property="og:description" content="&lt;p&gt;Another one&lt;/p&gt;
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Fifth Document · Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;For yaml files that allow you to specify items. To add a new item you must add a new element to the list. Colors are RGB format with values from 0-255.&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Fifth Document · Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://docs.battleplugins.org/"/><meta property="og:description" content="&lt;p&gt;For yaml files that allow you to specify items. To add a new item you must add a new element to the list. Colors are RGB format with values from 0-255.&lt;/p&gt;
 "/><meta property="og:image" content="https://docs.battleplugins.org/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://docs.battleplugins.org/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://kit.fontawesome.com/24df4ee1a3.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
         document.addEventListener('DOMContentLoaded', function() {
           addBackToTop(
@@ -62,8 +62,41 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/BattlePlugins/BattleDocs/tree/master/docs/item-syntax.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Fifth Document</h1></header><article><div><span><p>Another one</p>
-</span></div></article></div><div class="docLastUpdate"><em>Last updated on 6/8/2019 by clovisd</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/enchants"><span class="arrow-prev">← </span><span>This is document number 3</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/footer.png" alt="Documentation" width="44" height="44"/></a><div><h5>Docs Quick Start:</h5><a href="/docs/en/ba.html">BattleArena Docs</a><a href="/docs/en/bt.html">BattleTracker Docs</a><a href="/docs/en/dev.html">API and Development Docs</a><a href="/docs/en/other.html">Other Plugins &amp; Docs</a></div><div><h5>Organization Info:</h5><a href="https://discord.gg/tMVPVJf"><i class="fab icon-white fa-discord"></i> Discord Support</a><a href="https://github.org/BattlePlugins"><i class="fab icon-white fa-github-square"></i> Github Org</a><a href="https://battleplugins.org/"><i class="fas icon-white fa-desktop"></i> Website</a><a href="https://wiki.battleplugins.org/"><i class="fas icon-white fa-scroll"></i> Legacy Wiki</a></div><div><h5>About the Docs:</h5><a href="https://github.com/BattlePlugins/BattleDocs">Contribute to the Docs Today</a><a href="http://ci.battleplugins.org/jobs/BattleDocs">Build Status: <img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></a><a href="https://github.com/BattlePlugins/BattleDocs">Doc Size: <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/battleplugins/battledocs.svg?style=flat-square"/></a><a href="https://github.com/BattlePlugins/BattleDocs/pulls">Pending Updates: <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/battleplugins/battledocs.svg?style=flat-square"/></a><br/><img alt="GitHub followers" src="https://img.shields.io/github/followers/battleplugins.svg?label=Follow&amp;style=social"/> | <img alt="GitHub stars" src="https://img.shields.io/github/stars/battleplugins/battledocs.svg?style=social"/> | <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/battleplugins/battledocs.svg?label=Watch&amp;style=social"/></div></section><div><center><h5 class="footer-slogan">Hosted By:</h5><a href="https://cl6web.com" class="footer-slogan"><img src="/img/cl6.png" alt="CL6 Hosting" height="60"/></a></center></div><section class="copyright">Copyright © 2019 BattlePlugins.</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/BattlePlugins/BattleDocs/tree/master/docs/item-syntax.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Fifth Document</h1></header><article><div><span><p>For yaml files that allow you to specify items. To add a new item you must add a new element to the list. Colors are RGB format with values from 0-255.</p>
+<ul>
+<li>'''- itemName: [options] <quantity>'''
+Examples:</li>
+<li>'''- diamond_sword: sharp:5 knockback:3 fire:1 lore=&quot;Uber Sword!&quot; 1'''</li>
+<li>'''- leather_helm: lore=&quot;My Helm Keeps Me Safe&quot; color=255,255,255 1'''</li>
+</ul>
+<p>==Options==</p>
+<ul>
+<li>'''color=<red>,<green>,<blue>'''</li>
+<li>'''lore=&quot;<line1>\n<line2>&quot;'''</li>
+<li>'''displayName=&quot;<string>&quot;'''</li>
+<li>[[Enchantments|Valid Item Enchants]]</li>
+</ul>
+<p>==Config Example==
+Inserting an item with giveClass inside of the Game configs. In this example it's being done onSpawn, but it can be done anywhere.
+<source lang="csharp">
+Skirmish:
+onSpawn:
+giveItems:
+- gold_ingot: 2
+- leather_boots: color=0,0,0 displayName=&quot;StealthShoes&quot; lore=&quot;Ancient Elven boots\nMade by Legolas Greenleaf&quot; 1
+</source>
+As you can see, you can have multiple lines of lore using the new-line character to separate each line.</p>
+<p>In the above example, line1 is
+<source>
+Ancient Elven boots
+</source></p>
+<p>And line2 is
+<source>
+Made by Legolas Greenleaf
+</source></p>
+<p>== Return to Index ==
+[[Main Page]]</p>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 6/10/2019 by Clovis</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/enchants"><span class="arrow-prev">← </span><span>This is document number 3</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/footer.png" alt="Documentation" width="44" height="44"/></a><div><h5>Docs Quick Start:</h5><a href="/docs/en/ba.html">BattleArena Docs</a><a href="/docs/en/bt.html">BattleTracker Docs</a><a href="/docs/en/dev.html">API and Development Docs</a><a href="/docs/en/other.html">Other Plugins &amp; Docs</a></div><div><h5>Organization Info:</h5><a href="https://discord.gg/tMVPVJf"><i class="fab icon-white fa-discord"></i> Discord Support</a><a href="https://github.org/BattlePlugins"><i class="fab icon-white fa-github-square"></i> Github Org</a><a href="https://battleplugins.org/"><i class="fas icon-white fa-desktop"></i> Website</a><a href="https://wiki.battleplugins.org/"><i class="fas icon-white fa-scroll"></i> Legacy Wiki</a></div><div><h5>About the Docs:</h5><a href="https://github.com/BattlePlugins/BattleDocs">Contribute to the Docs Today</a><a href="http://ci.battleplugins.org/jobs/BattleDocs">Build Status: <img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></a><a href="https://github.com/BattlePlugins/BattleDocs">Doc Size: <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/battleplugins/battledocs.svg?style=flat-square"/></a><a href="https://github.com/BattlePlugins/BattleDocs/pulls">Pending Updates: <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/battleplugins/battledocs.svg?style=flat-square"/></a><br/><img alt="GitHub followers" src="https://img.shields.io/github/followers/battleplugins.svg?label=Follow&amp;style=social"/> | <img alt="GitHub stars" src="https://img.shields.io/github/stars/battleplugins/battledocs.svg?style=social"/> | <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/battleplugins/battledocs.svg?label=Watch&amp;style=social"/></div></section><div><center><h5 class="footer-slogan">Hosted By:</h5><a href="https://cl6web.com" class="footer-slogan"><img src="/img/cl6.png" alt="CL6 Hosting" height="60"/></a></center></div><section class="copyright">Copyright © 2019 BattlePlugins.</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
                 document.addEventListener('keyup', function(e) {
                   if (e.target !== document.body) {
                     return;
