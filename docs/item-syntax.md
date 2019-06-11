@@ -1,6 +1,7 @@
 ---
 id: item-syntax
-title: Item-Syntax
+title: Item Syntax
+sidebar_label: Item Syntax
 ---
 
 For yaml files that allow you to specify items. To add a new item you must add a new element to the list. Colors are RGB format with values from 0-255.
