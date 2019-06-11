@@ -4,19 +4,27 @@ title: Duels & Team Battles
 sidebar_label: Dueling
 ---
 ## Simple Player(s) Challenge:
-Choose a match type (see [Arena Types](https://docs.battleplugins.org/docs/ba/arenas#arena-types)), Examples include: `skirmish`, `bg`, `arena`, etc or Custom Arenas like `spleef`, `painball`, etc.
+Choose a match type (see [Arena Types](https://docs.battleplugins.org/docs/ba/arenas#arena-types)):
+Examples include built-in Types like: `skirmish`, `bg`, `arena`, etc
+Can also work with Custom Arenas like `spleef`, `painball`, etc.
 
-> `/<matchtype> duel <player 1>...<player x>`
+> /`<matchtype>` duel `<player 1>...<player x>`
 
 **Examples:**
--   `/arena duel clovisd` - *Challenge `clovisd` to an arena duel.*
--   `/skirmish duel cunningdevil666` - *Challenge `cunningdevil666` to an skirmish duel.*
--   `/spleef duel clovisd cunningdevil666` - *Challenge both `clovisd` and `cunningdevil666` to a spleef duel.*
+-   `/arena duel clovisd` - *Challenge user `clovisd` to an arena duel.*
+-   `/skirmish duel cunningdevil666` - *Challenge user `cunningdevil666` to an skirmish duel.*
+-   `/spleef duel clovisd cunningdevil666` - *Challenge users `clovisd` and `cunningdevil666` (both) to a spleef duel.*
 
 ## Advanced Player(s) Challenge:
-You can challenge a player specify options. Currently the only options is a money challenge:
+You can challenge other player with special victory critieria by specifying options. Currently the only available options relate to currency:
 
--   **`/spleef duel clovisd cunningdevil666 money 200`** : Challenge both clovisd and cunningdevil666 to a spleef duel. Each person will pay 200 at the start, winning team splits the pot.
+> /`<matchtype>` duel `<player 1>...<player x>` `<challenge options>`
+
+**Examples:**
+-   `/spleef duel clovisd cunningdevil666 money 200` - *Challenge users `clovisd` and `cunningdevil666` (both) to a spleef duel. Each person will pay 200, Winning team splits total.*
+-   `/arena duel clovisd money 80` - *Challenge user `clovisd` to a spleef duel. Each person will pay 80, Winner gets total (160).*
+-   `/bg duel clovisd cunningdevil666 zach445 gold 50` - *Challenge users `clovisd`, `zach443` and `cunningdevil666` (all 3) to a Battleground duel. Each person will pay 50 gold, winning team splits total.*
+
 ### Challenge Options:
 -   **`money <amount>`** : also works with whatever your currency is called if you have Vault
     -   **`/paintball duel clovisd money 100`**: Challenge clovisd to a duel in paintball. Each person will pay 100 at the start, winner takes all.
