@@ -1,6 +1,6 @@
 ---
 id: enchants
-title: This is document number 3
+title: Enchantment Info
 ---
 == Item Enchants ==
 Valid formats are 

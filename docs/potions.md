@@ -1,6 +1,6 @@
 ---
 id: potions
-title: This is document number 3
+title: Potions Info
 ---
 == Effects you can give players ==
 Valid formats are 

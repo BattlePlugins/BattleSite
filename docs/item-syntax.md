@@ -1,6 +1,6 @@
 ---
 id: item-syntax
-title: Fifth Document
+title: Item-Syntax
 ---
 
 For yaml files that allow you to specify items. To add a new item you must add a new element to the list. Colors are RGB format with values from 0-255.
