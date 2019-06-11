@@ -8,9 +8,14 @@ These are some of the most frequent questions about the plugin, configuring it, 
 ## General Questions
 ### What's the difference between Matches and Events?
 The primary difference is how they are started by default, and how you join.
-* Matches have a waiting queue, and the competition will start when enough people join
-* Events are usually started by an admin, where there is an announcement and a phase where people can join.
-What makes it tricky is there are a lot of options to start both in different ways. Matches can be started with '''defaultOptions.matchEnableForceStart: true''' which will make the game start after a set time as long as the minimum number of teams have joined. Events can be started with '''defaultOptions.allowPlayerCreation''' which allows them to auto start their own events. Events can also skip the join phase by enabling a ready block '''defaultOptions.enablePlayerReadyBlock: true'''
+* Matches have a waiting queue, and the competition will start when enough people have joined.
+* Events are usually started by an Admin or Operator, where there is an announcement and a phase where people can join.
+
+What makes it tricky is there are a lot of options to start both in different ways.
+-   Matches can be started with `defaultOptions.matchEnableForceStart: true` which will make the game start after a set time as long as the minimum number of teams have joined.
+-   Events can be started with `defaultOptions.allowPlayerCreation` which allows them to auto start their own events.
+-   Events can also skip the join phase by enabling a ready block `defaultOptions.enablePlayerReadyBlock: true`.
+
 ## Statistic Questions
 ### How do I make leaderboards?
 You need the [BattleTracker](bt/index.md) plugin, BA's sister plugin that handles PVP and PVE deaths and interactions. This also allows for leaderboard signs, ELO, rankings, and more!
@@ -20,7 +25,7 @@ For ELO calculations and statistics, you need the above mentioned [BattleTracker
 See both above points about [BattleTracker](bt/index.md).
 ## Debug Questions
 ### My server crashed and players lost their items. What can I do to fix it?
-There is a backup inventory saving system in place that stores the players inventories so you can restore them in the event of a mishap or error. See [BA/Debug](ba/debug.md)
+There is a backup inventory saving system in place that stores the players inventories so you can restore them in the event of a mishap or error. See the [Debug](ba/debug.md) pagefor a list of commands and options.
 ## Message Questions
 ### How do I change who gets messages?
 There is a section in the `config.yml` (see [Config](ba/config.md)) that manages and handles server and player messages.
