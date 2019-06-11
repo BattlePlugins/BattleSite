@@ -7,7 +7,7 @@
   "BA": {
   	"Getting Started": ["ba/index", "ba/getting-started", "ba/faq"],
     "Arenas": ["ba/arenas", "ba/custom-modes", "ba/dueling", "ba/teams", "ba/tournaments"],
-    "Configuration": ["ba/config", "ba/config-advanced", "ba/commands", "ba/permissions", "ba/debug"]
+    "Configuration": ["ba/config", "ba/config-advanced", "ba/commands", "ba/permissions", "ba/debug"],
 	"Customization": ["ba/settings", "ba/scheduling", "ba/signs"],
 	"Codex": ["potions", "enchants", "item-syntax"]
   },
