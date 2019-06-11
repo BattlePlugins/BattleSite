@@ -1,7 +1,7 @@
 ---
 id: config-advanced
-title: Editing the Config File
-sidebar_label: Plugin Config
+title: Editing the `config.yaml` File
+sidebar_label: Config (Advanced)
 ---
 [[File:AdvancedBA.png|center|link=http://wiki.battleplugins.org/Category:BattleArena:Advanced]]
 [[Category: BattleArena:Advanced]]

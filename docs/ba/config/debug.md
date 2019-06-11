@@ -1,7 +1,7 @@
 ---
 id: debug
 title: Debug Commands & Options
-sidebar_label: Debug Help
+sidebar_label: Debug
 ---
 
 ===Debug Commands===

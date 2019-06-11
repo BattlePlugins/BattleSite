@@ -1,7 +1,7 @@
 ---
-id: config
-title: Edting the Config File
-sidebar_label: Plugin Config
+id: config-simple
+title: Edting the `config.yaml` File
+sidebar_label: Config (Simple)
 ---
 
 [[File:PowerBA.png|center|link=http://wiki.battleplugins.org/Category:BattleArena:Power]]
