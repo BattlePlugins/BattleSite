@@ -44,6 +44,8 @@ Want all the nitty gritty? Check the `Creating Arenas for Pros` section.
 
 After this you will both be entered into the arena match where the last man standing wins. See further down for details on waiting rooms, items, and more.
 
+For more information about permissions, see [BA Permissions](ba/permissions.md).
+
 ### Creating More Basic Arenas:
 
 Follow the same steps as before, but use a different arena name.  For this example, let's assume we're using a Tundra Biome Arena and call it `icyArena`.  
@@ -76,7 +78,7 @@ To create different types of arena's, refer to above guide on **Creating a Basic
 > II. Type: `/arena alter myBGArena 2`  (creates the `2` spawn for arena `myBGArena`).
 
 4. Repeat `I` & `II` replacing #`2` until you've set all `4` needed spawn points.
-5. Make sure players have the correct permission to join. Permission needed is: `arena.bh.join`
+5. Make sure players have the correct permission to join. Permission needed is: `arena.bg.join`
 6. Type: `/bg join`.
 7. Have 3 other players also type `/bg join`.
 8. *Optionally you can configure join-phases, waiting rooms, equipment, rewards, and more using this page: `[settings](ba/settings.md).`*
