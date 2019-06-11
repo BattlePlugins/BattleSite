@@ -107,7 +107,7 @@ const siteConfig = {
   onPageNav: 'separate',
   
   // Collapsible Sidebars
-  docsSideNavCollapsible: false,
+  docsSideNavCollapsible: true,
   
   // No .html extensions for paths.
   cleanUrl: true,
