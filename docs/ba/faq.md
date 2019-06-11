@@ -5,7 +5,7 @@ sidebar_label: FAQ
 ---
 These are some of the most frequent questions about the plugin, configuring it, and changing different arena settings. Please make sure your issue isn't listed here before contacting us for help!
 
-##General Questions
+## General Questions
 ### What's the difference between Matches and Events?
 The primary difference is how they are started by default, and how you join.
 * Matches have a waiting queue, and the competition will start when enough people join

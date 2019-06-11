@@ -32,7 +32,7 @@ Expanding your Server? Check the `Creating more Arenas`.
 
 Want all the nitty gritty? Check the `Creating Arenas for Pros` section.
 
-### Creating a Basic Arena:
+### Creating a Basic Arena
 
 1. Stand at the location where you want arena **first spawn location** and:
 2. Type: `/arena create myArena` (creates arena called `myArena` and sets 1st spawn).
@@ -46,7 +46,7 @@ After this you will both be entered into the arena match where the last man stan
 
 For more information about permissions, see [BA Permissions](ba/permissions.md).
 
-### Creating More Basic Arenas:
+### Creating More Basic Arenas
 
 Follow the same steps as before, but use a different arena name.  For this example, let's assume we're using a Tundra Biome Arena and call it `icyArena`.  
 
@@ -58,7 +58,7 @@ Follow the same steps as before, but use a different arena name.  For this examp
 
 Once this is done, you should now have two arenas if you followed the two steps above in order! One named `myArena` and one named `icyArena`.  Players will be able to cycle through these two arenas if configured; you can continue adding more arenas as long as they all have a different name.
 
-### Creating Different Type Arenas:
+### Creating Different Type Arenas
 
 There are many different [types](https://docs.battleplugins.org/docs/ba/arenas#arena-types) of arenas and they all behave uniquely out of the box, however they can be further edited through the config to act even more individually.
 
@@ -68,7 +68,7 @@ You can also install BattleArena extension plugins to add additional gamemodes a
 
 To create different types of arena's, refer to above guide on **Creating a Basic Arena** and check the below examples:
 
-#### Creating an Arena for a BG `battleground` Custom Arena:
+#### Creating an Arena for a BG `battleground` Custom Arena
 1. In this tutorial we are creating a BattleGround arena, this means we'll use the `/bg` command alias to create the arena. By default a battleground match has 4 people fighting it out, so we should add at least 4 spawns.
 2. Stand at the location where you want the `myBGArena` **first spawn location** to be and:
 3. Type: `/arena create myBGArena` (creates arena called `myBGArena` and sets 1st spawn).
@@ -85,7 +85,7 @@ To create different types of arena's, refer to above guide on **Creating a Basic
 
 After this all players will be transported in where the person with the most kills at the end of 1 minute wins. 
 
-#### Creating an Arena for a FFA `free-for-all` Custom Arena:
+#### Creating an Arena for a FFA `free-for-all` Custom Arena
 1. In this tutorial we are creating a Free-For-All Arena, this means we'll use the `/ffa` command alias to create the arena. By default a Free-For-All usually has many players fighting, so we're going to add a bunch of spawn points.
 2. Stand at the location where you want the `myFFA` **first spawn location** to be and:
 3. Type: `/ffa create myFFA` (creates arena called `myFFA` and sets 1st spawn).
