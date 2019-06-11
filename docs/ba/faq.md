@@ -13,26 +13,26 @@ The primary difference is how they are started by default, and how you join.
 What makes it tricky is there are a lot of options to start both in different ways. Matches can be started with '''defaultOptions.matchEnableForceStart: true''' which will make the game start after a set time as long as the minimum number of teams have joined. Events can be started with '''defaultOptions.allowPlayerCreation''' which allows them to auto start their own events. Events can also skip the join phase by enabling a ready block '''defaultOptions.enablePlayerReadyBlock: true'''
 ## Statistic Questions
 ### How do I make leaderboards?
-You need the BattleTracker plugin, BA's sister plugin that handles PVP and PVE deaths and interactions. This also allows for leaderboard signs.
+You need the [BattleTracker](bt/index.md) plugin, BA's sister plugin that handles PVP and PVE deaths and interactions. This also allows for leaderboard signs, ELO, rankings, and more!
 ### Where it says Player1[0] ,how do I make it so they start of with 1200 rating?
-For ELO calculations and statistics, you need the above mentioned BattleTracker plugin.
+For ELO calculations and statistics, you need the above mentioned [BattleTracker](bt/index.md) plugin.
 ### How do I enable player ranking, and /arena top?
-See both above points about BattleTracker.
+See both above points about [BattleTracker](bt/index.md).
 ## Debug Questions
 ### My server crashed and players lost their items. What can I do to fix it?
-There is a system in place that stores the players inventories and you can give those items back. See [[BattleArena/Commands#Debug_Commands | Admin Debug Commands - Listing a players saved inventories]]
+There is a backup inventory saving system in place that stores the players inventories so you can restore them in the event of a mishap or error. See [BA/Debug](ba/debug.md)
 ## Message Questions
 ### How do I change who gets messages?
-There is a section in the config.yml that shows how to set up messages to the server and players. [[BattleArena/Config#Message_Options | Message Options]]
+There is a section in the `config.yml` (see [Config](ba/config.md)) that manages and handles server and player messages.
 ## Config Questions
 ### I don't want participants to drop their items. What can I do?
-[[BattleArena/Config#Clearing_Inventory_on_Death | Clearing players inventory on death]]
+See the [Customizing Arenas](ba/settings.md) page for info on how to manage arena settings.
 ### I want to change how many people can play. What can I do?
-You change these by changing the options nTeams (number of teams), and teamSize (how many players per team, 1 for solo). Here are some [[BattleArena/Config#Changing_the_number_of_players_on_each_team | examples]]
+You change these by changing the options `nTeams` (number of teams), and `teamSize` (how many players per team, 1 for solo). See [Customizing Arenas](ba/settings.md) for more info on that.
 ### Where is the list of item enchants!!!!??
-View the following page [[BattleArena/ItemEnchants | Item Enchants]]
+See the following page for [Enchantment Types & Info](enchants.md).
 ### How do you change the number of players in a match?
-Check out the Config setup help - [[BattleArena/Config#Changing_the_number_of_players_on_each_team | Changing the number of players on each team]]
+Check out the Config Help Page - See [Customizing Config](ba/config.md) for more info.
 ### How do you make a arena were people bring their own equipment?
 You take out the option `clearInventory` from both these stages, `preReqs` and `onComplete`. Complete example with players bringing their own equipment:
 ```yaml
