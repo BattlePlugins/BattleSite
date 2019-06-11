@@ -1,7 +1,7 @@
 ---
 id: debug
 title: Debug Commands & Options
-sidebar_label: Debug Info
+sidebar_label: Debug Help
 ---
 
 ## This is a Header
