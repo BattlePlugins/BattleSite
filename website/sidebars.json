@@ -6,6 +6,6 @@
     "Common Docs": ["potions", "enchants", "item-syntax"]
   },
   "dev": {
-    "Dev": ["dev/index", "dev/command_executor", "dev/modules", "dev/tutorial"],
+    "Dev": ["dev/index", "dev/command_executor", "dev/modules", "dev/tutorial"]
   }
 }
