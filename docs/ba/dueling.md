@@ -16,14 +16,18 @@ Can also work with Custom Arenas like `spleef`, `painball`, etc.
 -   `/spleef duel clovisd cunningdevil666` - *Challenge users `clovisd` and `cunningdevil666` (both) to a spleef duel.*
 -   `/col duel TeamAlpha` - *Challenge team `TeamAlpha` to a Colosseum duel.*
 
-## Accepting / Rejecting Duels
-When challenging someone to a duel, participants need to accept or deny the invites:
--   `/arena reject`: Reject / Refuse a challenge.
+## Accepting / Rejecting / Cancelling Duels
+When challenging someone to a duel, participants need to accept or deny the invite. You can also choose to cancel pending Duel challenges.
+
+### Accepting a Challenge
 -   `/arena accept`: Accept the Duel challenge.
 
 Accepting a challenge with a money charge / fee will result in the money being charged on accept.
 
-## Canceling Duel Request
+### Rejecting a Challenge
+-   `/arena reject`: Reject / Refuse a challenge.
+
+### Canceling a Challenge Request
 -   `/arena rescind`: You can use this to cancel your challenge request.
 
 ## Advanced Player(s) Challenge
