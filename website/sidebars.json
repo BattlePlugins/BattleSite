@@ -7,8 +7,8 @@
   },
   "BA": {
   	"Getting Started": ["ba/index", "ba/getting-started", "ba/faq"],
-    "Arenas": ["ba/arenas/simple", "ba/arenas/advanced", "ba/arenas/custom", "ba/arenas/deleting", "ba/arenas/types", "ba/arenas/regions"],
-    "Configuration": ["ba/config/simple", "ba/config/advanced", "ba/config/commands", "ba/config/permissions", "ba/config/debug"],
+    "Arena Management": ["ba/arenas/creating-simple", "ba/arenas/creating-advanced", "ba/arenas/custom", "ba/arenas/deleting", "ba/arenas/types", "ba/arenas/regions"],
+    "Configuration": ["ba/config/config-simple", "ba/config/config-advanced", "ba/config/commands", "ba/config/permissions", "ba/config/debug"],
 	"Customization": ["ba/customization/event", "ba/customization/classes", "ba/customization/rooms", "ba/customization/spawns", "ba/customization/stage", "ba/customization/dueling", "ba/customization/signs", "ba/customization/teams"],
 	"Codex": ["potions", "enchants", "item-syntax"]
   },
