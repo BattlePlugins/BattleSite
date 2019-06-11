@@ -1,0 +1,139 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Teams Info &amp; Setup · Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;[[File:AdvancedBA.png|center|link=http://wiki.battleplugins.org/Category:BattleArena:Advanced]]&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Teams Info &amp; Setup · Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://docs.battleplugins.org/"/><meta property="og:description" content="&lt;p&gt;[[File:AdvancedBA.png|center|link=http://wiki.battleplugins.org/Category:BattleArena:Advanced]]&lt;/p&gt;
+"/><meta property="og:image" content="https://docs.battleplugins.org/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://docs.battleplugins.org/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://kit.fontawesome.com/24df4ee1a3.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/header.png" alt="Documentation"/><h2 class="headerTitleWithLogo">Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/index" target="_self">Get</a></li><li class=""><a href="/docs/" target="_self">Docs</a></li><li class=""><a href="/docs/ba/" target="_self">BA</a></li><li class=""><a href="/docs/bt/" target="_self">BT</a></li><li class=""><a href="/docs/dev/" target="_self">Dev</a></li><li class=""><a href="https://github.com/battleplugins" target="_self">GitHub</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/BattlePlugins/BattleDocs/tree/master/docs/ba/arenas/custom.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Teams Info &amp; Setup</h1></header><article><div><span><p>[[File:AdvancedBA.png|center|link=http://wiki.battleplugins.org/Category:BattleArena:Advanced]]
+[[Category: BattleArena:Advanced]]
+[[Category: BattleArena]]
+You can create your own custom matches and events with separate names, commands, messages, and options.
+To do this you will have to make a new config file with the properties you will want. The important thing is that the name of the config file and the configuration section be named the same thing.
+For example if you have a SuperArenaConfig.yml, then the inside should look like.
+Notice the config name and the configuration section match.</p>
+<p>==Example==
+Example creating a new Paintball match called SuperPaintball.</p>
+<h1><a class="anchor" aria-hidden="true" id="copy-the-https-githubcom-alkarinv-arenapaintball-blob-master-paintballconfigyml-arenapaintball-paintballconfigyml-and-make-a-new-config-file-called-arenapaintball-superpaintballconfigyml"></a><a href="#copy-the-https-githubcom-alkarinv-arenapaintball-blob-master-paintballconfigyml-arenapaintball-paintballconfigyml-and-make-a-new-config-file-called-arenapaintball-superpaintballconfigyml" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Copy the [[<a href="https://github.com/alkarinv/ArenaPaintball/blob/master/PaintballConfig.yml">https://github.com/alkarinv/ArenaPaintball/blob/master/PaintballConfig.yml</a> ArenaPaintball/PaintballConfig.yml]] and make a new config file called ArenaPaintball/SuperPaintballConfig.yml</h1>
+<h1><a class="anchor" aria-hidden="true" id="now-open-up-superpaintballconfigyml-and-edit-it-to-look-like-the-following"></a><a href="#now-open-up-superpaintballconfigyml-and-edit-it-to-look-like-the-following" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Now open up SuperPaintballConfig.yml and edit it to look like the following:</h1>
+<p><source lang="csharp">
+configVersion: 2.0</p>
+<p>SuperPaintball:
+enabled: true
+database: SuperPaintball # or delete if you dont want wins/losses/top, needs BattleTracker
+arenaClass: Paintball ## needs to be Paintball, (giving this match the abilities of a normal paintball)
+rated: true # if database is enabled
+prefix: &quot;&amp;f[SuperPaintball]&amp;e&quot;
+joinType: Queue
+victoryCondition: LastManStanding
+nTeams: 2+
+teamSize: 1
+cmd: spb #what they will have to type to join in this case /spb join
+### You can delete any stages/transitions that have no options
+### for a list of options see wiki
+defaults:
+options: []
+preReqs: ## Prerequisites for joining
+options: []
+onEnter:
+options: [storeAll]
+onLeave:
+options: [restoreAll]
+onJoin:  ## when they join the match
+options: []
+onPreStart: ## x seconds before onStart
+options: []
+onStart: ## Starting
+options: [teleportIn, pvpOn]
+onSpawn: ## what happens when a player spawns
+options: [giveItems, hunger=20, health=20]
+items:
+- snowball: 128
+onDeath: ## what happens when a player dies
+options: []
+onComplete: ## what happens when things end
+options: [teleportOut, clearInventory]
+winner: ## what to give the winner
+options: [health=20, hunger=20]
+losers: ## what to give the losers
+options: []
+</source></p>
+<p>The important lines are switching over places that have Paintball to SuperPaintball and adding the two lines, arenaType and arenaClass.
+arenaType specifies what type of arenas this new competition will use. If you specify spleef, it would use spleef arenas, if you specify battleground, it will use battleground arenas. Normally you will want to set this to whatever your custom competition is, in this case &quot;SuperPaintball&quot;.
+arenaClass specifies what properties this competition will have. Paintball has the property of increasing snowball damage, so we want to use this. so we want to set &quot;arenaClass: Paintball&quot;</p>
+<p>==Example 2==
+Recreating the old event(JoinPhase) paintball, EPaintball</p>
+<h1><a class="anchor" aria-hidden="true" id="copy-the-https-githubcom-alkarinv-arenapaintball-blob-master-paintballconfigyml-arenapaintball-paintballconfigyml-and-make-a-new-config-file-called-arenapaintball-epaintballconfigyml"></a><a href="#copy-the-https-githubcom-alkarinv-arenapaintball-blob-master-paintballconfigyml-arenapaintball-paintballconfigyml-and-make-a-new-config-file-called-arenapaintball-epaintballconfigyml" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Copy the [[<a href="https://github.com/alkarinv/ArenaPaintball/blob/master/PaintballConfig.yml">https://github.com/alkarinv/ArenaPaintball/blob/master/PaintballConfig.yml</a> ArenaPaintball/PaintballConfig.yml]] and make a new config file called ArenaPaintball/EPaintballConfig.yml</h1>
+<h1><a class="anchor" aria-hidden="true" id="now-open-up-epaintballconfigyml-and-edit-it-to-look-like-the-following"></a><a href="#now-open-up-epaintballconfigyml-and-edit-it-to-look-like-the-following" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Now open up EPaintballConfig.yml and edit it to look like the following</h1>
+<p><source lang="csharp">
+configVersion: 2.0</p>
+<h2><a class="anchor" aria-hidden="true" id="this-should-be-places-in-the-plugin-directory"></a><a href="#this-should-be-places-in-the-plugin-directory" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>This should be places in the plugin directory</h2>
+<h2><a class="anchor" aria-hidden="true" id="for-more-help-configuring-see-the-wiki"></a><a href="#for-more-help-configuring-see-the-wiki" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>for more help configuring see the wiki</h2>
+<h2><a class="anchor" aria-hidden="true" id="https-githubcom-alkarinv-battlearena-wiki"></a><a href="#https-githubcom-alkarinv-battlearena-wiki" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="https://github.com/alkarinv/BattleArena/wiki">https://github.com/alkarinv/BattleArena/wiki</a></h2>
+<h2><a class="anchor" aria-hidden="true" id="change-this-file-to-customize-your-event"></a><a href="#change-this-file-to-customize-your-event" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Change this file to customize your event</h2>
+<p>EPaintball:
+enabled: true
+command: epb
+arenaClass: Paintball ## needs to be Paintball, (giving this match the abilities of a normal paintball)
+database: ePaintball # or delete if you dont want wins/losses/top, needs BattleTracker
+prefix: &quot;&amp;a[ePaintball]&amp;e&quot;
+joinType: JoinPhase
+victoryCondition: LastManStanding
+nTeams: 2+
+teamSize: 1
+matchTime: 300
+preReqs:
+options: []
+onEnter:
+options: [storeAll]
+onLeave:
+options: [restoreAll]
+onJoin:
+options: [teleportIn, woolTeams, pvpOff]
+onPrestart:
+options: [pvpOff]
+onStart:
+options: [pvpOn]
+onComplete:
+options: [teleportOut]
+onDeath:
+options: [randomRespawn, clearInventory]
+onSpawn:
+options: [enchants, giveItems, health=20, hunger=20, deEnchant, invulnerable=2]
+items:
+- snow_ball: 128
+winner:
+options: [health=20, hunger=20]
+losers:
+options: [health=20, hunger=20]
+</source>
+The important lines are switching over places that have Paintball to SuperPaintball and adding the two lines, arenaType and arenaClass.
+arenaType specifies what type of arenas this new competition will use. If you specify spleef, it would use spleef arenas, if you specify battleground, it will use battleground arenas. Normally you will want to set this to whatever your custom competition is, in this case &quot;SuperPaintball&quot;.
+arenaClass specifies what properties this competition will have. Paintball has the property of increasing snowball damage, so we want to use this. so we want to set &quot;arenaClass: Paintball&quot;</p>
+<p>==Other Useful Options==
+[[BattleArena/Tournaments|Tournaments]]</p>
+<p>[[BattleArena/Scheduling Events | Scheduling Events]]</p>
+<p>[[BattleArena/Default Games | Default Games]]</p>
+<p>==Return to Index==
+[[BattleArena]]</p>
+<p>[[Main Page]]</p>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 6/10/2019 by Clovis</em></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#this-should-be-places-in-the-plugin-directory">This should be places in the plugin directory</a></li><li><a href="#for-more-help-configuring-see-the-wiki">for more help configuring see the wiki</a></li><li><a href="#https-githubcom-alkarinv-battlearena-wiki">https://github.com/alkarinv/BattleArena/wiki</a></li><li><a href="#change-this-file-to-customize-your-event">Change this file to customize your event</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/footer.png" alt="Documentation" width="44" height="44"/></a><div><h5>Docs Quick Start:</h5><a href="/docs/en/ba.html">BattleArena Docs</a><a href="/docs/en/bt.html">BattleTracker Docs</a><a href="/docs/en/dev.html">API and Development Docs</a><a href="/docs/en/other.html">Other Plugins &amp; Docs</a></div><div><h5>Organization Info:</h5><a href="https://discord.gg/tMVPVJf"><i class="fab icon-white fa-discord"></i> Discord Support</a><a href="https://github.org/BattlePlugins"><i class="fab icon-white fa-github-square"></i> Github Org</a><a href="https://battleplugins.org/"><i class="fas icon-white fa-desktop"></i> Website</a><a href="https://wiki.battleplugins.org/"><i class="fas icon-white fa-scroll"></i> Legacy Wiki</a></div><div><h5>About the Docs:</h5><a href="https://github.com/BattlePlugins/BattleDocs">Contribute to the Docs Today</a><a href="http://ci.battleplugins.org/jobs/BattleDocs">Build Status: <img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></a><a href="https://github.com/BattlePlugins/BattleDocs">Doc Size: <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/battleplugins/battledocs.svg?style=flat-square"/></a><a href="https://github.com/BattlePlugins/BattleDocs/pulls">Pending Updates: <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/battleplugins/battledocs.svg?style=flat-square"/></a><br/><img alt="GitHub followers" src="https://img.shields.io/github/followers/battleplugins.svg?label=Follow&amp;style=social"/> | <img alt="GitHub stars" src="https://img.shields.io/github/stars/battleplugins/battledocs.svg?style=social"/> | <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/battleplugins/battledocs.svg?label=Watch&amp;style=social"/></div></section><div><center><h5 class="footer-slogan">Hosted By:</h5><a href="https://cl6web.com" class="footer-slogan"><img src="/img/cl6.png" alt="CL6 Hosting" height="60"/></a></center></div><section class="copyright">Copyright © 2019 BattlePlugins.</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                appId: '16AVNKSJVT',
+                apiKey: 'b62c31628eaff3105e45e9be758b9d65',
+                indexName: 'battleplugins',
+                inputSelector: '#search_input_react'
+              });
+            </script></body></html>
