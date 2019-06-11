@@ -1,7 +1,7 @@
 {
   "docs": {
   	"BattleDocs": ["index"],
-    "BattleArena": ["ba/index", "ba/getting-started", "ba/arenas", "ba/config", "ba/commands", "ba/permissions", "ba/settings", "fa/dueling", "ba/faq"],
+    "BattleArena": ["ba/index", "ba/getting-started", "ba/arenas", "ba/config", "ba/commands", "ba/permissions", "ba/settings", "ba/dueling", "ba/faq"],
     "BattleTracker": ["bt/index", "bt/faq", "bt/history"],
     "Common Docs": ["potions", "enchants", "item-syntax"]
   },
