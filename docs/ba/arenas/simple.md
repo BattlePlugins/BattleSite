@@ -1,5 +1,5 @@
 ---
-id: arenas
+id: creating-simple
 title: Creating Simple Arenas
 sidebar_label: Creating (Simple)
 ---

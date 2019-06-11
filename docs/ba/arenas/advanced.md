@@ -1,6 +1,6 @@
 ---
 id: creating-advanced
-title: Creating & Deleting Arenas
+title: Creating Advanced Arenas (Type)
 sidebar_label: Creating (Advanced)
 ---
 ### Creating Different Type Arenas

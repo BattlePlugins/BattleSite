@@ -1,7 +1,7 @@
 ---
-id: arena-regions
-title: Teams Info & Setup
-sidebar_label: Arena
+id: regions
+title: Arena Regions
+sidebar_label: Arena Regions
 ---
 [[File:PowerBA.png|center|link=http://wiki.battleplugins.org/Category:BattleArena:Power]]
 [[Category: BattleArena:Power]]

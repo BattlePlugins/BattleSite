@@ -1,6 +1,6 @@
 ---
-id: custom-modes
-title: Teams Info & Setup
+id: custom
+title: Custom Arena Modes
 sidebar_label: Custom Modes
 ---
 [[File:AdvancedBA.png|center|link=http://wiki.battleplugins.org/Category:BattleArena:Advanced]]
