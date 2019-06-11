@@ -4,7 +4,7 @@ title: Duels & Team Battles
 sidebar_label: Dueling
 ---
 ## Simple Player(s) Challenge
-Choose a match type (see [Arena Types](https://docs.battleplugins.org/docs/ba/arenas#arena-types)):
+Choose a match type (see: [Arena Types](https://docs.battleplugins.org/docs/ba/arenas#arena-types)):
 Examples include built-in Types like: `skirmish`, `bg`, `arena`, etc
 Can also work with Custom Arenas like `spleef`, `painball`, etc.
 
@@ -47,7 +47,7 @@ You can challenge other player with special victory critieria by specifying opti
     -  `/paintball duel clovisd platinum 100` - *Challenge `clovisd` to a duel in `paintball`. Each person will pay 100 at the start, winner takes all. (Assuming your server uses platinum as the currency)*
 
 ## Duel Permissions
-Permission to start, create, and manage duels require the Arena type (see :[Arena Types](https://docs.battleplugins.org/docs/ba/arenas#arena-types)) and the following structure:
+Permission to start, create, and manage duels require the Arena type (see: [Arena Types](https://docs.battleplugins.org/docs/ba/arenas#arena-types)) and the following structure:
 > `arena.<match type>.duel`
 
 **Examples:**
