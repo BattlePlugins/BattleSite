@@ -1,6 +1,6 @@
 ---
 id: creating-advanced
-title: Creating Advanced Arenas (Type)
+title: Creating Advanced Arenas
 sidebar_label: Creating (Advanced)
 ---
 ### Creating Different Type Arenas
