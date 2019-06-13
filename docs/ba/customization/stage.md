@@ -5,11 +5,8 @@ sidebar_label: Stage
 ---
 ## Stage Options
 
-[[File:AdvancedBA.png|center|link=http://wiki.battleplugins.org/Category:BattleArena:Advanced]]
-[[Category: BattleArena:Advanced]]
-[[Category: BattleArena]]
-==Valid Options==
-===Normal Options===
+### Valid Options
+### Normal Options
 Valid options for all stages (excluding preReqs):
 * clearInventory : clears the inventory of the player
 * giveItems: give the player the specified items. needs a list under items: [[Enchantments | Valid Item Enchants]]
@@ -46,7 +43,7 @@ Valid options for all stages (excluding preReqs):
 * flightOn : set the players flight on
 * flightSpeed=<float> : set the players flight speed
 
-===Defaults Options===
+### Defaults Options
 Options that are only valid inside defaults:
 * alwaysOpen: This game once started never ends (automatically sets alwaysJoin as well)
 * individualWins: A player can win or lose separately and not end the game
@@ -55,7 +52,7 @@ Options that are only valid inside defaults:
 * alwaysWoolTeams: always give the players wool heads
 * alwaysTeamNames: always use the team names (like red/blue) as opposed to the player names
 
-===Prerequisite Options===
+### Prerequisite Options
 Options that are valid preReqs:
 * noInventory : Players can not join or be teleported into the arena if they have items.
 * needArmor : Players need to have armor to join or be teleported in
@@ -66,9 +63,9 @@ Options that are valid preReqs:
 * levelRange=<range> : Only allow players that have the specified levels to join.
 ** Examples. levelRange:10+ , only allow players that have 10 or more levels to join (Works with Heroes classes). levelRange: 2-5 , only allow players from levels 2 through 5 to join
 
-====Example====
+### Example
 An example that will save/restore a players inventory, charge them 10 money, and only allows players to join between levels 2 and 10.
-<source lang="csharp">
+```
 skirmish:
     preReqs:
         options: [money=10, levelRange=2-10]
@@ -76,9 +73,9 @@ skirmish:
         options: [storeAll]
     onLeave:
         options: [restoreAll]
-</source>
+```
 An example that will require players to bring in their own equipment that will charge them 10 money. They will also have to have at least a diamond sword and a bow with 16 arrows. They will take whatever they get from the loser.
-<source lang="csharp">
+```
 skirmish:
     preReqs:
         options: [money=10, levelRange=2-10, needItems]
@@ -90,5 +87,4 @@ skirmish:
         options: []
     onLeave:
         options: []
-</source>
-
+```
