@@ -2,17 +2,17 @@
 id: enchants
 title: Enchantment Info
 ---
-== Item Enchants ==
+## Item Enchants
 Valid formats are 
-* &lt;name>
-* &lt;name>:&lt;power>
+* `<name>`
+* `<name>:<power>`
 
-=== Example ===
-* '''- diamond_sword sharp:3 fire:2 1''' ( give 1 diamond sword with sharpness 3 and fire 2)
+## Example
+* `- diamond_sword sharp:3 fire:2 1` ( give 1 diamond sword with sharpness 3 and fire 2)
 
-== Enchant Table ==
+## Enchant Table
 
-{| class="wikitable"
+{|
 |-
 ! scope="col"| EID
 ! scope="col"| Plugin Abbr.
@@ -233,9 +233,9 @@ Valid formats are
 |}
 
 
-=== 1.13+ Enchants ===
+## 1.13+ Enchants 
 These enchantments currently have no ID as they were added in 1.13+ which removed the usage of IDs. Due to how the enchantment system is built in BattleArena, there is still support for using enchantment IDs for the enchants that have them.
-{| class="wikitable"
+{| 
 |-
 ! scope="col"| Plugin Abbr.
 ! scope="col"| Minecraft Name
@@ -285,6 +285,3 @@ These enchantments currently have no ID as they were added in 1.13+ which remove
 |3
 |Reduces reload time for crossbow
 |}
-
-== Return to Index ==
-[[Main Page]]
