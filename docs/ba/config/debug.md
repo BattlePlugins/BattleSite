@@ -4,7 +4,7 @@ title: Debug Commands & Options
 sidebar_label: Debug
 ---
 
-===Debug Commands===
+## Debug Commands
 * /battleArenaDebug giveTeam <player> <team index>
 * /battleArenaDebug addKill <player>
 * /battleArenaDebug giveHelm <item>
@@ -26,7 +26,7 @@ https://github.com/BattlePlugins/BattleArena/blob/master/src/java/mc/alk/arena/e
 * debug
 * teams
 
-===Inventory Commands===
+## Inventory Commands
 
 Listing a players saved inventories:
 * /ba listInv <player>
@@ -35,6 +35,5 @@ Listing a players saved inventories:
 Restoring a players inventory from a saved inventory:
 First do /ba listInv to find which inventory index you wantto restore
 * /ba restoreInv <player> <index>
-</code>
 
 

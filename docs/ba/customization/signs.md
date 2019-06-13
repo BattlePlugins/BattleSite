@@ -18,7 +18,7 @@ Bellow are a few examples of how the signs could be created.
 ### Example 1
 To make a sign to join Spleef in the arena called "NetherFort" you simply put the following into the sign:
 
-```
+```yaml
 [spleef]
 join
 NetherFort
@@ -30,7 +30,7 @@ And the outcome will be (Note: you don't put anything on the fourth line!):
 ### Example 2
 To make a sign to join Skirmish in the arena called "Arena1" you simply put the following into the sign:
 
-```
+```yaml
 [Skirmish]
 join
 Arena1
@@ -42,7 +42,7 @@ And the outcome will be (Note: you don't put anything on the fourth line!):
 ### Example 3
 To make a sign to join BattleGround (note: for a shorter version, BattleGround is also called 'bg') in the arena called "Battle1" you simply put the following into the sign:
 
-```
+```yaml
 [bg]
 join
 Battle1
@@ -54,7 +54,7 @@ And the outcome will be (Note: you don't put anything on the fourth line!):
 ## Creating signs to Leave
 ### Example 1 
 To make a sign to leave a battleground.  The word "bg" goes on the first line, the word "leave" goes on the second line. We can write out the word battleground, but its long, so instead lets use it's command '''bg'''
-```
+```yaml
 bg
 leave
 ```
@@ -64,7 +64,7 @@ It is possible to set up the signs to join a specific team for the game. By usin
 ### Example 1
 To make a sign to join BattleGround (note: for a shorter version, BattleGround is also called 'bg') in the arena called "Battle3" and in order to join the team "red" you simply put the following into the sign:
 
-```
+```yaml
 [bg]
 join
 Battle3 red
@@ -76,7 +76,7 @@ And the outcome will be (Note: you don't put anything on the fourth line!):
 ### Example 2
 To make a sign to join BattleGround (note: for a shorter version, BattleGround is also called 'bg') in the arena called "Battle3" and in order to join the team "blue" you simply put the following into the sign:
 
-```
+```yaml
 [bg]
 join
 Battle3 blue

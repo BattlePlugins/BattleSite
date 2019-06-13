@@ -65,7 +65,7 @@ Options that are valid preReqs:
 
 ### Example
 An example that will save/restore a players inventory, charge them 10 money, and only allows players to join between levels 2 and 10.
-```
+```yaml
 skirmish:
     preReqs:
         options: [money=10, levelRange=2-10]
@@ -75,7 +75,7 @@ skirmish:
         options: [restoreAll]
 ```
 An example that will require players to bring in their own equipment that will charge them 10 money. They will also have to have at least a diamond sword and a bow with 16 arrows. They will take whatever they get from the loser.
-```
+```yaml
 skirmish:
     preReqs:
         options: [money=10, levelRange=2-10, needItems]

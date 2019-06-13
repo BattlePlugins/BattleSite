@@ -3,17 +3,17 @@ id: config-advanced
 title: Editing the `config.yaml` File
 sidebar_label: Config (Advanced)
 ---
-[[File:AdvancedBA.png|center|link=http://wiki.battleplugins.org/Category:BattleArena:Advanced]]
-[[Category: BattleArena:Advanced]]
-[[Category: BattleArena]]
-<center><strong>Please excuse the messiness of this page, it is still a work in progress</strong></center>
-== Server Currency ==
+
+## Server Currency
 If your server has a form of currency, you can tell BattleArena the name so it 
 can display accurate messages. 
-  moneyName: Gold
+```yaml
+    moneyName: Gold
+```
 
-== Adding New Classes ==
+## Adding New Classes
 Here are some examples of adding classes:
+```yaml
   classes:
       gladiator:
           items:
@@ -58,8 +58,10 @@ Here are some examples of adding classes:
               - resistance:2:900 # reduce damage taken
               - jump:2:900 # jump 2 blocks higher than normal
               - regen:1:900 # regen life
+```
 
-== default Match Options (these can be overridden by each match type) ==
+## default Match Options (these can be overridden by each match type) 
+```yaml
 defaultMatchOptions:
     secondsTillMatch: 3 ## Time between onPrestart and onStart
     secondsToLoot: 5 ## Time after winning to run around and collect loot
@@ -142,9 +144,9 @@ defaultMatchOptions:
 ## Some Events like the FreeForAll only have 1 match, but still have the open phase that lasts until someone starts it
 ### Match
 ## a single battle between teams
-
+```
 ### Arena
-<pre>
+```yaml
 arena:
     enabled: true
     type: versus
@@ -168,10 +170,10 @@ arena:
         options: [teleportOut, clearInventory]
     winner:
         options: [health=20, hunger=20]
-</pre>
+```
 
 ### Skirmish 
-<pre>
+```yaml
 skirmish:
     enabled: true
     type: versus
@@ -184,10 +186,10 @@ skirmish:
         options: [teleportOut]
     winner:
         options: [health=20, hunger=20]
- </pre>
+```
 
 ### BattleGround
-<pre>
+```yaml
 battleground:
     enabled: true
     command: bg
@@ -227,10 +229,10 @@ battleground:
         enchants:
             - speed:1:900
             - resistance:1:900
-</pre>
+```
      
 ### Colliseum
-<pre>
+```yaml
 colliseum:
     enabled: true
     command: col
@@ -268,11 +270,11 @@ colliseum:
         enchants:
             - speed:1:900
             - resistance:1:900
-</pre>
+```
 
-#### EVENTS ####
+## EVENTS
 ### FFA Event
-<pre>
+```yaml
 freeForAll:
     enabled: true
     command: ffa
@@ -310,10 +312,10 @@ freeForAll:
         enchants:
             - speed:2:900
             - resistance:2:900
-</pre>
+```
 
 ### Death Match Event
-<pre>
+```yaml
 deathMatch:
     enabled: true
     command: dm
@@ -352,10 +354,10 @@ deathMatch:
         enchants:
             - speed:2:900
             - resistance:2:900
-</pre>  
+```
  
 ## Tournament Event
-<pre>
+```yaml
 tourney:
     name: Punch Drunk
     type: Versus
@@ -388,10 +390,4 @@ tourney:
             - speed:2:900
             - resistance:2:900
             - haste:1:900
-            - regen:1:900
-</pre>
-
-== Return to Index ==
-[[BattleArena]]
-
-[[Main Page]]
+```
