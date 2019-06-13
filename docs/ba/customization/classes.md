@@ -4,20 +4,17 @@ title: Arena Classes & Options
 sidebar_label: Classes
 ---
 
-## Classes
+# Classes
 
-[[File:PowerBA.png|center|link=http://wiki.battleplugins.org/Category:BattleArena:Power]]
-[[Category: BattleArena:Power]]
-[[Category: BattleArena]]
-== Creating new classes ==
-Just add another class underneath '''classes:''' inside of the '''classes.yml''' in the BattleArena folder.
+## Creating new classes
+Just add another class underneath `classes:` inside of the `classes.yml` in the BattleArena folder.
 
 items and enchant sections are both optional. 
 
 Players will still need permissions to use see [[BattleArena/Permissions#Class_Signs|Class Perms]]
 
-=== Example ===
-<pre>
+### Example
+```
 classes:
     myNewClassName:
         items:
@@ -26,13 +23,13 @@ classes:
             - bread: 3
         enchants:
             - speed:2
-</pre>
+```
 
-=== Charging money for classes ===
+### Charging money for classes
 
 This feature will have to be added: As a temporary solution, use the doCommands section.
 
-<pre>
+```
 classes:
     myNewClassName:
         items:
@@ -43,11 +40,11 @@ classes:
             - speed:2
         doCommands:
             - console money take player 100
-</pre>
+```
 
-Just substitute '''money take''' with the equivalent command of your economy plugin.
+Just substitute `money take` with the equivalent command of your economy plugin.
 
-== Default Classes ==
+### Default Classes
 * Gladiator
 * Archer
 * Monk
@@ -57,59 +54,54 @@ This allows players to click on a sign and receive a class. This only works for 
 
 To create a class sign simply add a sign with the first line as the name of the class.
 
-=== Example ===
-# line1: '''Gladiator'''
+### Example 
+# line1: ```Gladiator```
 
 This should create a sign with
-# '''* Gladiator'''
+# line1: ```* Gladiator```
 
 Only players inside a match will be able to use this sign.
 
-== Giving people default classes inside of a match/event ==
-Chooses which stage/transition they should get the class in, onSpawn is usually a good place.  Then put in the field '''giveClass''' underneath '''options:''' inside of the '''config.yml''' in the BattleArena folder.
-=== Example ===
-<pre>
+## Giving people default classes inside of a match/event
+Chooses which stage/transition they should get the class in, onSpawn is usually a good place.  Then put in the field `giveClass` underneath `options:` inside of the `config.yml` in the BattleArena folder.
+### Example
+```
     onSpawn:
         options: []
         giveClass:
             default: gladiator
-</pre>
-== Giving different teams different classes ==
+```
+## Giving different teams different classes 
 Say you wanted team1 to be all gladiators, team2 to be all archers, and any other team to be monks.
-under '''giveClass'''. put '''team1: gladiator''', '''team2: archer''', and '''default: monk'''
-=== Example ===
-<pre>
+under `giveClass`. put `team1: gladiator`, `team2: archer`, and `default: monk`
+### Example
+```
     onSpawn:
         options: []
         giveClass:
             team1: gladiator
             team2: archer
             default: monk
-</pre>
+```
 
-== Using Heroes classes ==
+## Using Heroes classes
 To use heroes as classes you will first need to add the items and enchants you want to give for each Heroes class into the BattleArena/classes.yml(see this for more info [[https://github.com/alkarinv/BattleArena/wiki/Classsetup#wiki-Creating_new_classes]]).
 
 Once you have created your classes you can specify them like normal through the giveClass.
 
-=== Example ===
-<pre>
+### Example
+```
     onSpawn:
         options: []
         giveClass:
             default: Warrior
-</pre>
+```
 
-There is also a new class used only used for Heroes '''chosenClass''' which will allow players to receive the items configured in the BattleArena/classes.yml for their already chosen class.
-=== Example ===
-<pre>
+There is also a new class used only used for Heroes `chosenClass` which will allow players to receive the items configured in the BattleArena/classes.yml for their already chosen class.
+### Example
+```
     onSpawn:
         options: []
         giveClass:
             default: chosenClass
-</pre>
-
-== Return to Index ==
-[[BattleArena]]
-
-[[Main Page]]
+```
