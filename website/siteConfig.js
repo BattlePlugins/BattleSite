@@ -83,9 +83,9 @@ const siteConfig = {
   
   // Search Options and Settings
   algolia: {
-    apiKey: 'b62c31628eaff3105e45e9be758b9d65',
-    indexName: 'battleplugins',
-    appId: '16AVNKSJVT'
+    apiKey: '2fe8a9725fc83c203f6fcf028f96f25d',
+    indexName: 'battleplugins'
+  //  appId: '16AVNKSJVT'
   },
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.

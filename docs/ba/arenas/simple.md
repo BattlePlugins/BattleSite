@@ -9,7 +9,7 @@ These are the steps that will lead you through creating your first arena.  These
 
 **To create an arena, make sure you:**
 1. Choose a name for that arena. Examples below use the names `myArena` and `icyArena` but each arena needs a good name.
-2. Make sure permissions are setup correctly, see: [[BattleArena/Permissions|Permissions]].
+2. Make sure permissions are setup correctly, see: [BA Permissions](ba/config/permissions.md).
 3. Follow the guides below to setup your at least one spawn point and create your arena:
 
 New Users? Check the `Creating your first Arena` section.
@@ -29,7 +29,7 @@ Want all the nitty gritty? Check the `Creating Arenas for Pros` section.
 
 After this you will both be entered into the arena match where the last man standing wins. See further down for details on waiting rooms, items, and more.
 
-For more information about permissions, see [BA Permissions](ba/permissions.md).
+For more information about permissions, see [BA Permissions](ba/config/permissions.md).
 
 ### Creating More Basic Arenas
 
