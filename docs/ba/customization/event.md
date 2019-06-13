@@ -1,7 +1,7 @@
 ---
 id: event
 title: Arena Event Options
-sidebar_label: Event Actions
+sidebar_label: Events
 ---
 ## Event Options
 
