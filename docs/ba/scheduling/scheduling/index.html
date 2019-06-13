@@ -12,92 +12,41 @@ You can schedule games so that they run periodically. You just add events to the
 <ul>
 <li>Add the events you want to run by using /bas add <commands></li>
 <li>Start the scheduled events /bas start
-you can change the time values in the BattleArena/config.yml under 'defaultOptions.timeBetweenScheduledEvents'</li>
+you can change the time values in the BattleArena/config.yml under <code>defaultOptions.timeBetweenScheduledEvents</code></li>
 </ul>
 <p>===Command===</p>
 <ul>
-<li>'''/bas''' shorthand for '''battleArenaScheduler'''</li>
-<li>'''/bas add <commands that you would normally type to start an event>'''</li>
+<li><code>/bas</code> shorthand for <code>battleArenaScheduler</code></li>
+<li><code>/bas add &lt;commands that you would normally type to start an event&gt;</code></li>
 </ul>
-<p>====Examples====</p>
+<h3><a class="anchor" aria-hidden="true" id="examples"></a><a href="#examples" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Examples</h3>
 <ul>
-<li>'''/bas add tourney auto skirmish'''</li>
-<li>'''/bas add ffa auto'''</li>
-<li>'''/bas add ffa auto teamSize=1+ nTeams=2'''</li>
+<li><code>/bas add tourney auto skirmish</code></li>
+<li><code>/bas add ffa auto</code></li>
+<li><code>/bas add ffa auto teamSize=1+ nTeams=2</code></li>
 </ul>
 <p>===Running the scheduled events===
 This will run the scheduled events in order. Starting when the previous finishes.</p>
 <ul>
-<li>'''/bas start'''</li>
+<li><code>/bas start</code></li>
 </ul>
 <p>===Deleting Events===</p>
 <ul>
-<li>'''/bas delete <number>'''</li>
+<li><code>/bas delete &lt;number&gt;</code></li>
 </ul>
 <p>===Stopping the events===</p>
 <ul>
-<li>'''/bas stop'''</li>
+<li><code>/bas stop</code></li>
 </ul>
 <p>===Listing Scheduled Events===</p>
 <ul>
-<li>'''/bas list'''</li>
+<li><code>/bas list</code></li>
 </ul>
 <p>===Running Scheduled Events at startup===</p>
 <ul>
 <li>see [[BattleArena/Config#Scheduled Event Options|Running Events at Startup]]</li>
 </ul>
-<p>==Other Useful Options==
-[[BattleArena/Config#Scheduled Event Options|Running Events at Startup]]</p>
-<p>[[BattleArena/Tournaments|Tournaments]]</p>
-<p>[[BattleArena/Default Games | Default Games]]</p>
-<p>[[BattleArena/Custom Games | Custom Games]]</p>
-<p>==Return to Index==
-[[BattleArena]]</p>
-<p>[[Main Page]]</p>
-<h2><a class="anchor" aria-hidden="true" id="join-phase"></a><a href="#join-phase" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Join Phase:</h2>
-<p>==Join Phase Games==
-Games that have a join phase must be &quot;opened&quot;, then &quot;started&quot;. While &quot;opened&quot; players can join and leave. You must then &quot;start&quot; the game.
-You can &quot;open&quot; and &quot;start&quot; the match by doing the command '''/<event> auto''', which will open the game for 3 minutes(configurable) then start it automatically.
-===Auto run===
-The simplest way to make an event happen. Do it automatically, it will announce instructions every minute until it starts.</p>
-<ul>
-<li>'''/<event> auto'''
-Example: '''/ffa auto'''</li>
-</ul>
-<p>===Opening an event===
-If you want to control when it opens and starts, use the commands:</p>
-<ul>
-<li>'''/<event> open'''</li>
-<li>'''/<event> start'''
-Example:</li>
-<li>'''/ffa open'''</li>
-<li>'''/ffa start'''</li>
-</ul>
-<p>===Cancelling an event===</p>
-<ul>
-<li>'''/<event> cancel'''</li>
-</ul>
-<p>===Declaring a winner of a match===
-This is not a tournament option, but it's useful sometimes if something unexpected occurs '''/arena winner <player name>'''</p>
-<p>===Full commands with all options===
-Valid Options:</p>
-<ul>
-<li>Rated, Unrated</li>
-<li>teamSize=<range>: Example teamSize=1+ ( 1 or more players per team ): Example teamSize=2 (2 players per team)</li>
-<li>nTeams=<range>: Example nTeams=2 (2 teams competing), Example nTeams=2+ (2 or more teams, useful for tournaments)</li>
-<li>silent : Dont announce event messages</li>
-<li>time=<seconds> : Example time=60, seconds till event starts (only used for auto)</li>
-<li>interval=<seconds>: How often to announce this event is starting messages (only used for auto)</li>
-<li>arena=<arena>: Specify a specific arena to run this event in.
-Example:</li>
-<li>'''/ffa auto teamSize=1 nTeams=2+''' will run a free for all</li>
-<li>'''/ffa auto teamSize=2 nTeams=2+''' will run a 2 team free for all</li>
-<li>'''/ffa auto teamSize=1+ nTeams=2''' will run a competition between 2 teams. Last team with players alive wins.</li>
-</ul>
-<p>== Return to Index ==
-[[BattleArena]]</p>
-<p>[[Main Page]]</p>
-</span></div></article></div><div class="docLastUpdate"><em>Last updated on 6/10/2019 by Clovis</em></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#scheduling-events">Scheduling Events</a></li><li><a href="#join-phase">Join Phase:</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/footer.png" alt="Documentation" width="44" height="44"/></a><div><h5>Docs Quick Start:</h5><a href="/docs/en/ba.html">BattleArena Docs</a><a href="/docs/en/bt.html">BattleTracker Docs</a><a href="/docs/en/dev.html">API and Development Docs</a><a href="/docs/en/other.html">Other Plugins &amp; Docs</a></div><div><h5>Organization Info:</h5><a href="https://discord.gg/tMVPVJf"><i class="fab icon-white fa-discord"></i> Discord Support</a><a href="https://github.org/BattlePlugins"><i class="fab icon-white fa-github-square"></i> Github Org</a><a href="https://battleplugins.org/"><i class="fas icon-white fa-desktop"></i> Website</a><a href="https://wiki.battleplugins.org/"><i class="fas icon-white fa-scroll"></i> Legacy Wiki</a></div><div><h5>About the Docs:</h5><a href="https://github.com/BattlePlugins/BattleDocs">Contribute to the Docs Today</a><a href="http://ci.battleplugins.org/jobs/BattleDocs">Build Status: <img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></a><a href="https://github.com/BattlePlugins/BattleDocs">Doc Size: <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/battleplugins/battledocs.svg?style=flat-square"/></a><a href="https://github.com/BattlePlugins/BattleDocs/pulls">Pending Updates: <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/battleplugins/battledocs.svg?style=flat-square"/></a><br/><img alt="GitHub followers" src="https://img.shields.io/github/followers/battleplugins.svg?label=Follow&amp;style=social"/> | <img alt="GitHub stars" src="https://img.shields.io/github/stars/battleplugins/battledocs.svg?style=social"/> | <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/battleplugins/battledocs.svg?label=Watch&amp;style=social"/></div></section><div><center><h5 class="footer-slogan">Hosted By:</h5><a href="https://cl6web.com" class="footer-slogan"><img src="/img/cl6.png" alt="CL6 Hosting" height="60"/></a></center></div><section class="copyright">Copyright © 2019 BattlePlugins.</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 6/13/2019 by Clovis</em></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#scheduling-events">Scheduling Events</a><ul class="toc-headings"><li><a href="#examples">Examples</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/footer.png" alt="Documentation" width="44" height="44"/></a><div><h5>Docs Quick Start:</h5><a href="/docs/en/ba.html">BattleArena Docs</a><a href="/docs/en/bt.html">BattleTracker Docs</a><a href="/docs/en/dev.html">API and Development Docs</a><a href="/docs/en/other.html">Other Plugins &amp; Docs</a></div><div><h5>Organization Info:</h5><a href="https://discord.gg/tMVPVJf"><i class="fab icon-white fa-discord"></i> Discord Support</a><a href="https://github.org/BattlePlugins"><i class="fab icon-white fa-github-square"></i> Github Org</a><a href="https://battleplugins.org/"><i class="fas icon-white fa-desktop"></i> Website</a><a href="https://wiki.battleplugins.org/"><i class="fas icon-white fa-scroll"></i> Legacy Wiki</a></div><div><h5>About the Docs:</h5><a href="https://github.com/BattlePlugins/BattleDocs">Contribute to the Docs Today</a><a href="http://ci.battleplugins.org/jobs/BattleDocs">Build Status: <img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></a><a href="https://github.com/BattlePlugins/BattleDocs">Doc Size: <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/battleplugins/battledocs.svg?style=flat-square"/></a><a href="https://github.com/BattlePlugins/BattleDocs/pulls">Pending Updates: <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/battleplugins/battledocs.svg?style=flat-square"/></a><br/><img alt="GitHub followers" src="https://img.shields.io/github/followers/battleplugins.svg?label=Follow&amp;style=social"/> | <img alt="GitHub stars" src="https://img.shields.io/github/stars/battleplugins/battledocs.svg?style=social"/> | <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/battleplugins/battledocs.svg?label=Watch&amp;style=social"/></div></section><div><center><h5 class="footer-slogan">Hosted By:</h5><a href="https://cl6web.com" class="footer-slogan"><img src="/img/cl6.png" alt="CL6 Hosting" height="60"/></a></center></div><section class="copyright">Copyright © 2019 BattlePlugins.</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
                 document.addEventListener('keyup', function(e) {
                   if (e.target !== document.body) {
                     return;
