@@ -4,7 +4,7 @@ title: Potions Info
 ---
 ## Effects you can give players
 Valid formats are 
-* `<;name>`
+* `<name>`
 * `<name>:<power>`
 * `<name>:<power>:<time>`
 
