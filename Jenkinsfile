@@ -3,6 +3,6 @@ library identifier: 'BattlePipelineLib@master', retriever: modernSCM(
      remote: 'https://github.com/BattlePlugins/BattleDocs',
      credentialsId: 'github-login'])
 
-compileAndDeployMaven {
+buildAndDeployDocs {
     repo = 'BattleDocs'
 }
