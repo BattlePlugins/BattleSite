@@ -50,15 +50,15 @@ Latest Config File: https://github.com/BattlePlugins/BattleArena/blob/master/src
 
 See these pages for more info on getting started:
 
- 1. [Config (Simple)](https://docs.battleplugins.org/docs/ba/config/config-simple)
- 2. [Config (Advanced)](https://docs.battleplugins.org/docs/ba/config/config-advanced)
- 3. [Commands](https://docs.battleplugins.org/docs/ba/config/commands)
- 4. [Permissions](https://docs.battleplugins.org/docs/ba/config/permissions)
- 5. [Debug](https://docs.battleplugins.org/docs/ba/config/debug)
+ 1. [Config (Simple)](ba/config/config-simple.md)
+ 2. [Config (Advanced)](ba/config/config-advanced.md)
+ 3. [Commands](ba/config/commands.md)
+ 4. [Permissions](ba/config/permissions.md)
+ 5. [Debug](ba/config/debug.md)
 
 ## Getting Stats
 
-If you would like to track statistics from arenas or games, our sister plugin [BattleTracker](https://docs.battleplugins.org/docs/bt/), does all this. You can use it to view how many win, losses, streaks or elo someone has in a specific game. Some arena extensions may use BattleTracker even further and track more information based on the arena type itself. Refer to the BattleTracker page for more information.
+If you would like to track statistics from arenas or games, our sister plugin [BattleTracker](bt/bt.md), does all this. You can use it to view how many win, losses, streaks or elo someone has in a specific game. Some arena extensions may use BattleTracker even further and track more information based on the arena type itself. Refer to the BattleTracker page for more information.
 
 ## Setting Up your first Arena
 Now that you have the plugin set up and configured, take a look at the links below for how to set up an arena!
