@@ -77,47 +77,49 @@
 <h2><a class="anchor" aria-hidden="true" id="installing"></a><a href="#installing" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Installing</h2>
 <p>To install the BattleArena plugin on your server, follow these easy steps:</p>
 <ol>
-<li>Download the plugin from the Bukkit Forum</li>
+<li>Download the plugin from one of the links above</li>
 <li>Drag and drop the plugin into the plugins folder of the server</li>
 <li>Start your server</li>
 <li>Wait for the server to fully start</li>
 <li>Make sure there are no errors</li>
-<li>Stop the server</li>
 <li>Configure the plugin</li>
+<li>Once you're done configuring, run <strong>/ba reload</strong> to reload the plugin. If you were configuing an arena, run <strong>/&lt;game&gt; reload</strong> (e.g. <strong>/arena reload</strong>) to reload the arena.</li>
 </ol>
-<blockquote>
-<blockquote>
-<p>Clear out directory for install</p>
-</blockquote>
-</blockquote>
 <h2><a class="anchor" aria-hidden="true" id="configuring"></a><a href="#configuring" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuring</h2>
-<p>This should be the layout of your BattleArena files (+ BattleTracker):</p>
-<blockquote>
-<blockquote>
-<p>(need to get real, this is just what it should be&quot;)</p>
-</blockquote>
-</blockquote>
-<pre><code class="hljs">/server<span class="hljs-selector-class">.jars</span>
-/plugins/
-/plugins/BattleArena<span class="hljs-selector-class">.jar</span>
-/plugins/BattleArena/config<span class="hljs-selector-class">.yaml</span>
+<p>This should be the layout of your BattleArena files:</p>
+<pre><code class="hljs"><span class="hljs-string">/server.jars</span>
+<span class="hljs-string">/plugins/</span>
+<span class="hljs-string">/plugins/BattleArena.jar</span>
+<span class="hljs-string">/plugins/BattleArena/competitions</span>
+<span class="hljs-string">/plugins/BattleArena/messages</span>
+<span class="hljs-string">/plugins/BattleArena/modules</span>
+<span class="hljs-string">/plugins/BattleArena/otherPluginConfigs</span>
+<span class="hljs-string">/plugins/BattleArena/saves</span>
+<span class="hljs-string">/plugins/BattleArena/victoryConditions</span>
+<span class="hljs-string">/plugins/BattleArena/config.yml</span>
+<span class="hljs-string">/plugins/BattleArena/classes.yml</span>
+<span class="hljs-string">/plugins/BattleArena/messages.yml</span>
+<span class="hljs-string">/plugins/BattleArena/spawns.yml</span>
+<span class="hljs-string">/plugins/BattleArena/teamConfig.yml</span>
 </code></pre>
-<p>Latest Config File: <link here></p>
-<p>See these pages for more on configuring:</p>
+<p>Latest Config File: <a href="https://github.com/BattlePlugins/BattleArena/blob/master/src/java/config.yml">https://github.com/BattlePlugins/BattleArena/blob/master/src/java/config.yml</a></p>
+<p>See these pages for more info on getting started:</p>
 <ol>
-<li>Config File</li>
-<li>more more more</li>
-<li>more ?</li>
-<li>def at least 4?</li>
+<li><a href="https://docs.battleplugins.org/docs/ba/config/config-simple">Config (Simple)</a></li>
+<li><a href="https://docs.battleplugins.org/docs/ba/config/config-advanced">Config (Advanced)</a></li>
+<li><a href="https://docs.battleplugins.org/docs/ba/config/commands">Commands</a></li>
+<li><a href="https://docs.battleplugins.org/docs/ba/config/permissions">Permissions</a></li>
+<li><a href="https://docs.battleplugins.org/docs/ba/config/debug">Debug</a></li>
 </ol>
 <h2><a class="anchor" aria-hidden="true" id="getting-stats"></a><a href="#getting-stats" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Getting Stats</h2>
-<p>You should get BattleTracker, its really cool and does all this stuff: (nisert list)</p>
-<p>It'll hook into BattleArema to provide this: (insert list)</p>
-<p>Get it from here
-Docs are here</p>
+<p>If you would like to track statistics from arenas or games, our sister plugin <a href="https://docs.battleplugins.org/docs/bt/">BattleTracker</a>, does all this. You can use it to view how many win, losses, streaks or elo someone has in a specific game. Some arena extensions may use BattleTracker even further and track more information based on the arena type itself. Refer to the BattleTracker page for more information.</p>
 <h2><a class="anchor" aria-hidden="true" id="setting-up-your-first-arena"></a><a href="#setting-up-your-first-arena" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setting Up your first Arena</h2>
-<p>Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.</p>
-</span></div></article></div><div class="docLastUpdate"><em>Last updated on 6/9/2019 by Clovis</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/ba/index"><span class="arrow-prev">← </span><span>Plugin Info</span></a><a class="docs-next button" href="/docs/ba/faq"><span>FAQ</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#getting-files">Getting File(s)</a></li><li><a href="#installing">Installing</a></li><li><a href="#configuring">Configuring</a></li><li><a href="#getting-stats">Getting Stats</a></li><li><a href="#setting-up-your-first-arena">Setting Up your first Arena</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/footer.png" alt="Documentation" width="44" height="44"/></a><div><h5>Docs Quick Start:</h5><a href="/docs/en/ba.html">BattleArena Docs</a><a href="/docs/en/bt.html">BattleTracker Docs</a><a href="/docs/en/dev.html">API and Development Docs</a><a href="/docs/en/other.html">Other Plugins &amp; Docs</a></div><div><h5>Organization Info:</h5><a href="https://discord.gg/tMVPVJf"><i class="fab icon-white fa-discord"></i> Discord Support</a><a href="https://github.org/BattlePlugins"><i class="fab icon-white fa-github-square"></i> Github Org</a><a href="https://battleplugins.org/"><i class="fas icon-white fa-desktop"></i> Website</a><a href="https://wiki.battleplugins.org/"><i class="fas icon-white fa-scroll"></i> Legacy Wiki</a></div><div><h5>About the Docs:</h5><a href="https://github.com/BattlePlugins/BattleDocs">Contribute to the Docs Today</a><a href="http://ci.battleplugins.org/jobs/BattleDocs">Build Status: <img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></a><a href="https://github.com/BattlePlugins/BattleDocs">Doc Size: <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/battleplugins/battledocs.svg?style=flat-square"/></a><a href="https://github.com/BattlePlugins/BattleDocs/pulls">Pending Updates: <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/battleplugins/battledocs.svg?style=flat-square"/></a><br/><img alt="GitHub followers" src="https://img.shields.io/github/followers/battleplugins.svg?label=Follow&amp;style=social"/> | <img alt="GitHub stars" src="https://img.shields.io/github/stars/battleplugins/battledocs.svg?style=social"/> | <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/battleplugins/battledocs.svg?label=Watch&amp;style=social"/></div></section><div><center><h5 class="footer-slogan">Hosted By:</h5><a href="https://cl6web.com" class="footer-slogan"><img src="/img/cl6.png" alt="CL6 Hosting" height="60"/></a></center></div><section class="copyright">Copyright © 2019 BattlePlugins.</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+<p>Now that you have the plugin set up and configured, take a look at the links below for how to set up an arena!</p>
+<ul>
+<li><a href="https://docs.battleplugins.org/docs/ba/arenas/creating-simple">Creating an Arena (Simple)</a></li>
+<li><a href="https://docs.battleplugins.org/docs/ba/arenas/creating-advanced">Creating an Arena (Advanced)</a></li>
+</ul>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 6/16/2019 by Redned</em></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/ba/index"><span class="arrow-prev">← </span><span>Plugin Info</span></a><a class="docs-next button" href="/docs/ba/faq"><span>FAQ</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#getting-files">Getting File(s)</a></li><li><a href="#installing">Installing</a></li><li><a href="#configuring">Configuring</a></li><li><a href="#getting-stats">Getting Stats</a></li><li><a href="#setting-up-your-first-arena">Setting Up your first Arena</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/footer.png" alt="Documentation" width="44" height="44"/></a><div><h5>Docs Quick Start:</h5><a href="/docs/en/ba.html">BattleArena Docs</a><a href="/docs/en/bt.html">BattleTracker Docs</a><a href="/docs/en/dev.html">API and Development Docs</a><a href="/docs/en/other.html">Other Plugins &amp; Docs</a></div><div><h5>Organization Info:</h5><a href="https://discord.gg/tMVPVJf"><i class="fab icon-white fa-discord"></i> Discord Support</a><a href="https://github.org/BattlePlugins"><i class="fab icon-white fa-github-square"></i> Github Org</a><a href="https://battleplugins.org/"><i class="fas icon-white fa-desktop"></i> Website</a><a href="https://wiki.battleplugins.org/"><i class="fas icon-white fa-scroll"></i> Legacy Wiki</a></div><div><h5>About the Docs:</h5><a href="https://github.com/BattlePlugins/BattleDocs">Contribute to the Docs Today</a><a href="http://ci.battleplugins.org/jobs/BattleDocs">Build Status: <img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></a><a href="https://github.com/BattlePlugins/BattleDocs">Doc Size: <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/battleplugins/battledocs.svg?style=flat-square"/></a><a href="https://github.com/BattlePlugins/BattleDocs/pulls">Pending Updates: <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/battleplugins/battledocs.svg?style=flat-square"/></a><br/><img alt="GitHub followers" src="https://img.shields.io/github/followers/battleplugins.svg?label=Follow&amp;style=social"/> | <img alt="GitHub stars" src="https://img.shields.io/github/stars/battleplugins/battledocs.svg?style=social"/> | <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/battleplugins/battledocs.svg?label=Watch&amp;style=social"/></div></section><div><center><h5 class="footer-slogan">Hosted By:</h5><a href="https://cl6web.com" class="footer-slogan"><img src="/img/cl6.png" alt="CL6 Hosting" height="60"/></a></center></div><section class="copyright">Copyright © 2019 BattlePlugins.</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
                 document.addEventListener('keyup', function(e) {
                   if (e.target !== document.body) {
                     return;
