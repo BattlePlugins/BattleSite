@@ -78,4 +78,4 @@ sidebar_label: Commands
 * `/team listDetailed`
 * `/team info <player>`
  
-For debug commands, take a look at [this page](https://docs.battleplugins.org/docs/ba/config/debug).
+For debug commands, take a look at [this page](ba/config/debug).
