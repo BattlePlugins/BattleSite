@@ -1,6 +1,6 @@
 ---
 id: config-advanced
-title: Editing the `config.yaml` File
+title: Editing the `config.yml` File
 sidebar_label: Config (Advanced)
 ---
 
