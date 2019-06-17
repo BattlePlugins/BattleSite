@@ -1,6 +1,6 @@
 ---
 id: config-simple
-title: Edting the `config.yaml` File
+title: Edting the `config.yml` File
 sidebar_label: Config (Simple)
 ---
 ## `config.yml`
