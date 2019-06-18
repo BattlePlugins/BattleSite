@@ -1,6 +1,7 @@
 ---
 id: permissions
-title: ArenaPlugin Permissions
+title: ArenaPaintball Permissions
 sidebar_label: Permissions
 ---
+
 Empty Document
