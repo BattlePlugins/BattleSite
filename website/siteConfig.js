@@ -80,7 +80,7 @@ const siteConfig = {
     ]
   },
   */
-  
+
   // Search Options and Settings
   algolia: {
     apiKey: '2fe8a9725fc83c203f6fcf028f96f25d',
@@ -97,7 +97,7 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js', 'https://kit.fontawesome.com/24df4ee1a3.js',],
+  scripts: ['https://buttons.github.io/buttons.js', 'https://kit.fontawesome.com/24df4ee1a3.js', 'https://twemoji.maxcdn.com/2/twemoji.min.js?12.0.4'],
 
 
   // CNAME Entry
@@ -105,13 +105,13 @@ const siteConfig = {
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
-  
+
   // Collapsible Sidebars
   docsSideNavCollapsible: true,
-  
+
   // No .html extensions for paths.
   cleanUrl: true,
-  
+
   scrollToTop: true,
   scrollToTopOptions: {
   	zIndex: 100,
