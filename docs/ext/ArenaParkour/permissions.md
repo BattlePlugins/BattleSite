@@ -4,4 +4,7 @@ title: ArenaParkour Permissions
 sidebar_label: Permissions
 ---
 
-Empty Document
+==Permissions==
+
+- arena.join.pk - Allows a player to join a Parkour Arena
+- arena.leave - Allows the player to leave the arena
