@@ -4,25 +4,18 @@ title: VirtualPlayers FAQ
 sidebar_label: FAQ
 ---
 
-Link to Dev [dev/dev-info.md](dev) for how to use Docusaurus.
-This is a link to an [external page.](http://www.example.com)
+Source GitHub
 
-## Uno
+Credits VirtualPlayers was originally developed by alkarinv. All credits for the original plugin goes to him. :)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+WorldEdit Compatibility VirtualPlayers2 is fully compatible with WorldEdit v5.x but unfortunately, it is NOT compatible with WE v6.x. I have compiled a special version of WorldEdit v6 that works with VirtualPlayers:
 
-## Dos
+Quote: These builds have not been approved by the BukkitDev staff. Use them at your own risk. <http://rainbowcraft.sytes.net/download/plugins/WorldEdit/v6.1.1-SNAPSHOT/>
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+If anyone wants to use VirtualPlayers to execute WorldEdit & WorldGuard commands, then you can download the above WorldEdit. Or you can use any v5.x version.
 
-## Tres
+Here is the source code (& changes) if you wish to compile it yourself:
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+<https://github.com/Europia79/WorldEdit/tree/vpcmdfix>
 
-## Quatro
-
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
-
-## Cinq
-
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+<https://github.com/Europia79/WorldEdit/commit/eb43018ae2211b4257e418209fef1b922a03cf91>
