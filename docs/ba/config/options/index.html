@@ -1,0 +1,131 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Options · Documentation</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;p&gt;= Options = BattleArena gives you many options for things like adding colored armor for teams, clearing inventory on match start, setting requirements to join a game, and many more.&lt;/p&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Options · Documentation"/><meta property="og:type" content="website"/><meta property="og:url" content="https://docs.battleplugins.org/"/><meta property="og:description" content="&lt;p&gt;= Options = BattleArena gives you many options for things like adding colored armor for teams, clearing inventory on match start, setting requirements to join a game, and many more.&lt;/p&gt;
+"/><meta property="og:image" content="https://docs.battleplugins.org/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://docs.battleplugins.org/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://kit.fontawesome.com/24df4ee1a3.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/header.png" alt="Documentation"/><h2 class="headerTitleWithLogo">Documentation</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/index" target="_self">Get</a></li><li class=""><a href="/docs/" target="_self">Docs</a></li><li class=""><a href="/docs/ba/" target="_self">BA</a></li><li class=""><a href="/docs/bt/" target="_self">BT</a></li><li class=""><a href="/docs/dev/" target="_self">Dev</a></li><li class=""><a href="https://github.com/battleplugins" target="_self">GitHub</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/BattlePlugins/BattleDocs/tree/master/docs/ba/config/options.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Options</h1></header><article><div><span><p>= Options = BattleArena gives you many options for things like adding colored armor for teams, clearing inventory on match start, setting requirements to join a game, and many more.</p>
+<p>== Place anywhere Options == Options that you can place in any stage and that will last the entire match</p>
+<ul>
+<li>armorTeams : Use colored armor for teams</li>
+<li>woolTeams: if there is more than 1 player on a team, give them wool heads</li>
+<li>alwaysWoolTeams: always give the players wool heads</li>
+<li>alwaysTeamNames: always use the team names (like red/blue) as opposed to the player names</li>
+</ul>
+<p>== Prerequisite Options == Options that are valid preReqs:</p>
+<ul>
+<li>noInventory : Players can not join or be teleported into the arena if they have items.</li>
+<li>needArmor : Players need to have armor to join or be teleported in</li>
+<li>needItems : A list of items that players need in order to join.</li>
+<li>takeItems : A list of items to be taken from the players.</li>
+<li>money=<money> : Charge money for players to join this type of match/event.</li>
+<li>sameWorld : Players will need to be in the same world as the arena to join</li>
+<li>withinDistance=<x> : make players be within x blocks of the arena in order to join (based off of the arena spawnpoints)</li>
+<li>levelRange=<range> : Only allow players that have the specified levels to join.<br>
+** Examples. levelRange:10+ , only allow players that have 10 or more levels to join (Works with Heroes classes). levelRange: 2-5 , only allow players from levels 2 through 5 to join</li>
+</ul>
+<p>=== Example === An example that will save/restore a players inventory, charge them 10 money, and only allows players to join between levels 2 and 10.</p>
+<pre><code class="hljs"><span class="hljs-symbol">skirmish:</span>
+<span class="hljs-symbol">    preReqs:</span>
+<span class="hljs-symbol">        options:</span> [money=<span class="hljs-number">10</span>, levelRange=<span class="hljs-number">2</span><span class="hljs-number">-10</span>]
+<span class="hljs-symbol">    onEnter:</span>
+<span class="hljs-symbol">        options:</span> [storeAll]
+<span class="hljs-symbol">    onLeave:</span>
+<span class="hljs-symbol">        options:</span> [restoreAll]
+</code></pre>
+<p>An example that will require players to bring in their own equipment that will charge them 10 money. They will also have to have at least a diamond sword and a bow with 16 arrows. They will take whatever they get from the loser. Notice that 'needItems' and 'takeItems' are simultaneously 'options:' that can be activated, but also require a separate list of values too.</p>
+<pre><code class="hljs"><span class="hljs-attr">skirmish:</span>
+<span class="hljs-attr">    preReqs:</span>
+<span class="hljs-attr">        options:</span> <span class="hljs-string">[money=10,</span> <span class="hljs-string">levelRange=2-10,</span> <span class="hljs-string">needItems,</span> <span class="hljs-string">takeItems]</span>
+<span class="hljs-attr">        needItems:</span>
+<span class="hljs-attr">            - diamond_sword:</span> <span class="hljs-number">1</span>
+<span class="hljs-attr">            - bow:</span> <span class="hljs-number">1</span>
+<span class="hljs-attr">            - arrow:</span> <span class="hljs-number">1</span>
+<span class="hljs-attr">        takeItems:</span>
+<span class="hljs-attr">            - gold_ingot:</span> <span class="hljs-number">1</span>
+<span class="hljs-attr">    onEnter:</span>
+<span class="hljs-attr">        options:</span> <span class="hljs-string">[]</span>
+<span class="hljs-attr">    onLeave:</span>
+<span class="hljs-attr">        options:</span> <span class="hljs-string">[]</span>
+</code></pre>
+<p>== Normal Options == valid options for all stages (excluding preReqs)</p>
+<ul>
+<li>clearInventory : clears the inventory of the player</li>
+<li>giveItems: give the player the specified items. needs a list under items: [[Enchantments| Enchantments Effect List]]</li>
+<li>teleportWaitroom : teleports a player into a waitroom</li>
+<li>teleportIn : teleports a player into the arena</li>
+<li>teleportOut : Teleport a player out of the arena</li>
+<li>teleportTo=&lt;world,x,y,z&gt; : teleport players to the given location (This is placed underneath options)</li>
+<li>noTeleport : Prevent users from teleporting</li>
+<li>noWorldChange : Prevent users from teleporting across worlds</li>
+<li>health=<health amount> : set the health of the player (20 is max)</li>
+<li>healthp=<health percentage> : set the percentage health of a player (100 is max)</li>
+<li>hunger=<hunger amount> : set the hunger of the player (20 is max)</li>
+<li>money=<money to give> : give the player money</li>
+<li>experience=<exp to give> : give the player experience</li>
+<li>pvpOn : set PvP damage to be on (overrides most other plugins). Friendly fire is off</li>
+<li>pvpOff : set PvP damage to be off (overrides most other plugins). No damage between players permitted</li>
+<li>invincible : make players invincible</li>
+<li>invulnerable=<time in seconds> : make player invulnerable for the given seconds</li>
+<li>blockBreakOff : Turn off block breaking</li>
+<li>blockBreakOn : turn on block breaking (overrides most other plugins)</li>
+<li>blockPlaceOff : Turn off placing blocks</li>
+<li>blockPlaceOn : Turn on placing blocks (overrides most other plugins)</li>
+<li>dropItemOff : Disallow player to drop items</li>
+<li>disguiseAll=<name>: disguise all players with the given value</li>
+<li>undisguise: undisguise players</li>
+<li>enchants: needs a list of potion effects under enchants. [[Potions|Potion Effect List]]</li>
+<li>deEnchant: get rid of all potion effects on player. If you have Heroes it will also remove heroes effects.</li>
+<li>gameMode=<GameMode> : Set the gamemode of the player, [adventure, creative, normal]</li>
+<li>doCommands : do the specified commands as the console or player. Needs a list underneath called commands:</li>
+<li>storeExperience/restoreExperience: store/restore Experience</li>
+<li>storeItems/restoreItems : store/restore</li>
+<li>storeAll/restoreAll : store/restore experience, items, health, hunger, magic, gamemode</li>
+<li>flightOff : set the players flight off</li>
+<li>flightOn : set the players flight on</li>
+<li>flightSpeed=<float> : set the players flight speed</li>
+</ul>
+<p>=== Examples ===</p>
+<pre><code class="hljs"><span class="hljs-attr">Skirmish:</span>
+<span class="hljs-attr">    onEnter:</span>
+<span class="hljs-attr">        options:</span> <span class="hljs-string">[health=3]</span>
+<span class="hljs-attr">    doCommands:</span>
+<span class="hljs-bullet">        -</span> <span class="hljs-string">console</span> <span class="hljs-string">deop</span> <span class="hljs-string">player</span> <span class="hljs-comment"># will run the command 'deop player' from the console, where player becomes the player name</span>
+<span class="hljs-bullet">        -</span> <span class="hljs-string">player</span> <span class="hljs-string">fly</span> <span class="hljs-string">off</span> <span class="hljs-comment"># will run the command 'fly off' as the player</span>
+</code></pre>
+<p>== onDeath or Normal Options ==</p>
+<ul>
+<li>randomSpawn: Spawn the player at a random spawn location. You should place this inside of onDeath or wherever you teleport a player inside. 'teleportIn'</li>
+</ul>
+<p>== onDeath Options == valid options for onDeath. You can also use any of the Normal options, but the following are special to onDeath only(or just very useful).</p>
+<ul>
+<li>clearInventory : clears the item drops</li>
+<li>respawn: respawn the player (This options should only be used in onDeath:)</li>
+<li>randomRespawn: respawn the player at a random spawn location (This options should only be used in onDeath:)</li>
+<li>keepInventory: When players die they respawn with their same inventory (also will not drop items on death)</li>
+</ul>
+<p>== onSpawn Options == valid options for onSpawn. You can also use any of the Normal options, but the following are special to</p>
+<ul>
+<li>respawnWithClass: respawn the player with whatever class they selected before death (if any)</li>
+</ul>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 6/19/2019 by clovisd</em></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/footer.png" alt="Documentation" width="44" height="44"/></a><div><h5>Docs Quick Start:</h5><a href="/docs/en/ba.html">BattleArena Docs</a><a href="/docs/en/bt.html">BattleTracker Docs</a><a href="/docs/en/dev.html">API and Development Docs</a><a href="/docs/en/other.html">Other Plugins &amp; Docs</a></div><div><h5>Organization Info:</h5><a href="https://discord.gg/tMVPVJf"><i class="fab icon-white fa-discord"></i> Discord Support</a><a href="https://github.org/BattlePlugins"><i class="fab icon-white fa-github-square"></i> Github Org</a><a href="https://battleplugins.org/"><i class="fas icon-white fa-desktop"></i> Website</a><a href="https://wiki.battleplugins.org/"><i class="fas icon-white fa-scroll"></i> Legacy Wiki</a></div><div><h5>About the Docs:</h5><a href="https://github.com/BattlePlugins/BattleDocs">Contribute to the Docs Today</a><a href="http://ci.battleplugins.org/jobs/BattleDocs">Build Status: <img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></a><a href="https://github.com/BattlePlugins/BattleDocs">Doc Size: <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/battleplugins/battledocs.svg?style=flat-square"/></a><a href="https://github.com/BattlePlugins/BattleDocs/pulls">Pending Updates: <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/battleplugins/battledocs.svg?style=flat-square"/></a><br/><img alt="GitHub followers" src="https://img.shields.io/github/followers/battleplugins.svg?label=Follow&amp;style=social"/> | <img alt="GitHub stars" src="https://img.shields.io/github/stars/battleplugins/battledocs.svg?style=social"/> | <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/battleplugins/battledocs.svg?label=Watch&amp;style=social"/></div></section><div><center><h5 class="footer-slogan">Hosted By:</h5><a href="https://cl6web.com" class="footer-slogan"><img src="/img/cl6.png" alt="CL6 Hosting" height="60"/></a></center></div><section class="copyright">Copyright © 2019 BattlePlugins.</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '2fe8a9725fc83c203f6fcf028f96f25d',
+                indexName: 'battleplugins',
+                inputSelector: '#search_input_react'
+              });
+            </script></body></html>
