@@ -1,6 +1,6 @@
 {
   "docs": {
-  	"BattleDocs": ["index"],
+  	"BattleDocs": ["index", "guidelines", "examples", "templates"],
     "BattleTracker": ["bt/index", "bt/getting-started", "bt/commands", "bt/permissions", "bt/config", "bt/placeholder", "bt/signs", "bt/faq", "bt/history"],
     "VirtualPlayers": ["vp/index", "vp/faq", "vp/history"],
     "ArenaSpleef": ["ext/ArenaSpleef/index", "ext/ArenaSpleef/commands", "ext/ArenaSpleef/permissions"],
@@ -10,9 +10,9 @@
     "Common Docs": ["potions", "enchants", "item-syntax"]
   },
   "BA": {
-  	"Getting Started": ["ba/index", "ba/getting-started", "ba/faq"],
-    "Arena Management": ["ba/arenas/creating-simple", "ba/arenas/creating-advanced", "ba/arenas/custom", "ba/arenas/deleting", "ba/arenas/types", "ba/arenas/regions"],
-    "Configuration": ["ba/config/config-simple", "ba/config/config-advanced", "ba/config/commands", "ba/config/permissions", "ba/config/debug"],
+  "Getting Started": ["ba/index", "ba/getting-started", "ba/faq"],
+  "Arena Management": ["ba/arenas/creating-simple", "ba/arenas/creating-advanced", "ba/arenas/custom", "ba/arenas/deleting", "ba/arenas/types", "ba/arenas/regions"],
+  "Configuration": ["ba/config/config-simple", "ba/config/config-advanced", "ba/config/commands", "ba/config/permissions", "ba/config/debug"],
 	"Customization": ["ba/customization/event", "ba/customization/classes", "ba/customization/rooms", "ba/customization/spawns", "ba/customization/stage", "ba/customization/dueling", "ba/customization/signs", "ba/customization/teams"],
 	"Codex Docs": ["potions", "enchants", "item-syntax"]
   },
