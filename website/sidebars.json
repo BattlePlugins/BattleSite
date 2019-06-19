@@ -1,8 +1,12 @@
 {
   "docs": {
   	"BattleDocs": ["index"],
-    "BattleTracker": ["bt/index", "bt/faq", "bt/history"],
+    "BattleTracker": ["bt/index", "bt/getting-started", "bt/commands", "bt/permissions", "bt/config", "bt/placeholder", "bt/signs", "bt/faq", "bt/history"],
     "VirtualPlayers": ["vp/index", "vp/faq", "vp/history"],
+    "ArenaSpleef": ["ext/ArenaSpleef/index", "ext/ArenaSpleef/commands", "ext/ArenaSpleef/permissions"],
+    "ArenaParkour": ["ext/ArenaParkour/index", "ext/ArenaParkour/commands", "ext/ArenaParkour/permissions"],
+    "ArenaPaintball": ["ext/ArenaPaintball/index", "ext/ArenaPaintball/commands", "ext/ArenaPaintball/permissions"],
+    "ArenaCTF": ["ext/ArenaCTF/index", "ext/ArenaCTF/commands", "ext/ArenaCTF/permissions"],
     "Common Docs": ["potions", "enchants", "item-syntax"]
   },
   "BA": {
