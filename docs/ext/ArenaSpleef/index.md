@@ -17,14 +17,6 @@ A Spleef plugin where players can queue and will join a free Spleef arena. You c
 
 # Put the ArenaSpleef.jar in your plugins folder, along with BattleArena.jar, WorldEdit.jar, and WorldGuard.jar
 
-==Joining==
-
-# players will need the permission node arena.join.spleef
-
-# /spleef join
-
-# Permissions to leave arena.leave
-
 ==Youtube Tutorials== [[<http://dev.bukkit.org/bukkit-plugins/arenaspleef/pages/tutorials/> YouTube Tutorials]] - If you find others please let us know
 
 ==Help==
