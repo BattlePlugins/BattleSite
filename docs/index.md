@@ -3,10 +3,9 @@ id: index
 title: Wiki Root Page
 sidebar_label: BattleDocs
 ---
+Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
 
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
+Shortcuts (emoticons): :-) :-( 8-) ;)
 
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
