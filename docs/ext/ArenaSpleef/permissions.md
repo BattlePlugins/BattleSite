@@ -4,4 +4,6 @@ title: ArenaSpleef Permissions
 sidebar_label: Permissions
 ---
 
-Empty Document
+# players will need the permission node arena.join.spleef
+
+# Permissions to leave arena.leave
