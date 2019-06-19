@@ -65,11 +65,11 @@ See these pages for more info on getting started:
 
 # Getting Stats
 
-If you would like to track statistics from arenas or games, our sister plugin [BattleTracker](bt/bt.md), does all this. You can use it to view how many win, losses, streaks or elo someone has in a specific game. Some arena extensions may use BattleTracker even further and track more information based on the arena type itself. Refer to the BattleTracker page for more information.
+If you would like to track statistics from arenas or games, our sister plugin [BattleTracker](bt/index.md), does all this. You can use it to view how many win, losses, streaks or elo someone has in a specific game. Some arena extensions may use BattleTracker even further and track more information based on the arena type itself. Refer to the BattleTracker page for more information.
 
 # Setting Up your first Arena
 
 Now that you have the plugin set up and configured, take a look at the links below for how to set up an arena!
 
-- [Creating an Arena (Simple)](https://docs.battleplugins.org/docs/ba/arenas/creating-simple)
-- [Creating an Arena (Advanced)](https://docs.battleplugins.org/docs/ba/arenas/creating-advanced)
+- [Creating an Arena (Simple)](ba/arenas/simple.md)
+- [Creating an Arena (Advanced)](ba/arenas/advanced.md)

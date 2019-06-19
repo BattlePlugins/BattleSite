@@ -45,7 +45,7 @@ There is a backup inventory saving system in place that stores the players inven
 
 ## How do I change who gets messages?
 
-There is a section in the `config.yml` (see [Config](ba/config/config.md)) that manages and handles server and player messages.
+There is a section in the `config.yml` (see [Config](ba/config/simple.md)) that manages and handles server and player messages.
 
 # Config Questions
 

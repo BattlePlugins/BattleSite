@@ -28,7 +28,8 @@ To create different types of arena's, refer to above guide on **Creating a Basic
 2. Make sure players have the correct permission to join. Permission needed is: `arena.bg.join`
 3. Type: `/bg join`.
 4. Have 3 other players also type `/bg join`.
-5. _Optionally you can configure join-phases, waiting rooms, equipment, rewards, and more using this page: `[settings](ba/settings.md).`_
+
+_Optionally you can configure join-phases, waiting rooms, equipment, rewards, and more using `Customization` section of the sidebar!_
 
 After this all players will be transported in where the person with the most kills at the end of 1 minute wins.
 
@@ -46,4 +47,5 @@ After this all players will be transported in where the person with the most kil
 2. Make sure players have the correct permission to join. Permission needed is: `arena.ffa.join`
 3. Type: `/ffa join`.
 4. Have a bunch other players also type `/faa join`.
-5. _Optionally you can configure join-phases, waiting rooms, equipment, rewards, and more using `Customization` section of the sidebar!_
+
+_Optionally you can configure join-phases, waiting rooms, equipment, rewards, and more using `Customization` section of the sidebar!_

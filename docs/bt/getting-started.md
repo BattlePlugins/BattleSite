@@ -63,8 +63,4 @@ Latest Config File: <https://github.com/BattlePlugins/BattleTracker/blob/master/
 
 See these pages for more info on getting started:
 
-1. [Config (Simple)](bt/config/config-simple.md)
-2. [Config (Advanced)](bt/config/config-advanced.md)
-3. [Commands](bt/config/commands.md)
-4. [Permissions](bt/config/permissions.md)
-5. [Debug](bt/config/debug.md) =
+1.
