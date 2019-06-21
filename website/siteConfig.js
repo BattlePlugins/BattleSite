@@ -25,7 +25,7 @@ const siteConfig = {
   tagline: 'BattlePlugins Plugin Suite Home',
   url: 'https://battleplugins.org', // Your website URL
   baseUrl: '/', // Base URL for your project */
-  noIndex: true,
+  noIndex: false,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -41,7 +41,7 @@ const siteConfig = {
   headerLinks: [
     {blog: true, label: 'Blog'},
     {page: 'index', label: 'Get'},
-    {doc: 'index', label: 'Docs'},
+    {href: "https://docs.battleplugins.org", label: "Docs"},
     {href: "https://github.com/battleplugins", label: "GitHub"},
     {search: true}
 
@@ -79,11 +79,11 @@ const siteConfig = {
   */
 
   // Search Options and Settings
-  // algolia: {
-  //  apiKey: '2fe8a9725fc83c203f6fcf028f96f25d',
-  //  indexName: 'battleplugins'
-  //  appId: '16AVNKSJVT'
-  // },
+   algolia: {
+    apiKey: '2fe8a9725fc83c203f6fcf028f96f25d',
+    indexName: 'battleplugins'
+    appId: '16AVNKSJVT'
+   },
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} BattlePlugins.`,
