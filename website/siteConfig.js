@@ -21,17 +21,17 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Documentation', // Title for your website.
-  tagline: 'Documentation for the BattlePlugins Plugin Suite.',
-  url: 'https://docs.battleplugins.org', // Your website URL
+  title: 'Site', // Title for your website.
+  tagline: 'BattlePlugins Plugin Suite Home',
+  url: 'https://battleplugins.org', // Your website URL
   baseUrl: '/', // Base URL for your project */
-  noIndex: false,
+  noIndex: true,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'BattleDocs',
+  projectName: 'BattleSite',
   organizationName: 'BattlePlugins',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -39,12 +39,9 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    {blog: true, label: 'Blog'},
     {page: 'index', label: 'Get'},
     {doc: 'index', label: 'Docs'},
-    {doc: 'ba/index', label: 'BA'},
-    {doc: 'bt/index', label: 'BT'},
-    {doc: 'dev/index', label: 'Dev'},
-  //  {blog: false, label: 'Blog'},
     {href: "https://github.com/battleplugins", label: "GitHub"},
     {search: true}
 
@@ -54,7 +51,7 @@ const siteConfig = {
   users,
 
   // Edit URL
-  editUrl: 'https://github.com/BattlePlugins/BattleDocs/tree/master/docs/',
+//  editUrl: 'https://github.com/BattlePlugins/BattleSite/tree/master/docs/',
 
   /* path to images for header/footer */
   headerIcon: 'img/header.png',
@@ -82,11 +79,11 @@ const siteConfig = {
   */
 
   // Search Options and Settings
-  algolia: {
-    apiKey: '2fe8a9725fc83c203f6fcf028f96f25d',
-    indexName: 'battleplugins'
+  // algolia: {
+  //  apiKey: '2fe8a9725fc83c203f6fcf028f96f25d',
+  //  indexName: 'battleplugins'
   //  appId: '16AVNKSJVT'
-  },
+  // },
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} BattlePlugins.`,
@@ -101,7 +98,7 @@ const siteConfig = {
 
 
   // CNAME Entry
-  cname: 'docs.battleplugins.org',
+  cname: 'battleplugins.org',
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
