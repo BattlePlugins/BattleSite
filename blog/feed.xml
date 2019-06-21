@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Site Blog</title>
+        <link>https://battleplugins.org/blog</link>
+        <description>The best place to stay up-to-date with the latest Site news and events.</description>
+        <lastBuildDate>Sat, 22 Jun 2019 06:00:00 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>Site Blog</title>
+            <url>https://battleplugins.org/img/header.png</url>
+            <link>https://battleplugins.org/blog</link>
+        </image>
+        <copyright>Copyright © 2019 BattlePlugins.</copyright>
+        <item>
+            <link>https://battleplugins.org/blog/2019/06/22/Hello-World.md.html</link>
+            <guid>https://battleplugins.org/blog/2019/06/22/Hello-World.md.html</guid>
+            <pubDate>Sat, 22 Jun 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>--- author: Frank Li authorURL: <a href="https://twitter.com/foobarbaz">https://twitter.com/foobarbaz</a> authorFBID: 503283835 title: Introducing Docusaurus</p> <hr> <p>Lorem Ipsum...</p> ]]></description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://battleplugins.org/blog</id>
+    <title>Site Blog</title>
+    <updated>2019-06-22T06:00:00Z</updated>
+    <generator>Feed for Node.js</generator>
+    <link rel="alternate" href="https://battleplugins.org/blog"/>
+    <subtitle>The best place to stay up-to-date with the latest Site news and events.</subtitle>
+    <logo>https://battleplugins.org/img/header.png</logo>
+    <rights>Copyright © 2019 BattlePlugins.</rights>
+    <entry>
+        <title type="html"/>
+        <id>https://battleplugins.org/blog/2019/06/22/Hello-World.md.html</id>
+        <link href="https://battleplugins.org/blog/2019/06/22/Hello-World.md.html">
+        </link>
+        <updated>2019-06-22T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>--- author: Frank Li authorURL: <a href="https://twitter.com/foobarbaz">https://twitter.com/foobarbaz</a> authorFBID: 503283835 title: Introducing Docusaurus</p> <hr> <p>Lorem Ipsum...</p> ]]></summary>
+        <author>
+        </author>
+    </entry>
+</feed>
