@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Site', // Title for your website.
+  title: '', // Title for your website.
   tagline: 'BattlePlugins Plugin Suite Home',
   url: 'https://battleplugins.org', // Your website URL
   baseUrl: '/', // Base URL for your project */
