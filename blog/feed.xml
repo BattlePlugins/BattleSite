@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>Site Blog</title>
+        <title> Blog</title>
         <link>https://battleplugins.org/blog</link>
-        <description>The best place to stay up-to-date with the latest Site news and events.</description>
+        <description>The best place to stay up-to-date with the latest  news and events.</description>
         <lastBuildDate>Sat, 22 Jun 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
-            <title>Site Blog</title>
+            <title> Blog</title>
             <url>https://battleplugins.org/img/header.png</url>
             <link>https://battleplugins.org/blog</link>
         </image>

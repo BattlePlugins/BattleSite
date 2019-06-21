@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://battleplugins.org/blog</id>
-    <title>Site Blog</title>
+    <title> Blog</title>
     <updated>2019-06-22T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://battleplugins.org/blog"/>
-    <subtitle>The best place to stay up-to-date with the latest Site news and events.</subtitle>
+    <subtitle>The best place to stay up-to-date with the latest  news and events.</subtitle>
     <logo>https://battleplugins.org/img/header.png</logo>
     <rights>Copyright © 2019 BattlePlugins.</rights>
     <entry>
