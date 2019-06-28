@@ -30,7 +30,7 @@ class Users extends React.Component {
             <Showcase users={restToShowcase} />
             <div className="prose">
               <p>Interested in Contributing?</p>
-              <a href={editUrl} className="button">
+              <a href="https://docs.battleplugins.org/docs/guidelines" className="button">
               Get Started Today
               </a>
             </div>
