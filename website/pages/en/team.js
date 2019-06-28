@@ -9,7 +9,7 @@ const Showcase = require(`${process.cwd()}/core/Showcase.js`);
 class Users extends React.Component {
   render() {
     const {config: siteConfig} = this.props;
-    const fbUsersToShowcase = siteConfig.users.filter(
+    const bpActiveStaff = siteConfig.users.filter(
       user => user.bpActive,
     );
     const restToShowcase = siteConfig.users.filter(user => !user.bpActive);
@@ -30,7 +30,7 @@ class Users extends React.Component {
                 .
               </p>
             </div>
-            <Showcase users={fbUsersToShowcase} />
+            <Showcase users={bpActiveStaff} />
             <div className="prose">
               <p>
 
