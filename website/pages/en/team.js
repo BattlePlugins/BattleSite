@@ -18,7 +18,7 @@ class Users extends React.Component {
           <div className="showcaseSection">
             <div className="prose">
               <h1>
-                <translate>Who is using Docusaurus?</translate>
+                Who is using Docusaurus?
               </h1>
               <p>
                 Docusaurus powers some of Facebook&apos;s popular{' '}
@@ -31,15 +31,15 @@ class Users extends React.Component {
             <Showcase users={fbUsersToShowcase} />
             <div className="prose">
               <p>
-                <translate>
+
                   Docusaurus is also used by open source projects of all sizes.
-                </translate>
+
               </p>
             </div>
             <Showcase users={restToShowcase} />
             <div className="prose">
               <p>
-                <translate>Is your project using Docusaurus?</translate>
+                Is your project using Docusaurus?
               </p>
               <p>
                 Edit this page with a{' '}
