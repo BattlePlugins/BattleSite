@@ -28,7 +28,7 @@ class Users extends React.Component {
                 <p>Past and Vetern members of the BattlePlugins team who are no longer active.</p>
               </div>
             <Showcase users={restToShowcase} />
-            <br><br>
+            <br></br>
             <div className="prose">
               <h4>Interested in Contributing?</h4>
               <a href="https://docs.battleplugins.org/docs/guidelines" className="button">
