@@ -4,6 +4,8 @@ const CompLibrary = require('../../core/CompLibrary.js');
 
 const Container = CompLibrary.Container;
 
+const Showcase = require(`${process.cwd()}/core/Showcase.js`);
+
 class Users extends React.Component {
   render() {
     const {config: siteConfig} = this.props;
