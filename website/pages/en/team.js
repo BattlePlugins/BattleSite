@@ -19,37 +19,20 @@ class Users extends React.Component {
         <Container padding={['bottom']}>
           <div className="showcaseSection">
             <div className="prose">
-              <h1>
-                Who is using Docusaurus?
-              </h1>
-              <p>
-                Docusaurus powers some of Facebook&apos;s popular{' '}
-                <a href="https://opensource.facebook.com/">
-                  open source projects
-                </a>
-                .
-              </p>
+              <h1>Active BattlePlugins Staff</h1>
+              <p>Current active members of the BattlePlugins team.</p>
             </div>
             <Showcase users={bpActiveStaff} />
-            <div className="prose">
-              <p>
-
-                  Docusaurus is also used by open source projects of all sizes.
-
-              </p>
-            </div>
+              <div className="prose">
+                <h1>Retired BattlePlugins Staff</h1>
+                <p>Past and Vetern members of the BattlePlugins team who are no longer active.</p>
+              </div>
             <Showcase users={restToShowcase} />
             <div className="prose">
-              <p>
-                Is your project using Docusaurus?
-              </p>
-              <p>
-                Edit this page with a{' '}
-                <a href="https://github.com/facebook/docusaurus/edit/master/website-1.x/data/users.js">
-                  Pull Request
-                </a>{' '}
-                to add your logo.
-              </p>
+              <p>Interested in Contributing?</p>
+              <a href={editUrl} className="button">
+              Get Started Today
+              </a>
             </div>
           </div>
         </Container>
