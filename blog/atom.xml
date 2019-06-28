@@ -9,13 +9,15 @@
     <logo>https://battleplugins.org/img/header.png</logo>
     <rights>Copyright © 2019 BattlePlugins.</rights>
     <entry>
-        <title type="html"/>
-        <id>https://battleplugins.org/blog/2019/06/22/Hello-World.md.html</id>
-        <link href="https://battleplugins.org/blog/2019/06/22/Hello-World.md.html">
+        <title type="html"><![CDATA[Example Blog Post 1]]></title>
+        <id>https://battleplugins.org/blog/2019/06/22/Hello-World.html</id>
+        <link href="https://battleplugins.org/blog/2019/06/22/Hello-World.html">
         </link>
         <updated>2019-06-22T06:00:00Z</updated>
-        <summary type="html"><![CDATA[<p>--- author: Frank Li authorURL: <a href="https://twitter.com/foobarbaz">https://twitter.com/foobarbaz</a> authorFBID: 503283835 title: Introducing Docusaurus</p> <hr> <p>Lorem Ipsum...</p> ]]></summary>
+        <summary type="html"><![CDATA[<p>This is the new BattlePlugins blog! Here you can find nothing right now but maybe something right sometime. 😘</p> ]]></summary>
         <author>
+            <name>Clovis Delmotte</name>
+            <uri>&apos;https://twitter.com/clovisdelmotte&apos;</uri>
         </author>
     </entry>
 </feed>
