@@ -27,28 +27,7 @@ class Users extends React.Component {
     const restToShowcase = siteConfig.users.filter(user => !user.bpActive);
 
     return (
-      <div className="mainContainer">
-        <Container padding={['bottom']}>
-          <div className="showcaseSection">
-            <div className="prose">
-              <h1>Current BattlePlugins Team</h1>
-              <p>Current active support, developers, and team members.</p>
-            </div>
-            <Showcase users={bpUsersToShowcase} />
-            <div className="prose">
-              <h1>Past BattlePlugins Team</h1>
-              <p>Past members who've made BattlePlugins what it is today!</p>
-            </div>
-            <Showcase users={restToShowcase} />
-            <div className="prose">
-                <p>Interested in Contributing?</p>
-                <a href={editUrl} className="button">
-                Get Started Today
-                </a>
-            </div>
-          </div>
-        </Container>
-      </div>
+      Hello World
     );
   }
 }

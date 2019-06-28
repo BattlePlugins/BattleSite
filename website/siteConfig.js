@@ -36,7 +36,6 @@ const siteConfig = {
     {page: 'team', label: "Team"},
     {href: "https://github.com/battleplugins", label: "GitHub"},
     {search: true}
-
   ],
 
   // If you have users set above, you add it here:
