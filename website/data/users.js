@@ -4,7 +4,7 @@ module.exports = [
     image: '/img/clovid.png',
     infoLink: 'https://twitter.com/clovisdelmotte',
     pinned: true,
-    active: false,
+    bpActive: false,
   },
   {
     caption: 'Zach443',
@@ -18,13 +18,13 @@ module.exports = [
     image: '/img/users/ducks.png',
     infoLink: 'https://twitter.com/lducks',
     pinned: true,
-    active: true,
+    bpActive: true,
   },
   {
     caption: 'Redned',
     image: '/img/users/redned.png',
     infoLink: 'https://twitter.com/redned',
     pinned: false,
-    active: true,
+    bpActive: true,
   },
 ];
