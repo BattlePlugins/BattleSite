@@ -11,11 +11,21 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: 'User1',
-    // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/undraw_open_source.svg',
-    infoLink: 'https://www.facebook.com',
+    caption: 'clovisd',
+    image: '/img/clovid.png',
+    infoLink: 'https://twitter.com/clovisdelmotte',
+    pinned: true,
+  },
+  {
+    caption: 'Zach443',
+    image: '/img/users/zach443.png',
+    infoLink: 'https://twitter.com/zach443',
+    pinned: false,
+  },
+  {
+    caption: 'lDucks',
+    image: '/img/users/ducks.png',
+    infoLink: 'https://twitter.com/lducks',
     pinned: true,
   },
 ];
@@ -42,6 +52,7 @@ const siteConfig = {
     {blog: true, label: 'Blog'},
     {page: 'index', label: 'Get'},
     {href: "https://docs.battleplugins.org", label: "Docs"},
+    {page: 'team', label: "Team"},
     {href: "https://github.com/battleplugins", label: "GitHub"},
     {search: true}
 
