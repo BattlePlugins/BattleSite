@@ -53,6 +53,4 @@ class Users extends React.Component {
   }
 }
 
-Users.title = 'Users';
-
 module.exports = Users;
