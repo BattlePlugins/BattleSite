@@ -28,6 +28,12 @@ const users = [
     infoLink: 'https://twitter.com/lducks',
     pinned: true,
   },
+  {
+    caption: 'Redned',
+    image: '/img/users/redned.png',
+    infoLink: 'https://twitter.com/redned',
+    pinned: false,
+  },
 ];
 
 const siteConfig = {
