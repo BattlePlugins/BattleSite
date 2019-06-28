@@ -10,7 +10,7 @@ const PropTypes = require('prop-types');
 
 const UserLink = ({infoLink, image, caption}) => (
   <a className="link" href={infoLink} key={infoLink}>
-    <img src={image} alt={caption} title={caption} height="150" />
+    <img src={image} alt={caption} title={caption} height="120" />
     <span className="caption">{caption}</span>
   </a>
 );
