@@ -9,32 +9,7 @@
 // site configuration options.
 
 // List of projects/orgs using your project for the users page.
-const users = [
-  {
-    caption: 'clovisd',
-    image: '/img/clovid.png',
-    infoLink: 'https://twitter.com/clovisdelmotte',
-    pinned: true,
-  },
-  {
-    caption: 'Zach443',
-    image: '/img/users/zach443.png',
-    infoLink: 'https://twitter.com/zach443',
-    pinned: false,
-  },
-  {
-    caption: 'lDucks',
-    image: '/img/users/ducks.png',
-    infoLink: 'https://twitter.com/lducks',
-    pinned: true,
-  },
-  {
-    caption: 'Redned',
-    image: '/img/users/redned.png',
-    infoLink: 'https://twitter.com/redned',
-    pinned: false,
-  },
-];
+const users = require('./data/users');
 
 const siteConfig = {
   title: '', // Title for your website.

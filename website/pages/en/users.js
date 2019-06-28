@@ -18,31 +18,41 @@ class Users extends React.Component {
       return null;
     }
 
-    const editUrl = `${siteConfig.repoUrl}/edit/master/website/siteConfig.js`;
-    const showcase = siteConfig.users.map(user => (
-      <a href={user.infoLink} key={user.infoLink}>
-        <img src={user.image} alt={user.caption} title={user.caption} />
-      </a>
-    ));
+class Users extends React.Component {
+  render() {
+    const {config: siteConfig} = this.props;
+    const bpUsersToShowcase = siteConfig.users.filter(
+        user => user.bpActive,
+    );
+    const restToShowcase = siteConfig.users.filter(user => !user.bpActive);
 
     return (
       <div className="mainContainer">
-        <Container padding={['bottom', 'top']}>
+        <Container padding={['bottom']}>
           <div className="showcaseSection">
             <div className="prose">
-              <h1>BattlePlugins Team</h1>
-              <p>These projects are maintained and updated by:</p>
+              <h1>Current BattlePlugins Team</h1>
+              <p>Current active support, developers, and team members.</p>
             </div>
-            <div className="logos">{showcase}</div>
-            <p>Interested in Contributing?</p>
-            <a href={editUrl} className="button">
-              Get Started Today
-            </a>
+            <Showcase users={bpUsersToShowcase} />
+            <div className="prose">
+              <h1>Past BattlePlugins Team</h1>
+              <p>Past members who've made BattlePlugins what it is today!</p>
+            </div>
+            <Showcase users={restToShowcase} />
+            <div className="prose">
+                <p>Interested in Contributing?</p>
+                <a href={editUrl} className="button">
+                Get Started Today
+                </a>
+            </div>
           </div>
         </Container>
       </div>
     );
   }
 }
+
+Users.title = 'Users';
 
 module.exports = Users;
