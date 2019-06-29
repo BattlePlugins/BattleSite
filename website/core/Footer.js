@@ -46,7 +46,7 @@ class Footer extends React.Component {
           <div>
             <h5>Docs Quick Start:</h5>
             <a href="https://docs.battleplugins.org/docs/"><i class="fas icon-white fa-desktop"/> Documentation Home</a>
-            <a href="https://docs.battleplugins.org/docs/ba"><i class="fas icon-white fa-swords"/> BattleArena Docs</a>
+            <a href="https://docs.battleplugins.org/docs/ba"><i class="fas icon-white fa-border-style"/> BattleArena Docs</a>
             <a href="https://docs.battleplugins.org/docs/bt"><i class="fas icon-white fa-chart-area"/> BattleTracker Docs</a>
             <a href="https://docs.battleplugins.org/docs/vp"><i class="fas icon-white fa-user-friends"/> VirtualPlayer Docs</a>
             <a href="https://wiki.battleplugins.org/"><i class="fas icon-white fa-scroll"/> Legacy Wiki</a>
