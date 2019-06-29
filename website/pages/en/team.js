@@ -18,13 +18,16 @@ class Users extends React.Component {
       <div className="mainContainer">
         <Container padding={['bottom']}>
           <div className="showcaseSection">
+            <h1>BattlePlugins Staff and Team Members</h1>
+            <p>These are all the individuals who have made BattlePlugins what it is today. Without the help of those listed on this page and those to come, this community wouldn't be what it is today!</p>
+            <a href="https://github.com/BattlePlugins/BattleSite/blob/master/website/data/users.js" className="button">Update Page</a>
             <div className="prose">
-              <h1>Active BattlePlugins Staff</h1>
+              <h2>Active BattlePlugins Staff</h2>
               <p>Current active members of the BattlePlugins team.</p>
             </div>
             <Showcase users={bpActiveStaff} />
               <div className="prose">
-                <h1>Retired BattlePlugins Staff</h1>
+                <h2>Retired BattlePlugins Staff</h2>
                 <p>Past and Vetern members of the BattlePlugins team who are no longer active.</p>
               </div>
             <Showcase users={restToShowcase} />
