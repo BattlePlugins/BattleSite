@@ -40,7 +40,7 @@ class Footer extends React.Component {
             <a href="https://battleplugins.org/"><img src="https://battleplugins.org/img/favicon.ico" alt="Icon" height="15"/> Website</a>
             <a href="https://discord.gg/tMVPVJf"><i class="fab icon-white fa-discord"/> Discord Server</a>
             <a href="https://github.org/BattlePlugins"><i class="fab icon-white fa-github-square"/> Github Org</a>
-            <a href="https://ci.battleplugins.org/"><img src="https://ci.battleplugins.org/favicon.ico" alt="Icon" height="10"/> Jenkins Server</a>
+            <a href="https://ci.battleplugins.org/"><img src="https://ci.battleplugins.org/favicon.ico" alt="Icon" height="15"/> Jenkins Server</a>
             <a href="https://repo.battleplugins.org/"><img src="https://repo.battleplugins.org/favicon.ico" alt="Icon" height="15"/> Public Repo</a>
           </div>
           <div>
@@ -63,14 +63,14 @@ class Footer extends React.Component {
         </section>
 		<div>
 			<center>
-			<h5 className="footer-slogan">Hosted By:</h5>
-          <img alt="GitHub followers" src="https://img.shields.io/github/followers/battleplugins.svg?label=Follow&style=social"/> | <img alt="GitHub stars" src="https://img.shields.io/github/stars/battleplugins/battledocs.svg?style=social"/> | <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/battleplugins/battledocs.svg?label=Watch&style=social"/>
-          <br></br>
-          <a href="https://cl6web.com" className="footer-slogan"><img src={`${this.props.config.baseUrl}img/cl6.png`} alt="CL6 Hosting" height="60"/></a>
-        	</center>
-        </div>
-        <section className="copyright">{this.props.config.copyright}</section>
-      </footer>
+        <img alt="GitHub followers" src="https://img.shields.io/github/followers/battleplugins.svg?label=Follow&style=social"/> | <img alt="GitHub stars" src="https://img.shields.io/github/stars/battleplugins/battledocs.svg?style=social"/> | <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/battleplugins/battledocs.svg?label=Watch&style=social"/>
+        <br></br>
+			     <h5 className="footer-slogan">Hosted By:</h5>
+           <a href="https://cl6web.com" className="footer-slogan"><img src={`${this.props.config.baseUrl}img/cl6.png`} alt="CL6 Hosting" height="60"/></a>
+      </center>
+    </div>
+    <section className="copyright">{this.props.config.copyright}</section>
+  </footer>
     );
   }
 }
