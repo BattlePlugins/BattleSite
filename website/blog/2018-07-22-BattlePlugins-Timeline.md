@@ -1,5 +1,5 @@
 ---
-title: BattlePlugins: Timeline through the Years
+title: Timeline through the Years
 author: Zach443
 authorURL: http://github.com/zach443
 authorImageURL: https://avatars1.githubusercontent.com/u/4268906?s=100&v=4
