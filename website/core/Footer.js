@@ -56,19 +56,19 @@ class Footer extends React.Component {
             <table>
               <tr>
                 <th>Github Repo</th>
-                <th><img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></a></th>
+                <th><img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></th>
               </tr>
               <tr>
                 <td>Build Status</td>
-                <td><img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></a></td>
+                <td><img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></td>
               </tr>
               <tr>
                 <td>Site Size</td>
-                <td><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/battleplugins/battledocs.svg?style=flat-square"/></a></td>
+                <td><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/battleplugins/battledocs.svg?style=flat-square"/></td>
               </tr>
               <tr>
                 <td>Update History</td>
-                <td><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/battleplugins/battledocs.svg?style=flat-square"/></a></td>
+                <td><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/battleplugins/battledocs.svg?style=flat-square"/></td>
               </tr>
               <tr>
                 <td>5</td>
