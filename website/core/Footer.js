@@ -41,14 +41,14 @@ class Footer extends React.Component {
             <a href="https://discord.gg/tMVPVJf"><i class="fab icon-white fa-discord"/> Discord Server</a>
             <a href="https://github.org/BattlePlugins"><i class="fab icon-white fa-github-square"/> Github Org</a>
             <a href="https://ci.battleplugins.org/"><img src="https://ci.battleplugins.org/favicon.ico" alt="Icon" height="20"/> Jenkins Server</a>
-            <a href="https://repo.battleplugins.org/"><<img src="https://repo.battleplugins.org/favicon.ico" alt="Icon" height="20"/> Public Repo</a>
+            <a href="https://repo.battleplugins.org/"><img src="https://repo.battleplugins.org/favicon.ico" alt="Icon" height="20"/> Public Repo</a>
           </div>
           <div>
             <h5>Docs Quick Start:</h5>
             <a href="https://docs.battleplugins.org/docs/"><i class="fab icon-white fa-desktop"/> Documentation Home</a>
-            <a href="https://docs.battleplugins.org/docs/ba"><i class="icon-white fab fa-swords"/> BattleArena Docs</a>
-            <a href="https://docs.battleplugins.org/docs/bt"><i class="icon-white fab fa-chart-area"/> BattleTracker Docs</a>
-            <a href="https://docs.battleplugins.org/docs/vp"><i class="icon-white fab fa-user-friends"/> VirtualPlayer Docs</a>
+            <a href="https://docs.battleplugins.org/docs/ba"><i class="fab icon-white fa-swords"/> BattleArena Docs</a>
+            <a href="https://docs.battleplugins.org/docs/bt"><i class="fab icon-white fa-chart-area"/> BattleTracker Docs</a>
+            <a href="https://docs.battleplugins.org/docs/vp"><i class="fab icon-white fa-user-friends"/> VirtualPlayer Docs</a>
             <a href="https://wiki.battleplugins.org/"><i class="fab icon-white fa-scroll"/> Legacy Wiki</a>
           </div>
           <div>
