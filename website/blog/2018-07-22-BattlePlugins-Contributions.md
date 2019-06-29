@@ -4,6 +4,9 @@ author: Zach443
 authorURL: http://github.com/zach443
 authorImageURL: https://avatars1.githubusercontent.com/u/4268906?s=100&v=4
 ---
+Semi updated list of contributions and BattlePlugins prosperity periods.
+
+<!--truncate-->
 
 ## Contributors to BattlePlugins:
 * Carbonfire (before it was officially called BattlePlugins, he only worked for Battlecraft’s development team)  He was the second developer for Battlecraft.

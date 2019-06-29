@@ -7,6 +7,8 @@ authorImageURL: https://avatars1.githubusercontent.com/u/4268906?s=100&v=4
 
 Hey guys, Zach443 here! In celebration of our complete overhaul of BattlePlugins, I have decided to make a post explaining what is happening, as well as everything that has lead up to this point. Not many people know the full history of BattlePlugins, but the project existed for many years and has had many different homes and developers along the way. Here is a complete, detailed history of BattlePlugins from day zero until now.
 
+<!--truncate-->
+
 ## The Start
 
 It all started in July of 2011, during Minecraft beta 1.7. [BattleArena](https://github.com/BattlePlugins/BattleArena) was created by alkarin for a server called Battlecraft as the first plugin in the “BattlePlugins” line. Soon after, alkarin released BattleProtections and Battlecraft as the second BattlePlugin, with BattleGuilds and ArenaPaintball soon following. Then, in December of 2011 lDucks was hired to the BattleCraft team as an admin after he developed the Armory. The Armory was a web interface that was synced with plugins like BattleGuilds to show prices of ingame items, guild/user rankings, and town information. This was the first project alkarin and lDucks worked on together, forming a strong friendship between the two. In February of 2012, lDucks was asked to join the development team by Latros (the original owner of Battlecraft). He asked lDucks if he could learn Java (a language which lDucks had never seen before) in order to assist Alkarin. The idea was proposed to Alkarin, and he gladly agreed to be lDucks’ mentor. lDucks and Alkarin agreed to call their development team BattlePlugins.

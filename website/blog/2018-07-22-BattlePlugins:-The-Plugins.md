@@ -4,6 +4,17 @@ author: Zach443
 authorURL: http://github.com/zach443
 authorImageURL: https://avatars1.githubusercontent.com/u/4268906?s=100&v=4
 ---
+Documented Past and Present BattlePlugins, there may be more:
+
+<!--truncate-->
+
+
+## Currently Maintained
+* BA
+
+## Long Term Support (LTS)
+
+## Discontinued / Dropped plugins
 
 List of BattlePlugins that I can remember:
 BattleArena (Created in 2011)

@@ -9,7 +9,11 @@ authorImageURL: https://avatars1.githubusercontent.com/u/4268906?s=100&v=4
 
 Hey everyone,
 
-As some of you may know, the main developer (`@alkarinv`) of the BattlePlugins (BattleArena, BattleTracker, ArenaCTF, ArenaSpleef, etc) line has been missing for about 2 months now. He has not logged into BukkitDev, IRC, or responded to emails sent to him by lDucks. I was pretty good friends with alkarin, and I helped around with bugs or giving support on IRC. I know that there is a massive community behind all of the BattlePlugins, and I am not ready to let it get left behind. So, here is full story of what is happening:
+As some of you may know, the main developer (`@alkarinv`) of the BattlePlugins (BattleArena, BattleTracker, ArenaCTF, ArenaSpleef, etc) line has been missing for about 2 months now. He has not logged into BukkitDev, IRC, or responded to emails sent to him by lDucks. I was pretty good friends with alkarin, and I helped around with bugs or giving support on IRC. I know that there is a massive community behind all of the BattlePlugins, and I am not ready to let it get left behind.
+
+<!--truncate-->
+
+So, here is full story of what is happening:
 
 Somewhere around July 23, I was talking to alkarin on IRC. We were discussing a BattleArena bug. I ended up having to leave mid-conversation, and alkarin told me he would be on the next day and we could finish our discussion then. The next day he never logged into IRC, although I didn't think it was a huge deal. Alk is a busy guy and it was not uncommon for him to be gone for a couple days or so. Those days turned to weeks, and I began to be a bit concerned. Around this time lDucks emailed him and got no response.
 

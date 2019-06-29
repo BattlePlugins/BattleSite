@@ -4,6 +4,9 @@ author: Zach443
 authorURL: http://github.com/zach443
 authorImageURL: https://avatars1.githubusercontent.com/u/4268906?s=100&v=4
 ---
+Timeline of BattlePlugins from creation to present. Evolution, changes, and upgrades.
+
+<!--truncate-->
 
 Timeline:
 
