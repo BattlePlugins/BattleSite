@@ -21,11 +21,11 @@ class Users extends React.Component {
             <h1>BattlePlugins Staff and Team Members</h1>
             <p>These are all the individuals who have made BattlePlugins what it is today. Without the help of those listed on this page and those to come, this community wouldn't be what it is today!</p>
             <div className="prose">
-              <h2>Active BattlePlugins Staff</h2>
+              <h2>Active / Current BattlePlugins Staff</h2>
             </div>
             <Showcase users={bpActiveStaff} />
               <div className="prose">
-                <h2>Retired BattlePlugins Staff</h2>
+                <h2>Retired / Past BattlePlugins Staff</h2>
               </div>
             <Showcase users={restToShowcase} />
             <br></br>
