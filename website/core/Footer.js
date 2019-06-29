@@ -55,8 +55,8 @@ class Footer extends React.Component {
             <h5>Website Info:</h5>
             <table>
               <tr>
-                <th>Github Repo</th>
-                <th><img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></th>
+                <td>Github Repo</th>
+                <td><img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></th>
               </tr>
               <tr>
                 <td>Build Status</td>
