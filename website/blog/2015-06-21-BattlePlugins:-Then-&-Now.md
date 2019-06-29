@@ -29,5 +29,5 @@ We created an organization on GitHub and forked all the major BattlePlugins proj
 
 After almost a year, we are finally getting back on track. Every day we work on helping people on Bukkit, responding to bug reports on GitHub, helping people on IRC, creating new wiki content, and getting a new Jenkins server setup for the community. I thank everyone who has stayed around throughout these tough times, and all the new users we have gained along the way that were patient enough while we got our sh*t together. Moving forward, BattlePlugins will continue to become better than it ever was before!
 
-### Blog Disclosure
+#### Blog Disclosure
 > This post was updated and reformatted on June 29, 2019 from the original website post to adapt to the new BattlePlugins website and blog. - `@clovisd`

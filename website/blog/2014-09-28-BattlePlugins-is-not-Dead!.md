@@ -61,5 +61,5 @@ Special Thanks go to:​
 Last but not least, I would like to thank the guys over at DreadCraft. They have an awesome server and are avid users of the BattlePlugins. They have really helped out with getting the project back of the ground. Go check them out at http://dreadcraft.net !​
 ​
 
-### Blog Disclosure
+#### Blog Disclosure
 > This post was updated and reformatted on June 29, 2019 from the original [Bukkit post here](https://cugaming.gg) to adapt to the new BattlePlugins website and blog. - `@clovisd`
