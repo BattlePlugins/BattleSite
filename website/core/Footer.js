@@ -43,7 +43,7 @@ class Footer extends React.Component {
             <a href="https://ci.battleplugins.org/"><img src="https://ci.battleplugins.org/favicon.ico" alt="Icon" height="15"/> Jenkins Server</a>
             <a href="https://repo.battleplugins.org/"><img src="https://battleplugins.org/img/favicon.ico" alt="Icon" height="15"/> Public Repo</a>
           </div>
-          <div align="center">
+          <div align="left">
             <h5>Docs Quick Start:</h5>
             <a href="https://docs.battleplugins.org/docs/"><i class="fas icon-white fa-desktop"/> Documentation Home</a>
             <a href="https://docs.battleplugins.org/docs/ba"><i class="fas icon-white fa-border-style"/> BattleArena Docs</a>
@@ -51,14 +51,30 @@ class Footer extends React.Component {
             <a href="https://docs.battleplugins.org/docs/vp"><i class="fas icon-white fa-user-friends"/> VirtualPlayer Docs</a>
             <a href="https://wiki.battleplugins.org/"><i class="fas icon-white fa-scroll"/> Legacy Wiki</a>
           </div>
-          <div align="right">
+          <div align="left">
             <h5>Website Info:</h5>
-            <a href="https://github.com/BattlePlugins/BattleDocs">Github Repo</a>
-            <a href="http://ci.battleplugins.org/jobs/BattleDocs">Latest Build: <img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></a>
-            <a href="https://github.com/BattlePlugins/BattleDocs">Site Size: <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/battleplugins/battledocs.svg?style=flat-square"/></a>
-            <a href="https://github.com/BattlePlugins/BattleDocs/pulls">Updates: <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/battleplugins/battledocs.svg?style=flat-square"/></a>
-            <br></br>
-
+            <table>
+              <tr>
+                <th>Github Repo</th>
+                <th><img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></a></th>
+              </tr>
+              <tr>
+                <td>Build Status</td>
+                <td><img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></a></td>
+              </tr>
+              <tr>
+                <td>Site Size</td>
+                <td><img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/battleplugins/battledocs.svg?style=flat-square"/></a></td>
+              </tr>
+              <tr>
+                <td>Update History</td>
+                <td><img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/battleplugins/battledocs.svg?style=flat-square"/></a></td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>10</td>
+              </tr>
+            </table>
           </div>
         </section>
 		<div>
