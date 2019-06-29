@@ -3,7 +3,7 @@ module.exports = [
     caption: 'clovisd',
     image: 'https://avatars3.githubusercontent.com/u/1336589?s=100&v=4',
     infoLink: 'https://github.com/clovisd',
-    pinned: true,
+    pinned: false,
     bpActive: true,
   },
   {
@@ -17,7 +17,7 @@ module.exports = [
     caption: 'Ducks',
     image: 'https://avatars2.githubusercontent.com/u/3073160?s=100&v=4',
     infoLink: 'https://github.com/jarosenthal',
-    pinned: true,
+    pinned: false,
     bpActive: true,
   },
   {
@@ -71,7 +71,7 @@ module.exports = [
   },
   {
     caption: 'Saintx',
-    image: 'https://avatars2.githubusercontent.com/u/957979?s=100&v=4',
+    image: 'https://avatars2.githubusercontent.com/u/51498371?s=100&v=4',
     infoLink: 'https://github.com/saintx',
     pinned: false,
     bpActive: false,
@@ -85,7 +85,7 @@ module.exports = [
   },
   {
     caption: 'Yahtze',
-    image: 'https://avatars2.githubusercontent.com/u/957979?s=100&v=4',
+    image: 'https://avatars2.githubusercontent.com/u/51498373?s=100&v=4',
     infoLink: 'https://github.com/battleplugins',
     pinned: false,
     bpActive: false,
@@ -99,7 +99,7 @@ module.exports = [
   },
   {
     caption: 'rasnyderiii',
-    image: 'https://avatars2.githubusercontent.com/u/150500?s=100&v=4',
+    image: 'https://avatars2.githubusercontent.com/u/51498372?s=100&v=4',
     infoLink: 'https://github.com/rasnyderiii',
     pinned: false,
     bpActive: false,
