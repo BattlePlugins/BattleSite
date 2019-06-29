@@ -53,7 +53,7 @@ class Footer extends React.Component {
           </div>
           <div align="left">
             <h5>Website Info:</h5>
-            <table>
+            <table cellpadding="0" cellspacing="0" border="0">
               <tr>
                 <td>Github Repo</td>
                 <td><img alt="Jenkins" src="https://img.shields.io/jenkins/build/http/s14.cl6.us:8080/job/BattleDocs.svg?style=flat-square"/></td>
