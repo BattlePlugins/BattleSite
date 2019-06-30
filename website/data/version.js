@@ -11,7 +11,7 @@ module.exports = [
     jenkinsDownload: 'https://ci.battleplugins.org/jobs/BattlePlugins/jobs/BattleArena/jobs/master'
   },
   {
-    plugin: 'BattleTracker',
+    plugin: 'BattleTracker 2',
     version: '3.12.6.5',
     isStable: true,
     githubRelease: 'https://github.com/release/',
@@ -25,6 +25,17 @@ module.exports = [
     plugin: 'VirtualPlayers',
     version: '1.24.12.54',
     isStable: true,
+    githubRelease: 'https://github.com/release/',
+    updated: '02/04/2014',
+    repoMirror: true,
+    urlDownload: 'https://repo.battleplugins.org/dl',
+    jenkinsMirror: true,
+    jenkinsDownload: 'https://ci.battleplugins.org/jobs/BattlePlugins/jobs/BattleArena/jobs/master'
+  },
+  {
+    plugin: 'BattleTracker 3',
+    version: '3.0.0.1',
+    isStable: false,
     githubRelease: 'https://github.com/release/',
     updated: '02/04/2014',
     repoMirror: true,
