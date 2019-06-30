@@ -38,4 +38,4 @@ class Users extends React.Component {
 
 Users.title = 'Download Latest BattlePlugins';
 
-module.exports = Plugins;
+module.exports = Get;
