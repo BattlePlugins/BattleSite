@@ -4,7 +4,7 @@ const CompLibrary = require('../../core/CompLibrary.js');
 
 const Container = CompLibrary.Container;
 
-const Showcase = require(`../../core/Plugins.js`);
+const Plugins = require(`../../core/Plugins.js`);
 
 class Users extends React.Component {
   render() {
