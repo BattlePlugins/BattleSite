@@ -53,11 +53,11 @@ class Footer extends React.Component {
           </div>
           <div align="left">
             <h5>Website Info:</h5>
-            <a href="https://docs.battleplugins.org">Github Repo - <img alt="GitHub Watch Count" src="https://img.shields.io/github/watchers/battleplugins/battlesite.svg?color=brightgreen&label=Github%20Repo&logo=github&logoColor=white&style=flat-square"/></a>
-            <a href="https://docs.battleplugins.org">Build Status - <img alt="Jenkins Builds" src="https://img.shields.io/jenkins/build/https/ci.battleplugins.org/job/BattlePlugins/job/BattleSite/job/master.svg?label=Build%20Status&logo=jenkins&logoColor=white&style=flat-square"/></a>
-            <a href="https://docs.battleplugins.org">Site Size - <img alt="Codebase Size" src="https://img.shields.io/github/languages/code-size/battleplugins/battlearena.svg?label=Site%20Size&logo=github&logoColor=white&style=flat-square"/></a>
-            <a href="https://docs.battleplugins.org">Update History - IDK WHAT GOES HERE <img alt="Commit Activity" src="https://img.shields.io/github/commit-activity/m/battleplugins/battlesite.svg?color=brightgreen&label=Updates&logo=github&logoColor=white&style=flat-square"/></a>
-            <a href="https://docs.battleplugins.org">Last Updated - <img alt="Most Recent Commit" src="https://img.shields.io/github/last-commit/battleplugins/battlesite.svg?label=Last%20Update&logo=github&logoColor=white&style=flat-square"/></a>
+            <a href="https://battleplugins.org" className="footer-badge"><img alt="GitHub Watchers" src="https://img.shields.io/github/watchers/battleplugins/battlesite.svg?color=brightgreen&label=Watching%20Repo%3A&logo=github&logoColor=white&style=flat-square"></a>
+            <a href="https://battleplugins.org" className="footer-badge"><img alt="Jenkins Builds" src="https://img.shields.io/jenkins/build/https/ci.battleplugins.org/job/BattlePlugins/job/BattleSite/job/master.svg?label=Build%20Status&logo=jenkins&logoColor=white&style=flat-square"/></a>
+            <a href="https://battleplugins.org" className="footer-badge"><img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/battleplugins/battlesite.svg?color=brightgreen&label=Site%20Size&logo=github&logoColor=white&style=flat-square"></a>
+            <a href="https://battleplugins.org" className="footer-badge"><img alt="Discord Server" src="https://img.shields.io/discord/305170628468801537.svg?color=brightgreen&label=Discord%20Server&logo=discord&logoColor=white&style=flat-square"></a>
+            <a href="https://battleplugins.org" className="footer-badge"><img alt="Most Recent Commit" src="https://img.shields.io/github/last-commit/battleplugins/battlesite.svg?label=Last%20Update&logo=github&logoColor=white&style=flat-square"/></a>
           </div>
         </section>
 		<div>
