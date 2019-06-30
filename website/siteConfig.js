@@ -11,6 +11,9 @@
 // List of projects/orgs using your project for the users page.
 const users = require('./data/users');
 
+// List of projects/orgs using your project for the users page.
+const files = require('./data/version');
+
 const siteConfig = {
   title: '', // Title for your website.
   tagline: 'BattlePlugins Plugin Suite Home',
