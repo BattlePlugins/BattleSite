@@ -4,9 +4,9 @@ const CompLibrary = require('../../core/CompLibrary.js');
 
 const Container = CompLibrary.Container;
 
-const Plugins = require(`${process.cwd()}/core/Plugins.js`);
+const GetShowcase = require(`${process.cwd()}/core/GetShowcase.js`);
 
-class Users extends React.Component {
+class Version extends React.Component {
   render() {
     const {config: siteConfig} = this.props;
     const stablePlugins = siteConfig.users.filter(
@@ -36,6 +36,6 @@ class Users extends React.Component {
   }
 }
 
-Users.title = 'Download Latest BattlePlugins';
+Get.title = 'Download Latest BattlePlugins';
 
 module.exports = Get;

@@ -29,4 +29,4 @@ pluginShowcase.propTypes = {
   plugin: PropTypes.array.isRequired,
 };
 
-module.exports = Plugins;
+module.exports = GetShowcase;

@@ -41,6 +41,6 @@ class Users extends React.Component {
   }
 }
 
-Users.title = 'BattlePlugins Team - Past and Present';
+Team.title = 'BattlePlugins Team - Past and Present';
 
-module.exports = Users;
+module.exports = Team;
