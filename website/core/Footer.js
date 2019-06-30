@@ -37,9 +37,9 @@ class Footer extends React.Component {
           </a>
           <div align="left">
             <h5>Organization Info:</h5>
-            <a href="https://battleplugins.org/"><img src="https://battleplugins.org/img/black.ico" alt="Icon" height="15"/> BattlePlugins Site</a>
-            <a href="https://discord.gg/tMVPVJf"><i class="fab icon-white fa-discord"/> Discord Server</a>
-            <a href="https://github.org/BattlePlugins"><i class="fab icon-white fa-github-square"/> Github Repos</a>
+            <a href="https://battleplugins.org/"><img src="https://battleplugins.org/img/night.ico" alt="Icon" height="15"/> BattlePlugins Site</a>
+            <a href="https://discord.gg/tMVPVJf"><img src="https://battleplugins.org/img/discord.ico" alt="Icon" height="15"/>  Discord Server</a>
+            <a href="https://github.org/BattlePlugins"><img src="https://battleplugins.org/img/black.ico" alt="Icon" height="15"/> Github Repos</a>
             <a href="https://ci.battleplugins.org/"><img src="https://battleplugins.org/img/jenkins.ico" alt="Icon" height="15"/> Jenkins CI</a>
             <a href="https://repo.battleplugins.org/"><img src="https://battleplugins.org/img/repo.ico" alt="Icon" height="15"/> Public Repo</a>
           </div>
