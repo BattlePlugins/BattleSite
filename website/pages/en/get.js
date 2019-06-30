@@ -28,7 +28,6 @@ class Stable extends React.Component {
                 <h2>Unstable / Testing Plugins</h2>
               </div>
             <GetShowcase Stable={unstablePlugins} />
-            <br></br>
           </div>
         </Container>
       </div>
