@@ -37,15 +37,15 @@ class Footer extends React.Component {
           </a>
           <div align="left">
             <h5>Organization Info:</h5>
-            <a href="https://battleplugins.org/"><img src="https://battleplugins.org/img/favicon.ico" alt="Icon" height="15"/> Home Site</a>
+            <a href="https://battleplugins.org/"><img src="https://battleplugins.org/img/favicon.ico" alt="Icon" height="15"/> BattlePlugins Site</a>
             <a href="https://discord.gg/tMVPVJf"><i class="fab icon-white fa-discord"/> Discord Server</a>
             <a href="https://github.org/BattlePlugins"><i class="fab icon-white fa-github-square"/> Github Repos</a>
-            <a href="https://ci.battleplugins.org/"><img src="https://ci.battleplugins.org/favicon.ico" alt="Icon" height="15"/> Jenkins Server</a>
-            <a href="https://repo.battleplugins.org/"><img src="https://battleplugins.org/img/favicon.ico" alt="Icon" height="15"/> Public Repo</a>
+            <a href="https://ci.battleplugins.org/"><img src="https://battleplugins.org/img/jenkins.ico" alt="Icon" height="15"/> Jenkins CI</a>
+            <a href="https://repo.battleplugins.org/"><img src="https://battleplugins.org/img/repo.ico" alt="Icon" height="15"/> Public Repo</a>
           </div>
           <div align="left">
             <h5>Docs Quick Start:</h5>
-            <a href="https://docs.battleplugins.org/docs/"><i class="fas icon-white fa-desktop"/> Documentation Home</a>
+            <a href="https://docs.battleplugins.org/docs/"><i class="fas icon-white fa-desktop"/> Docs Home</a>
             <a href="https://docs.battleplugins.org/docs/ba"><i class="fas icon-white fa-border-style"/> BattleArena Docs</a>
             <a href="https://docs.battleplugins.org/docs/bt"><i class="fas icon-white fa-chart-area"/> BattleTracker Docs</a>
             <a href="https://docs.battleplugins.org/docs/vp"><i class="fas icon-white fa-user-friends"/> VirtualPlayer Docs</a>
