@@ -11,7 +11,7 @@
 // List of projects/orgs using your project for the users page.
 const users = require('./data/users');
 
-// List of projects/orgs using your project for the users page.
+// List of File Info using the project Get page.
 const files = require('./data/version');
 
 const siteConfig = {
