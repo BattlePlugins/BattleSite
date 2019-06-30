@@ -23,11 +23,11 @@ class Version extends React.Component {
             <div className="prose">
               <h2>Stable Plugins:</h2>
             </div>
-            <Showcase users={stablePlugins} />
+            <GetShowcase Version={stablePlugins} />
               <div className="prose">
                 <h2>Unstable / Testing Plugins</h2>
               </div>
-            <Showcase users={unstablePlugins} />
+            <GetShowcase Version={unstablePlugins} />
             <br></br>
           </div>
         </Container>
