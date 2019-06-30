@@ -32,8 +32,8 @@ class Users extends React.Component {
             <div className="prose">
               <h4>Interested in Contributing?</h4>
               <a href="https://docs.battleplugins.org/docs/guidelines" className="button">Contribute Today</a><br></br>
-              <a href="https://github.com/BattlePlugins/BattleSite/blob/master/website/data/users.js" className="button">Update Users</a>
             </div>
+            <a href="https://github.com/BattlePlugins/BattleSite/blob/master/website/data/users.js" className="button">Update Page / Users</a>
           </div>
         </Container>
       </div>
