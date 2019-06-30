@@ -53,11 +53,11 @@ class Footer extends React.Component {
           </div>
           <div align="left">
             <h5>Website Info:</h5>
-                Github Repo - <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/battleplugins/battlesite.svg?color=brightgreen&label=Github%20Repo&logo=github&logoColor=white&style=flat-square">
-                Build Status - <img alt="Jenkins" src="https://img.shields.io/jenkins/build/https/ci.battleplugins.org/job/BattlePlugins/job/BattleSite/job/master.svg?label=Build%20Status&logo=jenkins&logoColor=white&style=flat-square">
-                Site Size - <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/battleplugins/battlearena.svg?label=Site%20Size&logo=github&logoColor=white&style=flat-square">
-                Update History - IDK WHAT GOES HERE <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/battleplugins/battlesite.svg?color=brightgreen&label=Updates&logo=github&logoColor=white&style=flat-square">
-                Last Updated - <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/battleplugins/battlesite.svg?label=Last%20Update&logo=github&logoColor=white&style=flat-square">
+                Github Repo - <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/battleplugins/battlesite.svg?color=brightgreen&label=Github%20Repo&logo=github&logoColor=white&style=flat-square"/>
+                Build Status - <img alt="Jenkins" src="https://img.shields.io/jenkins/build/https/ci.battleplugins.org/job/BattlePlugins/job/BattleSite/job/master.svg?label=Build%20Status&logo=jenkins&logoColor=white&style=flat-square"/>
+                Site Size - <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/battleplugins/battlearena.svg?label=Site%20Size&logo=github&logoColor=white&style=flat-square"/>
+                Update History - IDK WHAT GOES HERE <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/battleplugins/battlesite.svg?color=brightgreen&label=Updates&logo=github&logoColor=white&style=flat-square"/>
+                Last Updated - <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/battleplugins/battlesite.svg?label=Last%20Update&logo=github&logoColor=white&style=flat-square"/>
           </div>
         </section>
 		<div>
