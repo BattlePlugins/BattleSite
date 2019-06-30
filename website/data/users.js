@@ -42,7 +42,7 @@ module.exports = [
     bpActive: true,
   },
   {
-    caption: 'Samstiles',
+    caption: 'Latros',
     image: 'https://avatars2.githubusercontent.com/u/931327?s=100&v=4',
     infoLink: 'https://github.com/Samstiles',
     pinned: false,
