@@ -17,7 +17,7 @@ pluginBox.propTypes = {
   githubRelease: PropTypes.string.isRequired,
 };
 
-const pluginShowcase = ({users}) => (
+const pluginShowcase = ({plugin}) => (
   <div className="pluginShowcase">
     {version.map(plugin => (
       <pluginBox key={plugin.githubRelease} {...plugin} />
