@@ -23,7 +23,7 @@ module.exports = [
   {
     caption: 'Redned',
     image: 'https://avatars2.githubusercontent.com/u/29153871?s=100&v=4',
-    infoLink: 'https://github.com/Redned',
+    infoLink: 'https://github.com/RednedEpic',
     pinned: true,
     bpActive: true,
   },
@@ -73,13 +73,6 @@ module.exports = [
     caption: 'Saintx',
     image: 'https://avatars2.githubusercontent.com/u/51498371?s=100&v=4',
     infoLink: 'https://github.com/saintx',
-    pinned: false,
-    bpActive: false,
-  },
-  {
-    caption: 'Latros',
-    image: 'https://avatars2.githubusercontent.com/u/11712653?s=100&v=4',
-    infoLink: 'https://github.com/Latros',
     pinned: false,
     bpActive: false,
   },
