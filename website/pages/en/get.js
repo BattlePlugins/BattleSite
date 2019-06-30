@@ -9,10 +9,10 @@ const GetShowcase = require(`${process.cwd()}/core/GetShowcase.js`);
 class Stable extends React.Component {
   render() {
     const {config: siteConfig} = this.props;
-    const stablePlugins = siteConfig.plugin.filter(
+    const stablePlugins = siteConfig.pluginList.filter(
       plugin => plugin.isStable,
     );
-    const unstablePlugins = siteConfig.plugin.filter(plugin => !plugin.isStable);
+    const unstablePlugins = siteConfig.pluginList.filter(plugin => !plugin.isStable);
 
     return (
       <div className="mainContainer">

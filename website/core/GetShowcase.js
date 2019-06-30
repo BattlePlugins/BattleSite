@@ -19,7 +19,7 @@ pluginBox.propTypes = {
 
 const pluginShowcase = ({plugin}) => (
   <div className="pluginShowcase">
-    {version.map(plugin => (
+    {pluginList.map(plugin => (
       <pluginBox key={plugin.githubRelease} {...plugin} />
     ))}
   </div>
