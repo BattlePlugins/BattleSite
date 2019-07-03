@@ -1,48 +1,46 @@
-{
-  "plugins": [
-    {
-      "plugin": "BattleArena",
-      "version": "1.13.2.1",
-      "isStable": true,
-      "updated": "02/02/2019",
-      "githubRelease": "https://github.com/release/",
-      "repoMirror": true,
-      "urlDownload": "https://repo.battleplugins.org/dl",
-      "jenkinsMirror": true,
-      "jenkinsDownload": "https://ci.battleplugins.org/jobs/BattlePlugins/jobs/BattleArena/jobs/master"
+{"plugins": [
+        {
+        "plugin": "BattleArena",
+        "version": "3.9.12.12",
+        "isStable": true,
+        "updated": "07/03/2019",
+        "githubRelease": "https://github.com/BattlePlugins/BattleArena/releases/tag/3.9.12.12",
+        "repoMirror": true,
+        "urlDownload": "https://repo.battleplugins.org/artifactory/libs-release-local",
+        "jenkinsMirror": true,
+        "jenkinsDownload": "https://ci.battleplugins.org/job/BattlePlugins/job/BattleArena/job/master/92/"
     },
-    {
-      "plugin": "BattleTracker 2",
-      "version": "3.12.6.5",
-      "isStable": true,
-      "githubRelease": "https://github.com/release/",
-      "updated": "02/04/2014",
-      "repoMirror": true,
-      "urlDownload": "https://repo.battleplugins.org/dl",
-      "jenkinsMirror": true,
-      "jenkinsDownload": "https://ci.battleplugins.org/jobs/BattlePlugins/jobs/BattleArena/jobs/master"
+        {
+        "plugin": "BattleTracker 2",
+        "version": "3.12.6.5",
+        "isStable": true,
+        "githubRelease": "https://github.com/release/",
+        "updated": "02/04/2014",
+        "repoMirror": true,
+        "urlDownload": "https://repo.battleplugins.org/dl",
+        "jenkinsMirror": true,
+        "jenkinsDownload": "https://ci.battleplugins.org/jobs/BattlePlugins/jobs/BattleArena/jobs/master"
     },
-    {
-      "plugin": "VirtualPlayers",
-      "version": "1.24.12.54",
-      "isStable": true,
-      "githubRelease": "https://github.com/release/",
-      "updated": "02/04/2014",
-      "repoMirror": true,
-      "urlDownload": "https://repo.battleplugins.org/dl",
-      "jenkinsMirror": true,
-      "jenkinsDownload": "https://ci.battleplugins.org/jobs/BattlePlugins/jobs/BattleArena/jobs/master"
+        {
+        "plugin": "VirtualPlayers",
+        "version": "1.24.12.54",
+        "isStable": true,
+        "githubRelease": "https://github.com/release/",
+        "updated": "02/04/2014",
+        "repoMirror": true,
+        "urlDownload": "https://repo.battleplugins.org/dl",
+        "jenkinsMirror": true,
+        "jenkinsDownload": "https://ci.battleplugins.org/jobs/BattlePlugins/jobs/BattleArena/jobs/master"
     },
-    {
-      "plugin": "BattleTracker 3",
-      "version": "3.0.0.1",
-      "isStable": false,
-      "githubRelease": "https://github.com/release/",
-      "updated": "02/04/2014",
-      "repoMirror": true,
-      "urlDownload": "https://repo.battleplugins.org/dl",
-      "jenkinsMirror": true,
-      "jenkinsDownload": "https://ci.battleplugins.org/jobs/BattlePlugins/jobs/BattleArena/jobs/master"
+        {
+        "plugin": "BattleTracker 3",
+        "version": "3.0.0.1",
+        "isStable": false,
+        "githubRelease": "https://github.com/release/",
+        "updated": "02/04/2014",
+        "repoMirror": true,
+        "urlDownload": "https://repo.battleplugins.org/dl",
+        "jenkinsMirror": true,
+        "jenkinsDownload": "https://ci.battleplugins.org/jobs/BattlePlugins/jobs/BattleArena/jobs/master"
     }
-  ]
-}
+]}
