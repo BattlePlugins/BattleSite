@@ -1,14 +1,14 @@
 {"plugins": [
         {
         "plugin": "BattleArena",
-        "version": "3.9.14.2",
+        "version": "3.9.15.0",
         "isStable": true,
-        "updated": "08/16/2019",
-        "githubRelease": "https://github.com/BattlePlugins/BattleArena/releases/tag/3.9.14.2",
+        "updated": "10/03/2019",
+        "githubRelease": "https://github.com/BattlePlugins/BattleArena/releases/3.9.15.0",
         "repoMirror": true,
         "urlDownload": "https://repo.battleplugins.org/artifactory/libs-release-local",
         "jenkinsMirror": true,
-        "jenkinsDownload": "https://ci.battleplugins.org/job/BattlePlugins/job/BattleArena/job/master/112/"
+        "jenkinsDownload": "https://ci.battleplugins.org/job/BattlePlugins/job/BattleArena/job/master/116/"
     },
         {
         "plugin": "BattleTracker 2",
