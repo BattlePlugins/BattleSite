@@ -25,12 +25,12 @@
         "plugin": "VirtualPlayers",
         "version": "1.10.0",
         "isStable": true,
-        "githubRelease": "https://github.com/BattlePlugins/VirtualPlayers/releases/tag/1.10.0",
+        "githubRelease": "https://github.com/BattlePlugins/VirtualPlayers/releases/1.10.0",
         "updated": "12/15/2019",
         "repoMirror": true,
         "urlDownload": "https://repo.battleplugins.org/artifactory/libs-release-local",
         "jenkinsMirror": true,
-        "jenkinsDownload": "https://ci.battleplugins.org/job/BattlePlugins/job/VirtualPlayers/job/master/19/"
+        "jenkinsDownload": "https://ci.battleplugins.org/job/BattlePlugins/job/VirtualPlayers/job/master/20/"
     },
         {
         "plugin": "BattleTracker 3",
