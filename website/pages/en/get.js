@@ -38,6 +38,6 @@ class Plugins extends React.Component {
   }
 }
 
-Get.title = 'Download Latest BattlePlugins';
+GetPage.title = 'Download Latest BattlePlugins';
 
-module.exports = Get;
+module.exports = GetPage;
