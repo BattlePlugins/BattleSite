@@ -7,7 +7,7 @@ module.exports = [{
     repoMirror: true,
     urlDownload: 'https://repo.battleplugins.org/artifactory/libs-release-local',
     jenkinsMirror: true,
-    jenkinsDownload: "https://ci.battleplugins.org/job/BattlePlugins/job/BattleArena/job/master/122/',
+    jenkinsDownload: 'https://ci.battleplugins.org/job/BattlePlugins/job/BattleArena/job/master/122/',
   },
   {
     plugin: 'BattleTracker',
@@ -18,6 +18,6 @@ module.exports = [{
     repoMirror: true,
     urlDownload: 'https://repo.battleplugins.org/artifactory/libs-release-local',
     jenkinsMirror: true,
-    jenkinsDownload: "https://ci.battleplugins.org/job/BattlePlugins/job/BattleArena/job/master/122/',
+    jenkinsDownload: 'https://ci.battleplugins.org/job/BattlePlugins/job/BattleArena/job/master/122/',
   },
 ];
