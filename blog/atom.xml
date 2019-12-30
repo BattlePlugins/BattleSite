@@ -2,76 +2,76 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://battleplugins.org/blog</id>
     <title> Blog</title>
-    <updated>2018-07-22T06:00:00Z</updated>
-    <generator>Feed for Node.js</generator>
+    <updated>2018-07-22T06:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://battleplugins.org/blog"/>
     <subtitle>The best place to stay up-to-date with the latest  news and events.</subtitle>
     <logo>https://battleplugins.org/img/header.png</logo>
     <rights>Copyright © 2019 BattlePlugins.</rights>
     <entry>
         <title type="html"><![CDATA[The Plugins through the Years]]></title>
-        <id>https://battleplugins.org/blog/2018/07/22/BattlePlugins:-The-Plugins.html</id>
-        <link href="https://battleplugins.org/blog/2018/07/22/BattlePlugins:-The-Plugins.html">
-        </link>
-        <updated>2018-07-22T06:00:00Z</updated>
+        <id>https://battleplugins.org/blog/2018/07/22/BattlePlugins_-The-Plugins.html</id>
+        <link href="https://battleplugins.org/blog/2018/07/22/BattlePlugins_-The-Plugins.html"/>
+        <updated>2018-07-22T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>Documented Past and Present BattlePlugins, there may be more:</p>
 ]]></summary>
         <author>
             <name>Zach443</name>
+            <email/>
             <uri>http://github.com/zach443</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Timeline through the Years]]></title>
         <id>https://battleplugins.org/blog/2018/07/22/BattlePlugins-Timeline.html</id>
-        <link href="https://battleplugins.org/blog/2018/07/22/BattlePlugins-Timeline.html">
-        </link>
-        <updated>2018-07-22T06:00:00Z</updated>
+        <link href="https://battleplugins.org/blog/2018/07/22/BattlePlugins-Timeline.html"/>
+        <updated>2018-07-22T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>Timeline of BattlePlugins from creation to present. Evolution, changes, and upgrades.</p>
 ]]></summary>
         <author>
             <name>Zach443</name>
+            <email/>
             <uri>http://github.com/zach443</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Contributions through the Years]]></title>
         <id>https://battleplugins.org/blog/2018/07/22/BattlePlugins-Contributions.html</id>
-        <link href="https://battleplugins.org/blog/2018/07/22/BattlePlugins-Contributions.html">
-        </link>
-        <updated>2018-07-22T06:00:00Z</updated>
+        <link href="https://battleplugins.org/blog/2018/07/22/BattlePlugins-Contributions.html"/>
+        <updated>2018-07-22T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>Semi updated list of contributions and BattlePlugins prosperity periods.</p>
 ]]></summary>
         <author>
             <name>Zach443</name>
+            <email/>
             <uri>http://github.com/zach443</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Then & Now]]></title>
-        <id>https://battleplugins.org/blog/2015/06/21/BattlePlugins:-Then-&amp;-Now.html</id>
-        <link href="https://battleplugins.org/blog/2015/06/21/BattlePlugins:-Then-&amp;-Now.html">
-        </link>
-        <updated>2015-06-21T06:00:00Z</updated>
+        <id>https://battleplugins.org/blog/2015/06/21/BattlePlugins_-Then-&amp;-Now.html</id>
+        <link href="https://battleplugins.org/blog/2015/06/21/BattlePlugins_-Then-&-Now.html"/>
+        <updated>2015-06-21T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>Hey guys, Zach443 here! In celebration of our complete overhaul of BattlePlugins, I have decided to make a post explaining what is happening, as well as everything that has lead up to this point. Not many people know the full history of BattlePlugins, but the project existed for many years and has had many different homes and developers along the way. Here is a complete, detailed history of BattlePlugins from day zero until now.</p>
 ]]></summary>
         <author>
             <name>Zach443</name>
+            <email/>
             <uri>http://github.com/zach443</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[BattlePlugins is not Dead!]]></title>
         <id>https://battleplugins.org/blog/2014/09/28/BattlePlugins-is-not-Dead!.html</id>
-        <link href="https://battleplugins.org/blog/2014/09/28/BattlePlugins-is-not-Dead!.html">
-        </link>
-        <updated>2014-09-28T06:00:00Z</updated>
+        <link href="https://battleplugins.org/blog/2014/09/28/BattlePlugins-is-not-Dead!.html"/>
+        <updated>2014-09-28T06:00:00.000Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="the-story"></a><a href="#the-story" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The Story</h2>
 <p>Hey everyone,</p>
 <p>As some of you may know, the main developer (<code>@alkarinv</code>) of the BattlePlugins (BattleArena, BattleTracker, ArenaCTF, ArenaSpleef, etc) line has been missing for about 2 months now. He has not logged into BukkitDev, IRC, or responded to emails sent to him by lDucks. I was pretty good friends with alkarin, and I helped around with bugs or giving support on IRC. I know that there is a massive community behind all of the BattlePlugins, and I am not ready to let it get left behind.</p>
 ]]></summary>
         <author>
             <name>Zach443</name>
+            <email/>
             <uri>http://github.com/zach443</uri>
         </author>
     </entry>

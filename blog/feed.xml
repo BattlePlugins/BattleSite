@@ -5,8 +5,8 @@
         <link>https://battleplugins.org/blog</link>
         <description>The best place to stay up-to-date with the latest  news and events.</description>
         <lastBuildDate>Sun, 22 Jul 2018 06:00:00 GMT</lastBuildDate>
-        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-        <generator>Feed for Node.js</generator>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
         <image>
             <title> Blog</title>
             <url>https://battleplugins.org/img/header.png</url>
@@ -15,8 +15,8 @@
         <copyright>Copyright © 2019 BattlePlugins.</copyright>
         <item>
             <title><![CDATA[The Plugins through the Years]]></title>
-            <link>https://battleplugins.org/blog/2018/07/22/BattlePlugins:-The-Plugins.html</link>
-            <guid>https://battleplugins.org/blog/2018/07/22/BattlePlugins:-The-Plugins.html</guid>
+            <link>https://battleplugins.org/blog/2018/07/22/BattlePlugins_-The-Plugins.html</link>
+            <guid>https://battleplugins.org/blog/2018/07/22/BattlePlugins_-The-Plugins.html</guid>
             <pubDate>Sun, 22 Jul 2018 06:00:00 GMT</pubDate>
             <description><![CDATA[<p>Documented Past and Present BattlePlugins, there may be more:</p>
 ]]></description>
@@ -39,8 +39,8 @@
         </item>
         <item>
             <title><![CDATA[Then & Now]]></title>
-            <link>https://battleplugins.org/blog/2015/06/21/BattlePlugins:-Then-&amp;-Now.html</link>
-            <guid>https://battleplugins.org/blog/2015/06/21/BattlePlugins:-Then-&amp;-Now.html</guid>
+            <link>https://battleplugins.org/blog/2015/06/21/BattlePlugins_-Then-&amp;-Now.html</link>
+            <guid>https://battleplugins.org/blog/2015/06/21/BattlePlugins_-Then-&amp;-Now.html</guid>
             <pubDate>Sun, 21 Jun 2015 06:00:00 GMT</pubDate>
             <description><![CDATA[<p>Hey guys, Zach443 here! In celebration of our complete overhaul of BattlePlugins, I have decided to make a post explaining what is happening, as well as everything that has lead up to this point. Not many people know the full history of BattlePlugins, but the project existed for many years and has had many different homes and developers along the way. Here is a complete, detailed history of BattlePlugins from day zero until now.</p>
 ]]></description>
