@@ -33,7 +33,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {href: "https://battleplugins.org", label: "🏠"},
+    {href: "https://battleplugins.org", label: "Home"},
     {blog: true, label: 'Blog'},
 //  {page: 'index', label: 'Get'},
     {href: "https://docs.battleplugins.org", label: "Docs"},
