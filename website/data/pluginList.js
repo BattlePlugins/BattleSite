@@ -1,1 +1,23 @@
-module.exports = JSON.parse("plugins.json").plugins;
+module.exports = [{
+    plugin: 'BattleArena',
+    version: '3.9.16.3',
+    isStable: true,
+    updated: '12/23/2019',
+    githubRelease: 'https://github.com/BattlePlugins/BattleArena/releases/tag/3.9.16.3',
+    repoMirror: true,
+    urlDownload: 'https://repo.battleplugins.org/artifactory/libs-release-local',
+    jenkinsMirror: true,
+    jenkinsDownload: "https://ci.battleplugins.org/job/BattlePlugins/job/BattleArena/job/master/122/',
+  },
+  {
+    plugin: 'BattleTracker',
+    version: '4.0.0.0',
+    isStable: true,
+    updated: '12/25/2019',
+    githubRelease: 'https://github.com/BattlePlugins/BattleArena/releases/tag/3.9.16.3',
+    repoMirror: true,
+    urlDownload: 'https://repo.battleplugins.org/artifactory/libs-release-local',
+    jenkinsMirror: true,
+    jenkinsDownload: "https://ci.battleplugins.org/job/BattlePlugins/job/BattleArena/job/master/122/',
+  },
+];
