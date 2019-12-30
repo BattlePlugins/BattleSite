@@ -36,7 +36,7 @@ const siteConfig = {
     {href: "https://battleplugins.org", label: "Home"},
     {blog: true, label: 'Blog'},
 //  {page: 'index', label: 'Get'},
-    {href: "https://docs.battleplugins.org", label: "Docs"},
+    {href: "https://docs.battleplugins.org/docs/", label: "Docs"},
     {page: 'team', label: "Team"},
     {href: "https://github.com/battleplugins", label: "GitHub"},
     {search: true}
