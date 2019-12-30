@@ -12,7 +12,10 @@ class Users extends React.Component {
     const bpActiveStaff = siteConfig.users.filter(
       user => user.bpActive,
     );
-    const restToShowcase = siteConfig.users.filter(user => !user.bpActive);
+
+    const restToShowcase = siteConfig.users.filter(
+      user => !user.bpActive,
+    );
 
     return (
       <div className="mainContainer">

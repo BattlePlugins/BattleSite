@@ -6,13 +6,16 @@ const Container = CompLibrary.Container;
 
 const GetShowcase = require(`${process.cwd()}/core/GetShowcase.js`);
 
-class Stable extends React.Component {
+class Plugin extends React.Component {
   render() {
     const {config: siteConfig} = this.props;
     const stablePlugins = siteConfig.pluginList.filter(
       plugin => plugin.isStable,
     );
-    const unstablePlugins = siteConfig.pluginList.filter(plugin => !plugin.isStable);
+
+    const unstablePlugins = siteConfig.pluginList.filter(
+      plugin => !plugin.isStable,
+    );
 
     return (
       <div className="mainContainer">
@@ -23,11 +26,11 @@ class Stable extends React.Component {
             <div className="prose">
               <h2>Stable Plugins:</h2>
             </div>
-            <GetShowcase Stable={stablePlugins} />
+            <GetShowcase Plugin={stablePlugins} />
               <div className="prose">
                 <h2>Unstable / Testing Plugins</h2>
               </div>
-            <GetShowcase Stable={unstablePlugins} />
+            <GetShowcase Plugin={unstablePlugins} />
           </div>
         </Container>
       </div>
