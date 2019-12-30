@@ -1,32 +1,32 @@
 const React = require('react');
 const PropTypes = require('prop-types');
 
-const PluginBox = ({plugin, version, updated, githubRelease}) => (
-  <div classname="PluginBox">
-    <img src={image} alt={plugin} title={plugin} height="120" />
-    <h3 text-align="center" className="pluginName">{plugin}</h3>
+const PluginBox = ({pluginName, version, updated, githubRelease}) => (
+  <div classname="link">
+    <img src={image} alt={pluginName} title={pluginName} height="120" />
+    <h3 text-align="center" className="pluginName">{pluginName}</h3>
     <span className="pluginVersion">{version}</span><span className="pluginUpdated">{updated}</span>
     <a className="button" href={githubRelease}>Download Plugin</a>
   </div>
 );
 
 PluginBox.propTypes = {
-  plugin: PropTypes.string.isRequired,
+  pluginName: PropTypes.string.isRequired,
   version: PropTypes.string.isRequired,
   updated: PropTypes.string.isRequired,
   githubRelease: PropTypes.string.isRequired,
 };
 
-const GetShowcase = ({plugin}) => (
+const GetShowcase = ({plugins}) => (
   <div className="pluginShowcase">
-    {pluginList.map(plugin => (
+    {plugins.map(plugin => (
       <PluginBox key={plugin.githubRelease} {...plugin} />
     ))}
   </div>
 );
 
 GetShowcase.propTypes = {
-  plugin: PropTypes.array.isRequired,
+  plugins: PropTypes.array.isRequired,
 };
 
 module.exports = GetShowcase;
