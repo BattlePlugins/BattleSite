@@ -12,10 +12,7 @@ class Users extends React.Component {
     const bpActiveStaff = siteConfig.users.filter(
       user => user.bpActive,
     );
-
-    const restToShowcase = siteConfig.users.filter(
-      user => !user.bpActive,
-    );
+    const restToShowcase = siteConfig.users.filter(user => !user.bpActive);
 
     return (
       <div className="mainContainer">
@@ -44,6 +41,6 @@ class Users extends React.Component {
   }
 }
 
-Team.title = 'BattlePlugins Team - Past and Present';
+Users.title = 'BattlePlugins Team - Past and Present';
 
-module.exports = Team;
+module.exports = Users;

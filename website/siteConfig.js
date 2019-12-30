@@ -12,7 +12,7 @@
 const users = require('./data/users');
 
 // List of File Info using the project Get page.
-// const pluginList = require('./data/pluginList');
+const files = require('./data/version');
 
 const siteConfig = {
   title: '', // Title for your website.
