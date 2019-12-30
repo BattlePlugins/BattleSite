@@ -6,15 +6,15 @@ const Container = CompLibrary.Container;
 
 const GetShowcase = require(`${process.cwd()}/core/GetShowcase.js`);
 
-class Plugin extends React.Component {
+class Plugins extends React.Component {
   render() {
     const {config: siteConfig} = this.props;
     const stablePlugins = siteConfig.pluginList.filter(
-      plugin => plugin.isStable,
+      pluginName => pluginName.isStable,
     );
 
     const unstablePlugins = siteConfig.pluginList.filter(
-      plugin => !plugin.isStable,
+      pluginName => !pluginName.isStable,
     );
 
     return (

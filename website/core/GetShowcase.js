@@ -17,16 +17,16 @@ PluginBox.propTypes = {
   githubRelease: PropTypes.string.isRequired,
 };
 
-const GetShowcase = ({plugins}) => (
+const GetShowcase = ({pluginList}) => (
   <div className="pluginShowcase">
-    {plugins.map(plugin => (
+    {pluginList.map(plugin => (
       <PluginBox key={plugin.githubRelease} {...plugin} />
     ))}
   </div>
 );
 
 GetShowcase.propTypes = {
-  plugins: PropTypes.array.isRequired,
+  pluginList: PropTypes.array.isRequired,
 };
 
 module.exports = GetShowcase;

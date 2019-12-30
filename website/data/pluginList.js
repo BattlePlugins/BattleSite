@@ -1,5 +1,5 @@
 module.exports = [{
-    plugin: 'BattleArena',
+    pluginName: 'BattleArena',
     version: '3.9.16.3',
     isStable: true,
     updated: '12/23/2019',
@@ -10,7 +10,7 @@ module.exports = [{
     jenkinsDownload: 'https://ci.battleplugins.org/job/BattlePlugins/job/BattleArena/job/master/122/',
   },
   {
-    plugin: 'BattleTracker',
+    pluginName: 'BattleTracker',
     version: '4.0.0.0',
     isStable: true,
     updated: '12/25/2019',
